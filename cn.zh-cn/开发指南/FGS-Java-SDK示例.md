@@ -1,6 +1,6 @@
-# FGS Java SDK示例<a name="ZH-CN_TOPIC_0187415251"></a>
+# FGS Java SDK示例<a name="sdk_01_0035"></a>
 
-SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[Java-FGS](Java-FGS.md)。
+SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[FGS](Java-FGS.md)。
 
 在使用FGS SDK的时候，SDK支持的参数细节，请参考FGS API[描述](https://support.huaweicloud.com/api-functiongraph/functiongraph_06_0105.html)。
 

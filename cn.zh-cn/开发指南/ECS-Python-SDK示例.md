@@ -1,4 +1,4 @@
-# ECS Python SDK示例<a name="ZH-CN_TOPIC_0070637158"></a>
+# ECS Python SDK示例<a name="sdk_02_0016"></a>
 
 SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[这里](Python-ECS.md)。
 

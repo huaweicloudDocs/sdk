@@ -1,34 +1,22 @@
-# Java-AntiDDoS<a name="ZH-CN_TOPIC_0079300122"></a>
+# AntiDDoS<a name="sdk_11_0016"></a>
 
 基于Antiddos v1 API的SDK接口如下，调用方式请参考示例代码。
 
 <a name="table138844"></a>
-<table><thead align="left"><tr id="row35094160"><th class="cellrowborder" valign="top" width="14.29%" id="mcps1.1.4.1.1"><p id="p33735697152039"><a name="p33735697152039"></a><a name="p33735697152039"></a>Interface</p>
+<table><thead align="left"><tr id="row35094160"><th class="cellrowborder" valign="top" width="28.799999999999997%" id="mcps1.1.4.1.1"><p id="p33735697152039"><a name="p33735697152039"></a><a name="p33735697152039"></a>Interface</p>
 </th>
-<th class="cellrowborder" valign="top" width="40.510000000000005%" id="mcps1.1.4.1.2"><p id="p2273746"><a name="p2273746"></a><a name="p2273746"></a>Method</p>
+<th class="cellrowborder" valign="top" width="35.49%" id="mcps1.1.4.1.2"><p id="p2273746"><a name="p2273746"></a><a name="p2273746"></a>Method</p>
 </th>
-<th class="cellrowborder" valign="top" width="45.2%" id="mcps1.1.4.1.3"><p id="p49955752"><a name="p49955752"></a><a name="p49955752"></a>API</p>
+<th class="cellrowborder" valign="top" width="35.709999999999994%" id="mcps1.1.4.1.3"><p id="p49955752"><a name="p49955752"></a><a name="p49955752"></a>API</p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="row19884118"><td class="cellrowborder" rowspan="11" valign="top" width="14.29%" headers="mcps1.1.4.1.1 "><p id="p48236959152039"><a name="p48236959152039"></a><a name="p48236959152039"></a>AntiDDoSService</p>
+<tbody><tr id="row19884118"><td class="cellrowborder" rowspan="9" valign="top" width="28.799999999999997%" headers="mcps1.1.4.1.1 "><p id="p48236959152039"><a name="p48236959152039"></a><a name="p48236959152039"></a>AntiDDoSService</p>
 </td>
-<td class="cellrowborder" valign="top" width="40.510000000000005%" headers="mcps1.1.4.1.2 "><p id="p1872881752419"><a name="p1872881752419"></a><a name="p1872881752419"></a>AntiDDoSConfig listConfigs()</p>
+<td class="cellrowborder" valign="top" width="35.49%" headers="mcps1.1.4.1.2 "><p id="p1872881752419"><a name="p1872881752419"></a><a name="p1872881752419"></a>AntiDDoSConfig listConfigs()</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.2%" headers="mcps1.1.4.1.3 "><p id="p18018956175536"><a name="p18018956175536"></a><a name="p18018956175536"></a>GET /v1/{project_id}/antiddos/query_config_list</p>
+<td class="cellrowborder" valign="top" width="35.709999999999994%" headers="mcps1.1.4.1.3 "><p id="p18018956175536"><a name="p18018956175536"></a><a name="p18018956175536"></a>GET /v1/{project_id}/antiddos/query_config_list</p>
 <p id="p1436135114710"><a name="p1436135114710"></a><a name="p1436135114710"></a><a href="https://support.huaweicloud.com/api-antiddos/antiddos_02_0017.html" target="_blank" rel="noopener noreferrer">链接</a></p>
-</td>
-</tr>
-<tr id="row53255854"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p49590684175536"><a name="p49590684175536"></a><a name="p49590684175536"></a>Task create(AntiDDoS entity, String floatingIpId)</p>
-</td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p57422478175536"><a name="p57422478175536"></a><a name="p57422478175536"></a>POST /v1/{project_id}/antiddos/{floating_ip_id}</p>
-<p id="p1763819984811"><a name="p1763819984811"></a><a name="p1763819984811"></a><a href="https://support.huaweicloud.com/api-antiddos/antiddos_02_0018.html" target="_blank" rel="noopener noreferrer">链接</a></p>
-</td>
-</tr>
-<tr id="row14242537"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1062403713249"><a name="p1062403713249"></a><a name="p1062403713249"></a>Task delete(String floatingIpId)</p>
-</td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p64596069175536"><a name="p64596069175536"></a><a name="p64596069175536"></a>DELETE /v1/{project_id}/antiddos/{floating_ip_id}</p>
-<p id="p1424116121488"><a name="p1424116121488"></a><a name="p1424116121488"></a><a href="https://support.huaweicloud.com/api-antiddos/antiddos_02_0019.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row66441544"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p319294312412"><a name="p319294312412"></a><a name="p319294312412"></a>AntiDDoS get(String floatingIpId)</p>
@@ -79,11 +67,11 @@
 <p id="p18828163214489"><a name="p18828163214489"></a><a name="p18828163214489"></a><a href="https://support.huaweicloud.com/api-antiddos/antiddos_02_0027.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row35520730"><td class="cellrowborder" valign="top" width="14.29%" headers="mcps1.1.4.1.1 "><p id="p066311581591"><a name="p066311581591"></a><a name="p066311581591"></a>AntiDDoSWarnService</p>
+<tr id="row35520730"><td class="cellrowborder" valign="top" width="28.799999999999997%" headers="mcps1.1.4.1.1 "><p id="p066311581591"><a name="p066311581591"></a><a name="p066311581591"></a>AntiDDoSWarnService</p>
 </td>
-<td class="cellrowborder" valign="top" width="40.510000000000005%" headers="mcps1.1.4.1.2 "><p id="p18929448192716"><a name="p18929448192716"></a><a name="p18929448192716"></a>AntiDDoSWarn query()</p>
+<td class="cellrowborder" valign="top" width="35.49%" headers="mcps1.1.4.1.2 "><p id="p18929448192716"><a name="p18929448192716"></a><a name="p18929448192716"></a>AntiDDoSWarn query()</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.2%" headers="mcps1.1.4.1.3 "><p id="p15809395175536"><a name="p15809395175536"></a><a name="p15809395175536"></a>GET /v2/{project_id}/ warnalert/alertconfig/query</p>
+<td class="cellrowborder" valign="top" width="35.709999999999994%" headers="mcps1.1.4.1.3 "><p id="p15809395175536"><a name="p15809395175536"></a><a name="p15809395175536"></a>GET /v2/{project_id}/ warnalert/alertconfig/query</p>
 <p id="p117861735124812"><a name="p117861735124812"></a><a name="p117861735124812"></a><a href="https://support.huaweicloud.com/api-antiddos/antiddos_02_0029.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>

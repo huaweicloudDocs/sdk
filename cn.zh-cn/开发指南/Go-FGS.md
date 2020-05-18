@@ -1,21 +1,21 @@
-# Go-FGS<a name="ZH-CN_TOPIC_0187492665"></a>
+# FGS<a name="sdk_13_0009"></a>
 
 基于函数工作流FGD v2 Go SDK的SDK接口如下，调用方式请参考示例代码。
 
 <a name="table99661756144018"></a>
-<table><thead align="left"><tr id="row620285718402"><th class="cellrowborder" valign="top" width="19.101910191019105%" id="mcps1.1.4.1.1"><p id="p162021573403"><a name="p162021573403"></a><a name="p162021573403"></a><strong id="b2202125754018"><a name="b2202125754018"></a><a name="b2202125754018"></a>Resource</strong></p>
+<table><thead align="left"><tr id="row620285718402"><th class="cellrowborder" valign="top" width="26.25262526252625%" id="mcps1.1.4.1.1"><p id="p162021573403"><a name="p162021573403"></a><a name="p162021573403"></a><strong id="b2202125754018"><a name="b2202125754018"></a><a name="b2202125754018"></a>Resource</strong></p>
 </th>
-<th class="cellrowborder" valign="top" width="37.07370737073707%" id="mcps1.1.4.1.2"><p id="p12202657184011"><a name="p12202657184011"></a><a name="p12202657184011"></a><strong id="b1920214578406"><a name="b1920214578406"></a><a name="b1920214578406"></a>Method</strong></p>
+<th class="cellrowborder" valign="top" width="37.833783378337834%" id="mcps1.1.4.1.2"><p id="p12202657184011"><a name="p12202657184011"></a><a name="p12202657184011"></a><strong id="b1920214578406"><a name="b1920214578406"></a><a name="b1920214578406"></a>Method</strong></p>
 </th>
-<th class="cellrowborder" valign="top" width="43.824382438243816%" id="mcps1.1.4.1.3"><p id="p10203155717409"><a name="p10203155717409"></a><a name="p10203155717409"></a><strong id="b1920385717403"><a name="b1920385717403"></a><a name="b1920385717403"></a>API</strong></p>
+<th class="cellrowborder" valign="top" width="35.91359135913591%" id="mcps1.1.4.1.3"><p id="p10203155717409"><a name="p10203155717409"></a><a name="p10203155717409"></a><strong id="b1920385717403"><a name="b1920385717403"></a><a name="b1920385717403"></a>API</strong></p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="row1520395712409"><td class="cellrowborder" rowspan="16" valign="top" width="19.101910191019105%" headers="mcps1.1.4.1.1 "><p id="p1820375714400"><a name="p1820375714400"></a><a name="p1820375714400"></a>Functions</p>
+<tbody><tr id="row1520395712409"><td class="cellrowborder" rowspan="16" valign="top" width="26.25262526252625%" headers="mcps1.1.4.1.1 "><p id="p1820375714400"><a name="p1820375714400"></a><a name="p1820375714400"></a>Functions</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.07370737073707%" headers="mcps1.1.4.1.2 "><p id="p1920318571404"><a name="p1920318571404"></a><a name="p1920318571404"></a>Create(c *gophercloud.ServiceClient, opts CreateOptsBuilder)</p>
+<td class="cellrowborder" valign="top" width="37.833783378337834%" headers="mcps1.1.4.1.2 "><p id="p1920318571404"><a name="p1920318571404"></a><a name="p1920318571404"></a>Create(c *gophercloud.ServiceClient, opts CreateOptsBuilder)</p>
 </td>
-<td class="cellrowborder" valign="top" width="43.824382438243816%" headers="mcps1.1.4.1.3 "><p id="p152038572407"><a name="p152038572407"></a><a name="p152038572407"></a>POST /v2/{project_id}/fgs/functions</p>
+<td class="cellrowborder" valign="top" width="35.91359135913591%" headers="mcps1.1.4.1.3 "><p id="p152038572407"><a name="p152038572407"></a><a name="p152038572407"></a>POST /v2/{project_id}/fgs/functions</p>
 </td>
 </tr>
 <tr id="row132031257144013"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p8203457124013"><a name="p8203457124013"></a><a name="p8203457124013"></a>List(client *gophercloud.ServiceClient, opts ListOptsBuilder)</p>
@@ -93,11 +93,11 @@
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p1620614574408"><a name="p1620614574408"></a><a name="p1620614574408"></a>POST  /v2/{project_id}/fgs/functions/{function_urn}/invocations-async</p>
 </td>
 </tr>
-<tr id="row22062057204018"><td class="cellrowborder" rowspan="5" valign="top" width="19.101910191019105%" headers="mcps1.1.4.1.1 "><p id="p102061157154018"><a name="p102061157154018"></a><a name="p102061157154018"></a>Triggers</p>
+<tr id="row22062057204018"><td class="cellrowborder" rowspan="5" valign="top" width="26.25262526252625%" headers="mcps1.1.4.1.1 "><p id="p102061157154018"><a name="p102061157154018"></a><a name="p102061157154018"></a>Triggers</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.07370737073707%" headers="mcps1.1.4.1.2 "><p id="p102071957184015"><a name="p102071957184015"></a><a name="p102071957184015"></a>List(c *gophercloud.ServiceClient, functionUrn string)</p>
+<td class="cellrowborder" valign="top" width="37.833783378337834%" headers="mcps1.1.4.1.2 "><p id="p102071957184015"><a name="p102071957184015"></a><a name="p102071957184015"></a>List(c *gophercloud.ServiceClient, functionUrn string)</p>
 </td>
-<td class="cellrowborder" valign="top" width="43.824382438243816%" headers="mcps1.1.4.1.3 "><p id="p220735716404"><a name="p220735716404"></a><a name="p220735716404"></a>GET /v2/{project_id}/fgs/triggers/{function_urn}</p>
+<td class="cellrowborder" valign="top" width="35.91359135913591%" headers="mcps1.1.4.1.3 "><p id="p220735716404"><a name="p220735716404"></a><a name="p220735716404"></a>GET /v2/{project_id}/fgs/triggers/{function_urn}</p>
 </td>
 </tr>
 <tr id="row182075571407"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p3207105734013"><a name="p3207105734013"></a><a name="p3207105734013"></a>Create(c *gophercloud.ServiceClient, opts CreateOptsBuilder, functionUrn string)</p>

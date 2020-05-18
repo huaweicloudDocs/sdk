@@ -1,4 +1,4 @@
-# DNS Python SDK示例<a name="ZH-CN_TOPIC_0072126390"></a>
+# DNS Python SDK示例<a name="sdk_02_0021"></a>
 
 ## DNS Python OpenStack SDK示例<a name="section51200923195823"></a>
 

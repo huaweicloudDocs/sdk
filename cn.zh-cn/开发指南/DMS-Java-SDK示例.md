@@ -1,4 +1,4 @@
-# DMS Java SDK示例<a name="ZH-CN_TOPIC_0079298822"></a>
+# DMS Java SDK示例<a name="sdk_01_0028"></a>
 
 分布式消息服务（Distributed Message Service）是一项基于高可用分布式集群技术的消息中间件服务，具有大规模、高可靠、高并发访问、可扩展且完全托管的特点。DMS帮助云端的应用程序组件去耦合，具有很高的成本效益。
 

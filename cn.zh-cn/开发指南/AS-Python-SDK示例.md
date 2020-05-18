@@ -1,6 +1,6 @@
-# AS Python SDK示例<a name="ZH-CN_TOPIC_0072126388"></a>
+# AS Python SDK示例<a name="sdk_02_0019"></a>
 
-SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[Python-AS](Python-AS.md)。
+SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[AS](Python-AS.md)。
 
 在使用AS SDK的时候，SDK支持的参数细节，请参考AS API[描述](https://support.huaweicloud.com/api-as/zh-cn_topic_0045219159.html)。
 

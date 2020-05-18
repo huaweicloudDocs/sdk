@@ -1,6 +1,6 @@
-# ELB Go SDK用户指导<a name="ZH-CN_TOPIC_0120753557"></a>
+# ELB Go SDK用户指导<a name="sdk_03_0019"></a>
 
-SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[A.2.9 ELB](Go-ELB.md)。
+SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[A.2.9 ELB](GO-ELB.md)。
 
 在使用ELB SDK的时候，SDK支持的参数细节，请参考ELB API[描述](https://support.huaweicloud.com/api-elb/zh-cn_topic_0022480177.html)。
 

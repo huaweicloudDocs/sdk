@@ -1,8 +1,8 @@
-# KMS Java SDK示例<a name="ZH-CN_TOPIC_0079298820"></a>
+# KMS Java SDK示例<a name="sdk_01_0026"></a>
 
 SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[这里](Java-KMS.md)。
 
-在使用KMS SDK的时候，SDK支持的参数细节，请参考KMS API[描述](https://support.huaweicloud.com/api-dew/zh-cn_topic_0038437596.html)。
+在使用KMS SDK的时候，SDK支持的参数细节，请参考KMS API[描述](https://support.huaweicloud.com/api-dew/dew_02_0050.html)。
 
 KMS Java SDK提供的场景示例代码如下：
 

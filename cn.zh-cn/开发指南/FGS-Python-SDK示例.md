@@ -1,6 +1,6 @@
-# FGS Python SDK示例<a name="ZH-CN_TOPIC_0187478152"></a>
+# FGS Python SDK示例<a name="sdk_02_0037"></a>
 
-SDK和API的对应关系，请参考[Python-FGS](Python-FGS.md)。
+SDK和API的对应关系，请参考[FGS](Python-FGS.md)。
 
 在使用FGS SDK的时候，SDK支持的参数细节，请参考FGS API  [描述](https://support.huaweicloud.com/api-functiongraph/functiongraph_06_0105.html)。
 

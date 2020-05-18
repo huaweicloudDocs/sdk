@@ -1,6 +1,6 @@
-# ECS Go SDK用户指导<a name="ZH-CN_TOPIC_0090184967"></a>
+# ECS Go SDK用户指导<a name="sdk_03_0013"></a>
 
-SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[这里](https://support.huaweicloud.com/devg-sdk/zh-cn_topic_0090172880.html)。
+SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[这里](https://support.huaweicloud.com/devg-sdk/sdk_13_0001.html)。
 
 在使用ECS SDK的时候，SDK支持的参数细节，请参考ECS API[描述](https://support.huaweicloud.com/api-ecs/zh-cn_topic_0020805967.html)。
 
@@ -20,6 +20,11 @@ ECS v1 go SDK支持如下资源对象的操作，资源对象的“增改查删�
 <tr id="row959083118492"><td class="cellrowborder" valign="top" width="50%"><p id="p1878673810491"><a name="p1878673810491"></a><a name="p1878673810491"></a>tags</p>
 </td>
 <td class="cellrowborder" valign="top" width="50%"><p id="p207861938164915"><a name="p207861938164915"></a><a name="p207861938164915"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-go/blob/master/examples/ecs/v1/cloudservers.go" target="_blank" rel="noopener noreferrer">代码</a></p>
+</td>
+</tr>
+<tr id="row768714245165"><td class="cellrowborder" valign="top" width="50%"><p id="p167811328201617"><a name="p167811328201617"></a><a name="p167811328201617"></a>flavors</p>
+</td>
+<td class="cellrowborder" valign="top" width="50%"><p id="p19781628151616"><a name="p19781628151616"></a><a name="p19781628151616"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-go/tree/master/examples/ecs/v1/flavor.go" target="_blank" rel="noopener noreferrer">代码</a></p>
 </td>
 </tr>
 </tbody>

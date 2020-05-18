@@ -1,21 +1,21 @@
-# Java-KMS<a name="ZH-CN_TOPIC_0079300121"></a>
+# KMS<a name="sdk_11_0015"></a>
 
 基于KMS v1.0 API的SDK接口如下，调用方式请参考示例代码。
 
 <a name="table138844"></a>
-<table><thead align="left"><tr id="row35094160"><th class="cellrowborder" valign="top" width="26.66%" id="mcps1.1.4.1.1"><p id="p24054701"><a name="p24054701"></a><a name="p24054701"></a>Interface</p>
+<table><thead align="left"><tr id="row35094160"><th class="cellrowborder" valign="top" width="28.48%" id="mcps1.1.4.1.1"><p id="p24054701"><a name="p24054701"></a><a name="p24054701"></a>Interface</p>
 </th>
-<th class="cellrowborder" valign="top" width="37.99%" id="mcps1.1.4.1.2"><p id="p2273746"><a name="p2273746"></a><a name="p2273746"></a>Method</p>
+<th class="cellrowborder" valign="top" width="36.34%" id="mcps1.1.4.1.2"><p id="p2273746"><a name="p2273746"></a><a name="p2273746"></a>Method</p>
 </th>
-<th class="cellrowborder" valign="top" width="35.35%" id="mcps1.1.4.1.3"><p id="p49955752"><a name="p49955752"></a><a name="p49955752"></a>API</p>
+<th class="cellrowborder" valign="top" width="35.18%" id="mcps1.1.4.1.3"><p id="p49955752"><a name="p49955752"></a><a name="p49955752"></a>API</p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="row19884118"><td class="cellrowborder" rowspan="9" valign="top" width="26.66%" headers="mcps1.1.4.1.1 "><p id="p759913216714"><a name="p759913216714"></a><a name="p759913216714"></a>KeyService</p>
+<tbody><tr id="row19884118"><td class="cellrowborder" rowspan="9" valign="top" width="28.48%" headers="mcps1.1.4.1.1 "><p id="p759913216714"><a name="p759913216714"></a><a name="p759913216714"></a>KeyService</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.99%" headers="mcps1.1.4.1.2 "><p id="p173041815122115"><a name="p173041815122115"></a><a name="p173041815122115"></a>Key create(KeyCreate keyCreate)</p>
+<td class="cellrowborder" valign="top" width="36.34%" headers="mcps1.1.4.1.2 "><p id="p173041815122115"><a name="p173041815122115"></a><a name="p173041815122115"></a>Key create(KeyCreate keyCreate)</p>
 </td>
-<td class="cellrowborder" valign="top" width="35.35%" headers="mcps1.1.4.1.3 "><p id="p5733201195735"><a name="p5733201195735"></a><a name="p5733201195735"></a>POST /v1.0/{project_id}/kms/create-key</p>
+<td class="cellrowborder" valign="top" width="35.18%" headers="mcps1.1.4.1.3 "><p id="p5733201195735"><a name="p5733201195735"></a><a name="p5733201195735"></a>POST /v1.0/{project_id}/kms/create-key</p>
 </td>
 </tr>
 <tr id="row53255854"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p15672223182116"><a name="p15672223182116"></a><a name="p15672223182116"></a>Keys list(KeyListOptions options)</p>
@@ -58,11 +58,11 @@
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p56733964195735"><a name="p56733964195735"></a><a name="p56733964195735"></a>GET /v1.0/{project_id}/kms/user-quotas</p>
 </td>
 </tr>
-<tr id="row40742509"><td class="cellrowborder" rowspan="5" valign="top" width="26.66%" headers="mcps1.1.4.1.1 "><p id="p56662262195833"><a name="p56662262195833"></a><a name="p56662262195833"></a>CryptoService</p>
+<tr id="row40742509"><td class="cellrowborder" rowspan="5" valign="top" width="28.48%" headers="mcps1.1.4.1.1 "><p id="p56662262195833"><a name="p56662262195833"></a><a name="p56662262195833"></a>CryptoService</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.99%" headers="mcps1.1.4.1.2 "><p id="p0392173372212"><a name="p0392173372212"></a><a name="p0392173372212"></a>String generateRandomString(String sequence)</p>
+<td class="cellrowborder" valign="top" width="36.34%" headers="mcps1.1.4.1.2 "><p id="p0392173372212"><a name="p0392173372212"></a><a name="p0392173372212"></a>String generateRandomString(String sequence)</p>
 </td>
-<td class="cellrowborder" valign="top" width="35.35%" headers="mcps1.1.4.1.3 "><p id="p20000251195735"><a name="p20000251195735"></a><a name="p20000251195735"></a>POST /v1.0/{project_id}/kms/gen-random</p>
+<td class="cellrowborder" valign="top" width="35.18%" headers="mcps1.1.4.1.3 "><p id="p20000251195735"><a name="p20000251195735"></a><a name="p20000251195735"></a>POST /v1.0/{project_id}/kms/gen-random</p>
 </td>
 </tr>
 <tr id="row18774354"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p18997362195626"><a name="p18997362195626"></a><a name="p18997362195626"></a>DEK createDEK(String keyId, HashMap&lt;String, Object&gt; encryptionContext, String sequence)</p>

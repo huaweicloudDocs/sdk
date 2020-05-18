@@ -1,4 +1,4 @@
-# Anti-DDoS Java SDK示例<a name="ZH-CN_TOPIC_0079298821"></a>
+# Anti-DDoS Java SDK示例<a name="sdk_01_0027"></a>
 
 ## 查询Anti-DDoS配置可选范围<a name="section3944661591450"></a>
 

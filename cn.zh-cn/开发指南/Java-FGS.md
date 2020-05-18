@@ -1,21 +1,21 @@
-# Java-FGS<a name="ZH-CN_TOPIC_0187492663"></a>
+# FGS<a name="sdk_11_0024"></a>
 
 基于FGS v1.0 JAVA API的SDK接口如下，调用方式请参考示例代码。
 
 <a name="table750161062210"></a>
-<table><thead align="left"><tr id="row1184521022216"><th class="cellrowborder" valign="top" width="17.98%" id="mcps1.1.4.1.1"><p id="p38463102221"><a name="p38463102221"></a><a name="p38463102221"></a><strong id="b9846151072211"><a name="b9846151072211"></a><a name="b9846151072211"></a>Resource</strong></p>
+<table><thead align="left"><tr id="row1184521022216"><th class="cellrowborder" valign="top" width="27.42%" id="mcps1.1.4.1.1"><p id="p38463102221"><a name="p38463102221"></a><a name="p38463102221"></a><strong id="b9846151072211"><a name="b9846151072211"></a><a name="b9846151072211"></a>Resource</strong></p>
 </th>
-<th class="cellrowborder" valign="top" width="39.32%" id="mcps1.1.4.1.2"><p id="p8846131002220"><a name="p8846131002220"></a><a name="p8846131002220"></a><strong id="b28461310162211"><a name="b28461310162211"></a><a name="b28461310162211"></a>Method</strong></p>
+<th class="cellrowborder" valign="top" width="37.51%" id="mcps1.1.4.1.2"><p id="p8846131002220"><a name="p8846131002220"></a><a name="p8846131002220"></a><strong id="b28461310162211"><a name="b28461310162211"></a><a name="b28461310162211"></a>Method</strong></p>
 </th>
-<th class="cellrowborder" valign="top" width="42.699999999999996%" id="mcps1.1.4.1.3"><p id="p208461010102211"><a name="p208461010102211"></a><a name="p208461010102211"></a><strong id="b9846510152213"><a name="b9846510152213"></a><a name="b9846510152213"></a>API</strong></p>
+<th class="cellrowborder" valign="top" width="35.07%" id="mcps1.1.4.1.3"><p id="p208461010102211"><a name="p208461010102211"></a><a name="p208461010102211"></a><strong id="b9846510152213"><a name="b9846510152213"></a><a name="b9846510152213"></a>API</strong></p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="row188469103221"><td class="cellrowborder" rowspan="9" valign="top" width="17.98%" headers="mcps1.1.4.1.1 "><p id="p1846111019224"><a name="p1846111019224"></a><a name="p1846111019224"></a>Functions</p>
+<tbody><tr id="row188469103221"><td class="cellrowborder" rowspan="9" valign="top" width="27.42%" headers="mcps1.1.4.1.1 "><p id="p1846111019224"><a name="p1846111019224"></a><a name="p1846111019224"></a>Functions</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.32%" headers="mcps1.1.4.1.2 "><p id="p98461610102218"><a name="p98461610102218"></a><a name="p98461610102218"></a>FunctionMetadata.Functions listFunction(int marker, int maxItems)</p>
+<td class="cellrowborder" valign="top" width="37.51%" headers="mcps1.1.4.1.2 "><p id="p98461610102218"><a name="p98461610102218"></a><a name="p98461610102218"></a>FunctionMetadata.Functions listFunction(int marker, int maxItems)</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.699999999999996%" headers="mcps1.1.4.1.3 "><p id="p2847121013225"><a name="p2847121013225"></a><a name="p2847121013225"></a>GET /v1.0/{project_id}/fss/functions?marker={marker}&amp;maxitems={maxitems}</p>
+<td class="cellrowborder" valign="top" width="35.07%" headers="mcps1.1.4.1.3 "><p id="p2847121013225"><a name="p2847121013225"></a><a name="p2847121013225"></a>GET /v1.0/{project_id}/fss/functions?marker={marker}&amp;maxitems={maxitems}</p>
 </td>
 </tr>
 <tr id="row384713101224"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p20847171015226"><a name="p20847171015226"></a><a name="p20847171015226"></a>FunctionMetadata getFunctionMetadata(String function_urn)</p>
@@ -58,11 +58,11 @@
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p188491710202218"><a name="p188491710202218"></a><a name="p188491710202218"></a>POST    /v1.0/{project_id}/fss/functions/{function_urn}/invocations-async</p>
 </td>
 </tr>
-<tr id="row10849171020222"><td class="cellrowborder" rowspan="7" valign="top" width="17.98%" headers="mcps1.1.4.1.1 "><p id="p1084981016221"><a name="p1084981016221"></a><a name="p1084981016221"></a>Versions</p>
+<tr id="row10849171020222"><td class="cellrowborder" rowspan="7" valign="top" width="27.42%" headers="mcps1.1.4.1.1 "><p id="p1084981016221"><a name="p1084981016221"></a><a name="p1084981016221"></a>Versions</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.32%" headers="mcps1.1.4.1.2 "><p id="p108491108223"><a name="p108491108223"></a><a name="p108491108223"></a>FunctionMetadata PublishVersion(String function_urn, FunctionMetadata fmd);</p>
+<td class="cellrowborder" valign="top" width="37.51%" headers="mcps1.1.4.1.2 "><p id="p108491108223"><a name="p108491108223"></a><a name="p108491108223"></a>FunctionMetadata PublishVersion(String function_urn, FunctionMetadata fmd);</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.699999999999996%" headers="mcps1.1.4.1.3 "><p id="p1185018108226"><a name="p1185018108226"></a><a name="p1185018108226"></a>POST /v1.0/{project_id}/fss/functions/{function_urn}/versions</p>
+<td class="cellrowborder" valign="top" width="35.07%" headers="mcps1.1.4.1.3 "><p id="p1185018108226"><a name="p1185018108226"></a><a name="p1185018108226"></a>POST /v1.0/{project_id}/fss/functions/{function_urn}/versions</p>
 </td>
 </tr>
 <tr id="row2085051017223"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p198501610172210"><a name="p198501610172210"></a><a name="p198501610172210"></a>FunctionMetadata.FunctionVersions listFunctionVersions(String function_urn, int marker, int maxItems)</p>
@@ -95,11 +95,11 @@
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p7851210192217"><a name="p7851210192217"></a><a name="p7851210192217"></a>GET /v1.0/{project_id}/fss/functions/{function_urn}/aliases</p>
 </td>
 </tr>
-<tr id="row2085151015228"><td class="cellrowborder" rowspan="5" valign="top" width="17.98%" headers="mcps1.1.4.1.1 "><p id="p1285201082213"><a name="p1285201082213"></a><a name="p1285201082213"></a>Triggers</p>
+<tr id="row2085151015228"><td class="cellrowborder" rowspan="5" valign="top" width="27.42%" headers="mcps1.1.4.1.1 "><p id="p1285201082213"><a name="p1285201082213"></a><a name="p1285201082213"></a>Triggers</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.32%" headers="mcps1.1.4.1.2 "><p id="p20852610142212"><a name="p20852610142212"></a><a name="p20852610142212"></a>FunctionTrigger[] listTriggersForFunction(String function_urn)</p>
+<td class="cellrowborder" valign="top" width="37.51%" headers="mcps1.1.4.1.2 "><p id="p20852610142212"><a name="p20852610142212"></a><a name="p20852610142212"></a>FunctionTrigger[] listTriggersForFunction(String function_urn)</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.699999999999996%" headers="mcps1.1.4.1.3 "><p id="p1852510142215"><a name="p1852510142215"></a><a name="p1852510142215"></a>GET /v1.0/{project_id}/fss/triggers/{function_urn}</p>
+<td class="cellrowborder" valign="top" width="35.07%" headers="mcps1.1.4.1.3 "><p id="p1852510142215"><a name="p1852510142215"></a><a name="p1852510142215"></a>GET /v1.0/{project_id}/fss/triggers/{function_urn}</p>
 </td>
 </tr>
 <tr id="row985261092218"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p158521710152213"><a name="p158521710152213"></a><a name="p158521710152213"></a>FunctionTriggers CreateTriggerInstance(String function_urn, FunctionTriggers functionTriggers)</p>
@@ -128,19 +128,19 @@
 基于FGS v2.0 JAVA API的SDK接口如下，调用方式请参考示例代码。
 
 <a name="table1960332932317"></a>
-<table><thead align="left"><tr id="row69444297234"><th class="cellrowborder" valign="top" width="17.98%" id="mcps1.1.4.1.1"><p id="p1394417297236"><a name="p1394417297236"></a><a name="p1394417297236"></a><strong id="b20944129112314"><a name="b20944129112314"></a><a name="b20944129112314"></a>Resource</strong></p>
+<table><thead align="left"><tr id="row69444297234"><th class="cellrowborder" valign="top" width="27.310000000000002%" id="mcps1.1.4.1.1"><p id="p1394417297236"><a name="p1394417297236"></a><a name="p1394417297236"></a><strong id="b20944129112314"><a name="b20944129112314"></a><a name="b20944129112314"></a>Resource</strong></p>
 </th>
-<th class="cellrowborder" valign="top" width="39.32%" id="mcps1.1.4.1.2"><p id="p194522942313"><a name="p194522942313"></a><a name="p194522942313"></a><strong id="b394511299231"><a name="b394511299231"></a><a name="b394511299231"></a>Method</strong></p>
+<th class="cellrowborder" valign="top" width="37.830000000000005%" id="mcps1.1.4.1.2"><p id="p194522942313"><a name="p194522942313"></a><a name="p194522942313"></a><strong id="b394511299231"><a name="b394511299231"></a><a name="b394511299231"></a>Method</strong></p>
 </th>
-<th class="cellrowborder" valign="top" width="42.699999999999996%" id="mcps1.1.4.1.3"><p id="p12945192916234"><a name="p12945192916234"></a><a name="p12945192916234"></a><strong id="b1794582912316"><a name="b1794582912316"></a><a name="b1794582912316"></a>API</strong></p>
+<th class="cellrowborder" valign="top" width="34.86%" id="mcps1.1.4.1.3"><p id="p12945192916234"><a name="p12945192916234"></a><a name="p12945192916234"></a><strong id="b1794582912316"><a name="b1794582912316"></a><a name="b1794582912316"></a>API</strong></p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="row7945129132315"><td class="cellrowborder" rowspan="13" valign="top" width="17.98%" headers="mcps1.1.4.1.1 "><p id="p394514292231"><a name="p394514292231"></a><a name="p394514292231"></a>Functions</p>
+<tbody><tr id="row7945129132315"><td class="cellrowborder" rowspan="13" valign="top" width="27.310000000000002%" headers="mcps1.1.4.1.1 "><p id="p394514292231"><a name="p394514292231"></a><a name="p394514292231"></a>Functions</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.32%" headers="mcps1.1.4.1.2 "><p id="p12945192962316"><a name="p12945192962316"></a><a name="p12945192962316"></a>FunctionMetadata.Functions listFunction(int marker, int maxItems)</p>
+<td class="cellrowborder" valign="top" width="37.830000000000005%" headers="mcps1.1.4.1.2 "><p id="p12945192962316"><a name="p12945192962316"></a><a name="p12945192962316"></a>FunctionMetadata.Functions listFunction(int marker, int maxItems)</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.699999999999996%" headers="mcps1.1.4.1.3 "><p id="p19945529192318"><a name="p19945529192318"></a><a name="p19945529192318"></a>GET /v2/{project_id}/fgs/functions?marker={marker}&amp;maxitems={maxitems}</p>
+<td class="cellrowborder" valign="top" width="34.86%" headers="mcps1.1.4.1.3 "><p id="p19945529192318"><a name="p19945529192318"></a><a name="p19945529192318"></a>GET /v2/{project_id}/fgs/functions?marker={marker}&amp;maxitems={maxitems}</p>
 </td>
 </tr>
 <tr id="row17945202918231"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1094532982312"><a name="p1094532982312"></a><a name="p1094532982312"></a>FunctionMetadata.Functions listFunction()</p>
@@ -203,11 +203,11 @@
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p10947112912312"><a name="p10947112912312"></a><a name="p10947112912312"></a>POST  /v2/{project_id}/fgs/functions/{function_urn}/invocations-async</p>
 </td>
 </tr>
-<tr id="row19947162902310"><td class="cellrowborder" rowspan="5" valign="top" width="17.98%" headers="mcps1.1.4.1.1 "><p id="p3947329112319"><a name="p3947329112319"></a><a name="p3947329112319"></a>Versions</p>
+<tr id="row19947162902310"><td class="cellrowborder" rowspan="5" valign="top" width="27.310000000000002%" headers="mcps1.1.4.1.1 "><p id="p3947329112319"><a name="p3947329112319"></a><a name="p3947329112319"></a>Versions</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.32%" headers="mcps1.1.4.1.2 "><p id="p19480293232"><a name="p19480293232"></a><a name="p19480293232"></a>FunctionVersionAlias createVersionAlias(String function_urn, FunctionVersionAlias functionVersionAlias)</p>
+<td class="cellrowborder" valign="top" width="37.830000000000005%" headers="mcps1.1.4.1.2 "><p id="p19480293232"><a name="p19480293232"></a><a name="p19480293232"></a>FunctionVersionAlias createVersionAlias(String function_urn, FunctionVersionAlias functionVersionAlias)</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.699999999999996%" headers="mcps1.1.4.1.3 "><p id="p10948229112316"><a name="p10948229112316"></a><a name="p10948229112316"></a>POST /v2/{project_id}/fgs/functions/{function_urn}/aliases</p>
+<td class="cellrowborder" valign="top" width="34.86%" headers="mcps1.1.4.1.3 "><p id="p10948229112316"><a name="p10948229112316"></a><a name="p10948229112316"></a>POST /v2/{project_id}/fgs/functions/{function_urn}/aliases</p>
 </td>
 </tr>
 <tr id="row209481529162312"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1594811295237"><a name="p1594811295237"></a><a name="p1594811295237"></a>FunctionVersionAlias  updateVersionAlias (String function_urn, FunctionVersionAlias functionVersionAlias)</p>
@@ -230,11 +230,11 @@
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p5948152918236"><a name="p5948152918236"></a><a name="p5948152918236"></a>GET /v2/{project_id}/fgs/functions/{function_urn}/aliases</p>
 </td>
 </tr>
-<tr id="row1994816290235"><td class="cellrowborder" rowspan="5" valign="top" width="17.98%" headers="mcps1.1.4.1.1 "><p id="p119482293233"><a name="p119482293233"></a><a name="p119482293233"></a>Triggers</p>
+<tr id="row1994816290235"><td class="cellrowborder" rowspan="5" valign="top" width="27.310000000000002%" headers="mcps1.1.4.1.1 "><p id="p119482293233"><a name="p119482293233"></a><a name="p119482293233"></a>Triggers</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.32%" headers="mcps1.1.4.1.2 "><p id="p294919298238"><a name="p294919298238"></a><a name="p294919298238"></a>FunctionTrigger[] listTriggersForFunction(String function_urn)</p>
+<td class="cellrowborder" valign="top" width="37.830000000000005%" headers="mcps1.1.4.1.2 "><p id="p294919298238"><a name="p294919298238"></a><a name="p294919298238"></a>FunctionTrigger[] listTriggersForFunction(String function_urn)</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.699999999999996%" headers="mcps1.1.4.1.3 "><p id="p1494917292232"><a name="p1494917292232"></a><a name="p1494917292232"></a>GET /v2/{project_id}/fgs/triggers/{function_urn}</p>
+<td class="cellrowborder" valign="top" width="34.86%" headers="mcps1.1.4.1.3 "><p id="p1494917292232"><a name="p1494917292232"></a><a name="p1494917292232"></a>GET /v2/{project_id}/fgs/triggers/{function_urn}</p>
 </td>
 </tr>
 <tr id="row149491429112317"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1894915292231"><a name="p1894915292231"></a><a name="p1894915292231"></a>FunctionTriggers createTriggerInstance(String function_urn, FunctionTriggers functionTriggers)</p>

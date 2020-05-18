@@ -1,4 +1,4 @@
-# KMS Python SDK示例<a name="ZH-CN_TOPIC_0079299142"></a>
+# KMS Python SDK示例<a name="sdk_02_0027"></a>
 
 密钥管理服务，即KMS（Key Management Service），是一种安全、可靠、简单易用的密钥托管服务，帮助用户集中管理密钥，保护密钥安全。
 

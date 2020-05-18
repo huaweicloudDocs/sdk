@@ -1,4 +1,4 @@
-# VBS Python SDK示例<a name="ZH-CN_TOPIC_0072126392"></a>
+# VBS Python SDK示例<a name="sdk_02_0023"></a>
 
 ## 创建云硬盘备份<a name="section1253044183628"></a>
 

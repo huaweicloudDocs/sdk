@@ -1,4 +1,4 @@
-# RTS Java SDK示例<a name="ZH-CN_TOPIC_0070637130"></a>
+# RTS Java SDK示例<a name="sdk_01_0017"></a>
 
 SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[这里](Java-RTS.md)。
 

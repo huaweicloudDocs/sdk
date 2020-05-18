@@ -1,10 +1,10 @@
-# RDS Python SDK示例<a name="ZH-CN_TOPIC_0115875764"></a>
+# RDS Python SDK示例<a name="sdk_02_0031"></a>
 
 关系型数据库（Relational Database Service，简称RDS）是一种基于云计算平台的可即开即用、稳定可靠、弹性伸缩、便捷管理的在线关系型数据库服务。
 
-SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[Python-RDS](Python-RDS.md)。
+SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[RDS](Python-RDS.md)。
 
-在使用RDS v3 SDK的时候，SDK支持的参数细节，请参考RDS API[描述](https://support.huaweicloud.com/api-rds/zh-cn_topic_0032347780.html)。
+在使用RDS v3 SDK的时候，SDK支持的参数细节，请参考[《关系型数据库API参考》](https://support.huaweicloud.com/api-rds/rds_00_0001.html)。
 
 RDS v3 Python SDK版本支持如下资源对象的操作：
 

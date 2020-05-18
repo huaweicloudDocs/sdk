@@ -1,4 +1,4 @@
-# VPC Go SDK用户指导<a name="ZH-CN_TOPIC_0090172876"></a>
+# VPC Go SDK用户指导<a name="sdk_03_0015"></a>
 
 SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[这里](Python-VPC.md)。
 

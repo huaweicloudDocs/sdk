@@ -1,6 +1,6 @@
-# RTS Python SDK示例<a name="ZH-CN_TOPIC_0070637160"></a>
+# RTS Python SDK示例<a name="sdk_02_0018"></a>
 
-SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[Python-RTS](Python-RTS.md)。
+SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[RTS](Python-RTS.md)。
 
 在使用RTS SDK的时候，SDK支持的参数细节，请参考RTS API[描述](https://support.huaweicloud.com/api-rts/rts_03_0007.html)。
 

@@ -1,8 +1,8 @@
-# CES Go SDK用户指导<a name="ZH-CN_TOPIC_0208497375"></a>
+# CES Go SDK用户指导<a name="sdk_03_0021"></a>
 
-SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[这里](https://support.huaweicloud.com/devg-sdk/zh-cn_topic_0072142406.html)。
+SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[这里](GO-CES.md)。
 
-在使用CES SDK的时候，SDK支持的参数细节，请参考CES API[描述](https://support.huaweicloud.com/api-ces/zh-cn_topic_0022485053.html)。
+在使用CES SDK的时候，SDK支持的参数细节，请参考CES API[描述](https://support.huaweicloud.com/api-ces/ces_03_0001.html)。
 
 CES V1.0 Go SDK支持如下资源对象的操作，资源对象的“增改查删”代码示例如下：
 

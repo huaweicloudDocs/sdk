@@ -1,8 +1,8 @@
-# IMS Java SDK示例<a name="ZH-CN_TOPIC_0070637126"></a>
+# IMS Java SDK示例<a name="sdk_01_0013"></a>
 
 SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[这里](Java-IMS.md)。
 
-在使用IMS SDK的时候，SDK支持的参数细节，请参考IMS API[描述](https://support.huaweicloud.com/api-ims/zh-cn_topic_0170093943.html)。
+在使用IMS SDK的时候，SDK支持的参数细节，请参考IMS API[描述](https://support.huaweicloud.com/api-ims/ims_03_0101.html)。
 
 IMS v2 Java SDK支持如下资源对象的操作，资源对象的“增改查删”代码示例如下：
 

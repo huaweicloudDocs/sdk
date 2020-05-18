@@ -1,4 +1,4 @@
-# IAM Go SDK用户指导<a name="ZH-CN_TOPIC_0090172877"></a>
+# IAM Go SDK用户指导<a name="sdk_03_0016"></a>
 
 ## Service Client<a name="section21547825201458"></a>
 

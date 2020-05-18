@@ -1,20 +1,20 @@
-# Python-FGS<a name="ZH-CN_TOPIC_0187492664"></a>
+# FGS<a name="sdk_12_0024"></a>
 
 基于函数工作流FGS v2.0 Python API的SDK接口如下，调用方式举例：conn.fgs.get\_function\_list\(\)。
 
 <a name="table131110432351"></a>
-<table><tbody><tr id="row174391343143517"><td class="cellrowborder" valign="top" width="10.94109410941094%"><p id="p1043916437357"><a name="p1043916437357"></a><a name="p1043916437357"></a>Interface</p>
+<table><tbody><tr id="row174391343143517"><td class="cellrowborder" valign="top" width="27.102710271027103%"><p id="p1043916437357"><a name="p1043916437357"></a><a name="p1043916437357"></a>Interface</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.563956395639565%"><p id="p19439243123519"><a name="p19439243123519"></a><a name="p19439243123519"></a>method</p>
+<td class="cellrowborder" valign="top" width="36.13361336133614%"><p id="p19439243123519"><a name="p19439243123519"></a><a name="p19439243123519"></a>method</p>
 </td>
-<td class="cellrowborder" valign="top" width="49.494949494949495%"><p id="p124391643113516"><a name="p124391643113516"></a><a name="p124391643113516"></a>API</p>
+<td class="cellrowborder" valign="top" width="36.76367636763676%"><p id="p124391643113516"><a name="p124391643113516"></a><a name="p124391643113516"></a>API</p>
 </td>
 </tr>
-<tr id="row84391943123513"><td class="cellrowborder" rowspan="16" valign="top" width="10.94109410941094%"><p id="p94392431354"><a name="p94392431354"></a><a name="p94392431354"></a>Functions</p>
+<tr id="row84391943123513"><td class="cellrowborder" rowspan="16" valign="top" width="27.102710271027103%"><p id="p94392431354"><a name="p94392431354"></a><a name="p94392431354"></a>Functions</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.563956395639565%"><p id="p186615332482"><a name="p186615332482"></a><a name="p186615332482"></a>functions(**function)</p>
+<td class="cellrowborder" valign="top" width="36.13361336133614%"><p id="p186615332482"><a name="p186615332482"></a><a name="p186615332482"></a>functions(**function)</p>
 </td>
-<td class="cellrowborder" valign="top" width="49.494949494949495%"><p id="p94396437356"><a name="p94396437356"></a><a name="p94396437356"></a>GET /v2/{project_id}/fgs/functions?marker={marker}&amp;maxitems={maxitems}</p>
+<td class="cellrowborder" valign="top" width="36.76367636763676%"><p id="p94396437356"><a name="p94396437356"></a><a name="p94396437356"></a>GET /v2/{project_id}/fgs/functions?marker={marker}&amp;maxitems={maxitems}</p>
 </td>
 </tr>
 <tr id="row16439443193513"><td class="cellrowborder" valign="top"><p id="p123370398489"><a name="p123370398489"></a><a name="p123370398489"></a>get_function_metadata(function_urn)</p>
@@ -95,11 +95,11 @@
 <td class="cellrowborder" valign="top"><p id="p1844294353513"><a name="p1844294353513"></a><a name="p1844294353513"></a>POST /v2/{project_id}/fgs/functions/{function_urn}/invocations-async</p>
 </td>
 </tr>
-<tr id="row2044217434352"><td class="cellrowborder" rowspan="5" valign="top" width="10.94109410941094%"><p id="p44421543193510"><a name="p44421543193510"></a><a name="p44421543193510"></a>triggers</p>
+<tr id="row2044217434352"><td class="cellrowborder" rowspan="5" valign="top" width="27.102710271027103%"><p id="p44421543193510"><a name="p44421543193510"></a><a name="p44421543193510"></a>triggers</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.563956395639565%"><p id="p19699111025020"><a name="p19699111025020"></a><a name="p19699111025020"></a>triggers(function_urn,**attrs)</p>
+<td class="cellrowborder" valign="top" width="36.13361336133614%"><p id="p19699111025020"><a name="p19699111025020"></a><a name="p19699111025020"></a>triggers(function_urn,**attrs)</p>
 </td>
-<td class="cellrowborder" valign="top" width="49.494949494949495%"><p id="p194421543113510"><a name="p194421543113510"></a><a name="p194421543113510"></a>GET</p>
+<td class="cellrowborder" valign="top" width="36.76367636763676%"><p id="p194421543113510"><a name="p194421543113510"></a><a name="p194421543113510"></a>GET</p>
 <p id="p1144210436353"><a name="p1144210436353"></a><a name="p1144210436353"></a>/v2/{project_id}/fgs/triggers/{function_urn}</p>
 </td>
 </tr>

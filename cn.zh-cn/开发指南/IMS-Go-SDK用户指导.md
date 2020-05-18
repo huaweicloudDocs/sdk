@@ -1,4 +1,4 @@
-# IMS Go SDK用户指导<a name="ZH-CN_TOPIC_0090172878"></a>
+# IMS Go SDK用户指导<a name="sdk_03_0017"></a>
 
 ## Service Client<a name="section24449721201412"></a>
 

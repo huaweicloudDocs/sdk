@@ -1,4 +1,4 @@
-# CTS Java SDK示例<a name="ZH-CN_TOPIC_0079298817"></a>
+# CTS Java SDK示例<a name="sdk_01_0023"></a>
 
 ## Tracker<a name="section2923193117411"></a>
 

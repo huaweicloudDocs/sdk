@@ -1,4 +1,4 @@
-# MRS Python SDK示例<a name="ZH-CN_TOPIC_0079299145"></a>
+# MRS Python SDK示例<a name="sdk_02_0030"></a>
 
 MapReduce服务（MapReduce Service）：提供租户完全可控的企业级大数据集群云服务，轻松运行Hadoop、Spark、HBase、Kafka、Storm等大数据组件。
 

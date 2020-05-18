@@ -1,4 +1,4 @@
-# VPC Python SDK示例<a name="ZH-CN_TOPIC_0070637157"></a>
+# VPC Python SDK示例<a name="sdk_02_0015"></a>
 
 SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[这里](Python-VPC.md)。
 

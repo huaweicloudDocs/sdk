@@ -1,19 +1,19 @@
-# Java-VBS<a name="ZH-CN_TOPIC_0072142409"></a>
+# VBS<a name="sdk_11_0011"></a>
 
 基于VBS v2 API的SDK接口如下，调用方式请参考示例代码。
 
 <a name="table65847680"></a>
-<table><thead align="left"><tr id="row38664423"><th class="cellrowborder" valign="top" width="26.590000000000003%" id="mcps1.1.4.1.1"><p id="p44810590"><a name="p44810590"></a><a name="p44810590"></a>Interface</p>
+<table><thead align="left"><tr id="row38664423"><th class="cellrowborder" valign="top" width="28.689999999999998%" id="mcps1.1.4.1.1"><p id="p44810590"><a name="p44810590"></a><a name="p44810590"></a>Interface</p>
 </th>
-<th class="cellrowborder" valign="top" width="38.06%" id="mcps1.1.4.1.2"><p id="p5779136"><a name="p5779136"></a><a name="p5779136"></a>Method</p>
+<th class="cellrowborder" valign="top" width="35.96%" id="mcps1.1.4.1.2"><p id="p5779136"><a name="p5779136"></a><a name="p5779136"></a>Method</p>
 </th>
 <th class="cellrowborder" valign="top" width="35.35%" id="mcps1.1.4.1.3"><p id="p65456887"><a name="p65456887"></a><a name="p65456887"></a>API</p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="row407659"><td class="cellrowborder" rowspan="8" valign="top" width="26.590000000000003%" headers="mcps1.1.4.1.1 "><p id="p1524012110577"><a name="p1524012110577"></a><a name="p1524012110577"></a>AsyncVolumeBackupService</p>
+<tbody><tr id="row407659"><td class="cellrowborder" rowspan="8" valign="top" width="28.689999999999998%" headers="mcps1.1.4.1.1 "><p id="p1524012110577"><a name="p1524012110577"></a><a name="p1524012110577"></a>AsyncVolumeBackupService</p>
 </td>
-<td class="cellrowborder" valign="top" width="38.06%" headers="mcps1.1.4.1.2 "><p id="p17686124716526"><a name="p17686124716526"></a><a name="p17686124716526"></a>AsyncVolumeBackupJob create(AsyncVolumeBackupCreate cvbc)</p>
+<td class="cellrowborder" valign="top" width="35.96%" headers="mcps1.1.4.1.2 "><p id="p17686124716526"><a name="p17686124716526"></a><a name="p17686124716526"></a>AsyncVolumeBackupJob create(AsyncVolumeBackupCreate cvbc)</p>
 </td>
 <td class="cellrowborder" valign="top" width="35.35%" headers="mcps1.1.4.1.3 "><p id="p53319751181248"><a name="p53319751181248"></a><a name="p53319751181248"></a>POST /v2/{tenant_id}/cloudbackups</p>
 </td>
@@ -53,9 +53,9 @@
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p61640400181248"><a name="p61640400181248"></a><a name="p61640400181248"></a>GET /v1/{tenant_id}/jobs/{job_id}</p>
 </td>
 </tr>
-<tr id="row51034272"><td class="cellrowborder" rowspan="10" valign="top" width="26.590000000000003%" headers="mcps1.1.4.1.1 "><p id="p181802256577"><a name="p181802256577"></a><a name="p181802256577"></a>BlockVolumeBackupPolicyService</p>
+<tr id="row51034272"><td class="cellrowborder" rowspan="10" valign="top" width="28.689999999999998%" headers="mcps1.1.4.1.1 "><p id="p181802256577"><a name="p181802256577"></a><a name="p181802256577"></a>BlockVolumeBackupPolicyService</p>
 </td>
-<td class="cellrowborder" valign="top" width="38.06%" headers="mcps1.1.4.1.2 "><p id="p1197212665511"><a name="p1197212665511"></a><a name="p1197212665511"></a>VolumeBackupPolicy create(VolumeBackupPolicy policy)</p>
+<td class="cellrowborder" valign="top" width="35.96%" headers="mcps1.1.4.1.2 "><p id="p1197212665511"><a name="p1197212665511"></a><a name="p1197212665511"></a>VolumeBackupPolicy create(VolumeBackupPolicy policy)</p>
 </td>
 <td class="cellrowborder" valign="top" width="35.35%" headers="mcps1.1.4.1.3 "><p id="p17659298181351"><a name="p17659298181351"></a><a name="p17659298181351"></a>POST /v2/{tenant_id}/backuppolicy</p>
 </td>

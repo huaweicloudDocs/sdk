@@ -1,4 +1,4 @@
-# Anti-DDoS Python SDK示例<a name="ZH-CN_TOPIC_0079299143"></a>
+# Anti-DDoS Python SDK示例<a name="sdk_02_0028"></a>
 
 ## 查询Anti-DDoS配置可选范围<a name="section3944661591450"></a>
 

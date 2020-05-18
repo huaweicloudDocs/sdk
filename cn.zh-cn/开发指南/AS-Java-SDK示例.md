@@ -1,8 +1,8 @@
-# AS Java SDK示例<a name="ZH-CN_TOPIC_0072118442"></a>
+# AS Java SDK示例<a name="sdk_01_0018"></a>
 
-SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[这里](https://support.huaweicloud.com/api-elb/zh-cn_topic_0022480177.html)。
+SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[描述](https://support.huaweicloud.com/api-as/zh-cn_topic_0045219159.html)。
 
-在使用AS SDK的时候，SDK支持的参数细节，请参考AS API[描述](https://support.huaweicloud.com/api-as/zh-cn_topic_2019053001.html)。
+在使用AS SDK的时候，SDK支持的参数细节，请参考AS API[描述](https://support.huaweicloud.com/api-as/zh-cn_topic_0045219159.html)。
 
 AS v1 Java SDK支持如下资源对象的操作，资源对象的“增改查删”代码示例如下：
 

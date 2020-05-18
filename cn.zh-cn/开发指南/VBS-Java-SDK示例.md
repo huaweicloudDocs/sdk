@@ -1,4 +1,4 @@
-# VBS Java SDK示例<a name="ZH-CN_TOPIC_0072124682"></a>
+# VBS Java SDK示例<a name="sdk_01_0022"></a>
 
 ## 创建云硬盘备份<a name="section1253044183628"></a>
 

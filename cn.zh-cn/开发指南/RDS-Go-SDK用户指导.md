@@ -1,8 +1,8 @@
-# RDS Go SDK用户指导<a name="ZH-CN_TOPIC_0187939471"></a>
+# RDS Go SDK用户指导<a name="sdk_03_0023"></a>
 
-SDK和API的对应关系，参考[RDS](Go-RDS.md)。
+SDK和API的对应关系，参考[RDS](GO-RDS.md)。
 
-在使用RDS SDK的时候，SDK支持的参数细节，请参考RDS API[描述](https://support.huaweicloud.com/api-rds/zh-cn_topic_0032347780.html)。
+在使用RDS SDK的时候，SDK支持的参数细节，请参考[《关系型数据库API参考》](https://support.huaweicloud.com/api-rds/rds_00_0001.html)。
 
 关系型数据库RDS v3 Go SDK支持如下资源对象的操作，资源对象的“增改查删”代码示例如下：
 

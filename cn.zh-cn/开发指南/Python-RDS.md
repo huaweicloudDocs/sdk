@@ -1,21 +1,21 @@
-# Python-RDS<a name="ZH-CN_TOPIC_0115918483"></a>
+# RDS<a name="sdk_12_0019"></a>
 
 基于RDS v3 API的SDK接口如下，调用方式举例：**conn.rds\_v3.create\_instance\(\)**
 
 <a name="table4567131392218"></a>
-<table><thead align="left"><tr id="row4567151312215"><th class="cellrowborder" valign="top" width="19.21%" id="mcps1.1.4.1.1"><p id="p13567191372219"><a name="p13567191372219"></a><a name="p13567191372219"></a>Interface</p>
+<table><thead align="left"><tr id="row4567151312215"><th class="cellrowborder" valign="top" width="26.25%" id="mcps1.1.4.1.1"><p id="p13567191372219"><a name="p13567191372219"></a><a name="p13567191372219"></a>Interface</p>
 </th>
-<th class="cellrowborder" valign="top" width="34.870000000000005%" id="mcps1.1.4.1.2"><p id="p16567161315224"><a name="p16567161315224"></a><a name="p16567161315224"></a>Method</p>
+<th class="cellrowborder" valign="top" width="36.66%" id="mcps1.1.4.1.2"><p id="p16567161315224"><a name="p16567161315224"></a><a name="p16567161315224"></a>Method</p>
 </th>
-<th class="cellrowborder" valign="top" width="45.92%" id="mcps1.1.4.1.3"><p id="p1567151313226"><a name="p1567151313226"></a><a name="p1567151313226"></a>API</p>
+<th class="cellrowborder" valign="top" width="37.09%" id="mcps1.1.4.1.3"><p id="p1567151313226"><a name="p1567151313226"></a><a name="p1567151313226"></a>API</p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="row956781332213"><td class="cellrowborder" rowspan="7" valign="top" width="19.21%" headers="mcps1.1.4.1.1 "><p id="p195671913132219"><a name="p195671913132219"></a><a name="p195671913132219"></a>Instance Operations</p>
+<tbody><tr id="row956781332213"><td class="cellrowborder" rowspan="7" valign="top" width="26.25%" headers="mcps1.1.4.1.1 "><p id="p195671913132219"><a name="p195671913132219"></a><a name="p195671913132219"></a>Instance Operations</p>
 </td>
-<td class="cellrowborder" valign="top" width="34.870000000000005%" headers="mcps1.1.4.1.2 "><p id="p856710133228"><a name="p856710133228"></a><a name="p856710133228"></a>create_instance(self, **kwargs)</p>
+<td class="cellrowborder" valign="top" width="36.66%" headers="mcps1.1.4.1.2 "><p id="p856710133228"><a name="p856710133228"></a><a name="p856710133228"></a>create_instance(self, **kwargs)</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.92%" headers="mcps1.1.4.1.3 "><p id="p5567191372218"><a name="p5567191372218"></a><a name="p5567191372218"></a>POST /v3/{project_id}/instances</p>
+<td class="cellrowborder" valign="top" width="37.09%" headers="mcps1.1.4.1.3 "><p id="p5567191372218"><a name="p5567191372218"></a><a name="p5567191372218"></a>POST /v3/{project_id}/instances</p>
 <p id="p118061537175715"><a name="p118061537175715"></a><a name="p118061537175715"></a><a href="https://support.huaweicloud.com/api-rds/rds_01_0002.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -55,11 +55,11 @@
 <p id="p12362132132619"><a name="p12362132132619"></a><a name="p12362132132619"></a><a href="https://support.huaweicloud.com/api-rds/rds_01_0103.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row85686135225"><td class="cellrowborder" rowspan="6" valign="top" width="19.21%" headers="mcps1.1.4.1.1 "><p id="p756861322219"><a name="p756861322219"></a><a name="p756861322219"></a>Backup Operations</p>
+<tr id="row85686135225"><td class="cellrowborder" rowspan="6" valign="top" width="26.25%" headers="mcps1.1.4.1.1 "><p id="p756861322219"><a name="p756861322219"></a><a name="p756861322219"></a>Backup Operations</p>
 </td>
-<td class="cellrowborder" valign="top" width="34.870000000000005%" headers="mcps1.1.4.1.2 "><p id="p95681313152218"><a name="p95681313152218"></a><a name="p95681313152218"></a>create_backup(self, **kwarg)</p>
+<td class="cellrowborder" valign="top" width="36.66%" headers="mcps1.1.4.1.2 "><p id="p95681313152218"><a name="p95681313152218"></a><a name="p95681313152218"></a>create_backup(self, **kwarg)</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.92%" headers="mcps1.1.4.1.3 "><p id="p1772260163015"><a name="p1772260163015"></a><a name="p1772260163015"></a>POST /v3/{project_id}/backups</p>
+<td class="cellrowborder" valign="top" width="37.09%" headers="mcps1.1.4.1.3 "><p id="p1772260163015"><a name="p1772260163015"></a><a name="p1772260163015"></a>POST /v3/{project_id}/backups</p>
 <p id="p5621191519302"><a name="p5621191519302"></a><a name="p5621191519302"></a><a href="https://support.huaweicloud.com/api-rds/rds_09_0004.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -93,11 +93,11 @@
 <p id="p13710810466"><a name="p13710810466"></a><a name="p13710810466"></a><a href="https://support.huaweicloud.com/api-rds/rds_09_0008.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row1956912136226"><td class="cellrowborder" rowspan="2" valign="top" width="19.21%" headers="mcps1.1.4.1.1 "><p id="p55692133221"><a name="p55692133221"></a><a name="p55692133221"></a>Backup Policy Operations</p>
+<tr id="row1956912136226"><td class="cellrowborder" rowspan="2" valign="top" width="26.25%" headers="mcps1.1.4.1.1 "><p id="p55692133221"><a name="p55692133221"></a><a name="p55692133221"></a>Backup Policy Operations</p>
 </td>
-<td class="cellrowborder" valign="top" width="34.870000000000005%" headers="mcps1.1.4.1.2 "><p id="p209291727104211"><a name="p209291727104211"></a><a name="p209291727104211"></a>create_backup_policy(self, **kwargs)</p>
+<td class="cellrowborder" valign="top" width="36.66%" headers="mcps1.1.4.1.2 "><p id="p209291727104211"><a name="p209291727104211"></a><a name="p209291727104211"></a>create_backup_policy(self, **kwargs)</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.92%" headers="mcps1.1.4.1.3 "><p id="p656911318229"><a name="p656911318229"></a><a name="p656911318229"></a>PUT /v3/{project_id}/instances/{instance_id}/backups/policy</p>
+<td class="cellrowborder" valign="top" width="37.09%" headers="mcps1.1.4.1.3 "><p id="p656911318229"><a name="p656911318229"></a><a name="p656911318229"></a>PUT /v3/{project_id}/instances/{instance_id}/backups/policy</p>
 <p id="p3643133019556"><a name="p3643133019556"></a><a name="p3643133019556"></a><a href="https://support.huaweicloud.com/api-rds/rds_09_0002.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -107,35 +107,35 @@
 <p id="p1761522118016"><a name="p1761522118016"></a><a name="p1761522118016"></a><a href="https://support.huaweicloud.com/api-rds/rds_09_0003.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row18569181310221"><td class="cellrowborder" valign="top" width="19.21%" headers="mcps1.1.4.1.1 "><p id="p9569191317221"><a name="p9569191317221"></a><a name="p9569191317221"></a>Flavor Operations</p>
+<tr id="row18569181310221"><td class="cellrowborder" valign="top" width="26.25%" headers="mcps1.1.4.1.1 "><p id="p9569191317221"><a name="p9569191317221"></a><a name="p9569191317221"></a>Flavor Operations</p>
 </td>
-<td class="cellrowborder" valign="top" width="34.870000000000005%" headers="mcps1.1.4.1.2 "><p id="p161969918435"><a name="p161969918435"></a><a name="p161969918435"></a>flavors(self, **kwargs)</p>
+<td class="cellrowborder" valign="top" width="36.66%" headers="mcps1.1.4.1.2 "><p id="p161969918435"><a name="p161969918435"></a><a name="p161969918435"></a>flavors(self, **kwargs)</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.92%" headers="mcps1.1.4.1.3 "><p id="p7569713112213"><a name="p7569713112213"></a><a name="p7569713112213"></a>GET /v3/{project_id}/flavors/{database_name}?version_name={version_name}</p>
+<td class="cellrowborder" valign="top" width="37.09%" headers="mcps1.1.4.1.3 "><p id="p7569713112213"><a name="p7569713112213"></a><a name="p7569713112213"></a>GET /v3/{project_id}/flavors/{database_name}?version_name={version_name}</p>
 <p id="p11232717116"><a name="p11232717116"></a><a name="p11232717116"></a><a href="https://support.huaweicloud.com/api-rds/rds_06_0002.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row156961312224"><td class="cellrowborder" valign="top" width="19.21%" headers="mcps1.1.4.1.1 "><p id="p11569201322214"><a name="p11569201322214"></a><a name="p11569201322214"></a>Datastore Operations</p>
+<tr id="row156961312224"><td class="cellrowborder" valign="top" width="26.25%" headers="mcps1.1.4.1.1 "><p id="p11569201322214"><a name="p11569201322214"></a><a name="p11569201322214"></a>Datastore Operations</p>
 </td>
-<td class="cellrowborder" valign="top" width="34.870000000000005%" headers="mcps1.1.4.1.2 "><p id="p125701613132217"><a name="p125701613132217"></a><a name="p125701613132217"></a>datastore_versions(self, dbname)</p>
+<td class="cellrowborder" valign="top" width="36.66%" headers="mcps1.1.4.1.2 "><p id="p125701613132217"><a name="p125701613132217"></a><a name="p125701613132217"></a>datastore_versions(self, dbname)</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.92%" headers="mcps1.1.4.1.3 "><p id="p15570161362218"><a name="p15570161362218"></a><a name="p15570161362218"></a>GET /v3/{project_id}/datastores/{database_name}</p>
+<td class="cellrowborder" valign="top" width="37.09%" headers="mcps1.1.4.1.3 "><p id="p15570161362218"><a name="p15570161362218"></a><a name="p15570161362218"></a>GET /v3/{project_id}/datastores/{database_name}</p>
 <p id="p194606441615"><a name="p194606441615"></a><a name="p194606441615"></a><a href="https://support.huaweicloud.com/api-rds/rds_06_0001.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row10718237195220"><td class="cellrowborder" valign="top" width="19.21%" headers="mcps1.1.4.1.1 "><p id="p1371933713527"><a name="p1371933713527"></a><a name="p1371933713527"></a>Configuration Operations</p>
+<tr id="row10718237195220"><td class="cellrowborder" valign="top" width="26.25%" headers="mcps1.1.4.1.1 "><p id="p1371933713527"><a name="p1371933713527"></a><a name="p1371933713527"></a>Configuration Operations</p>
 </td>
-<td class="cellrowborder" valign="top" width="34.870000000000005%" headers="mcps1.1.4.1.2 "><p id="p8719103710521"><a name="p8719103710521"></a><a name="p8719103710521"></a>configurations(self, **kwargs)</p>
+<td class="cellrowborder" valign="top" width="36.66%" headers="mcps1.1.4.1.2 "><p id="p8719103710521"><a name="p8719103710521"></a><a name="p8719103710521"></a>configurations(self, **kwargs)</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.92%" headers="mcps1.1.4.1.3 "><p id="p67199377520"><a name="p67199377520"></a><a name="p67199377520"></a>GET /v3/{project_id}/configurations</p>
+<td class="cellrowborder" valign="top" width="37.09%" headers="mcps1.1.4.1.3 "><p id="p67199377520"><a name="p67199377520"></a><a name="p67199377520"></a>GET /v3/{project_id}/configurations</p>
 <p id="p19236165854"><a name="p19236165854"></a><a name="p19236165854"></a><a href="https://support.huaweicloud.com/api-rds/rds_09_0301.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row927224515519"><td class="cellrowborder" rowspan="2" valign="top" width="19.21%" headers="mcps1.1.4.1.1 "><p id="p17243124011169"><a name="p17243124011169"></a><a name="p17243124011169"></a>Log Operations</p>
+<tr id="row927224515519"><td class="cellrowborder" rowspan="2" valign="top" width="26.25%" headers="mcps1.1.4.1.1 "><p id="p17243124011169"><a name="p17243124011169"></a><a name="p17243124011169"></a>Log Operations</p>
 </td>
-<td class="cellrowborder" valign="top" width="34.870000000000005%" headers="mcps1.1.4.1.2 "><p id="p122847561164"><a name="p122847561164"></a><a name="p122847561164"></a>list_instance_errorlog(**query)</p>
+<td class="cellrowborder" valign="top" width="36.66%" headers="mcps1.1.4.1.2 "><p id="p122847561164"><a name="p122847561164"></a><a name="p122847561164"></a>list_instance_errorlog(**query)</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.92%" headers="mcps1.1.4.1.3 "><p id="p8274194514515"><a name="p8274194514515"></a><a name="p8274194514515"></a>GET instances/{instance_id}/errorlog?start_date={start_date}&amp;end_date={end_date}</p>
+<td class="cellrowborder" valign="top" width="37.09%" headers="mcps1.1.4.1.3 "><p id="p8274194514515"><a name="p8274194514515"></a><a name="p8274194514515"></a>GET instances/{instance_id}/errorlog?start_date={start_date}&amp;end_date={end_date}</p>
 <p id="p411102620817"><a name="p411102620817"></a><a name="p411102620817"></a><a href="https://support.huaweicloud.com/api-rds/rds_06_0004.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>

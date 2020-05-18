@@ -1,8 +1,8 @@
-# EVS Java SDK示例<a name="ZH-CN_TOPIC_0070637129"></a>
+# EVS Java SDK示例<a name="sdk_01_0016"></a>
 
 SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[这里](Java-EVS.md)。
 
-在使用EVS SDK的时候，SDK支持的参数细节，请参考EVS API[描述](https://support.huaweicloud.com/api-evs/zh-cn_topic_0020806013.html)。
+在使用EVS SDK的时候，SDK支持的参数细节，请参考EVS API[描述](https://support.huaweicloud.com/api-evs/evs_04_0001.html)。
 
 EVS v2 Java SDK支持如下资源对象的操作，资源对象的“增改查删”代码示例如下：
 

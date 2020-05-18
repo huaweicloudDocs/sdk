@@ -1,22 +1,22 @@
-# Java-IMS<a name="ZH-CN_TOPIC_0070868136"></a>
+# IMS<a name="sdk_11_0002"></a>
 
 基于Glance v2 API的SDK接口如下，调用方式请参考示例代码。
 
 <a name="table1963786"></a>
-<table><thead align="left"><tr id="row26485815"><th class="cellrowborder" valign="top" width="18.18181818181818%" id="mcps1.1.4.1.1"><p id="p64976233"><a name="p64976233"></a><a name="p64976233"></a>Interface</p>
+<table><thead align="left"><tr id="row26485815"><th class="cellrowborder" valign="top" width="29.44294429442944%" id="mcps1.1.4.1.1"><p id="p64976233"><a name="p64976233"></a><a name="p64976233"></a>Interface</p>
 </th>
-<th class="cellrowborder" valign="top" width="44.44444444444445%" id="mcps1.1.4.1.2"><p id="p28583536"><a name="p28583536"></a><a name="p28583536"></a>Method</p>
+<th class="cellrowborder" valign="top" width="35.493549354935496%" id="mcps1.1.4.1.2"><p id="p28583536"><a name="p28583536"></a><a name="p28583536"></a>Method</p>
 </th>
-<th class="cellrowborder" valign="top" width="37.37373737373737%" id="mcps1.1.4.1.3"><p id="p33565108"><a name="p33565108"></a><a name="p33565108"></a>API</p>
+<th class="cellrowborder" valign="top" width="35.063506350635066%" id="mcps1.1.4.1.3"><p id="p33565108"><a name="p33565108"></a><a name="p33565108"></a>API</p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="row34419228"><td class="cellrowborder" rowspan="12" valign="top" width="18.18181818181818%" headers="mcps1.1.4.1.1 "><p id="p36494097"><a name="p36494097"></a><a name="p36494097"></a>ImageService</p>
+<tbody><tr id="row34419228"><td class="cellrowborder" rowspan="12" valign="top" width="29.44294429442944%" headers="mcps1.1.4.1.1 "><p id="p36494097"><a name="p36494097"></a><a name="p36494097"></a>ImageService</p>
 <p id="p1327118161118"><a name="p1327118161118"></a><a name="p1327118161118"></a></p>
 </td>
-<td class="cellrowborder" valign="top" width="44.44444444444445%" headers="mcps1.1.4.1.2 "><p id="p3231866"><a name="p3231866"></a><a name="p3231866"></a>Image create(Image image)</p>
+<td class="cellrowborder" valign="top" width="35.493549354935496%" headers="mcps1.1.4.1.2 "><p id="p3231866"><a name="p3231866"></a><a name="p3231866"></a>Image create(Image image)</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.37373737373737%" headers="mcps1.1.4.1.3 "><p id="p162011834193216"><a name="p162011834193216"></a><a name="p162011834193216"></a>POST /v2/images</p>
+<td class="cellrowborder" valign="top" width="35.063506350635066%" headers="mcps1.1.4.1.3 "><p id="p162011834193216"><a name="p162011834193216"></a><a name="p162011834193216"></a>POST /v2/images</p>
 </td>
 </tr>
 <tr id="row7220417"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p47982876"><a name="p47982876"></a><a name="p47982876"></a>ActionResponse upload(String imageId, Payload payload, Image image)</p>
@@ -80,19 +80,19 @@
 基于IMS v2 API的SDK接口如下，调用方式请参考示例代码。
 
 <a name="table411442315562"></a>
-<table><thead align="left"><tr id="row311582365611"><th class="cellrowborder" valign="top" width="18.5018501850185%" id="mcps1.1.4.1.1"><p id="p7275744145815"><a name="p7275744145815"></a><a name="p7275744145815"></a>Interface</p>
+<table><thead align="left"><tr id="row311582365611"><th class="cellrowborder" valign="top" width="29.332933293329333%" id="mcps1.1.4.1.1"><p id="p7275744145815"><a name="p7275744145815"></a><a name="p7275744145815"></a>Interface</p>
 </th>
-<th class="cellrowborder" valign="top" width="44.18441844184419%" id="mcps1.1.4.1.2"><p id="p42761644205819"><a name="p42761644205819"></a><a name="p42761644205819"></a>Method</p>
+<th class="cellrowborder" valign="top" width="35.81358135813581%" id="mcps1.1.4.1.2"><p id="p42761644205819"><a name="p42761644205819"></a><a name="p42761644205819"></a>Method</p>
 </th>
-<th class="cellrowborder" valign="top" width="37.31373137313731%" id="mcps1.1.4.1.3"><p id="p727634455818"><a name="p727634455818"></a><a name="p727634455818"></a>API</p>
+<th class="cellrowborder" valign="top" width="34.85348534853485%" id="mcps1.1.4.1.3"><p id="p727634455818"><a name="p727634455818"></a><a name="p727634455818"></a>API</p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="row1411522385618"><td class="cellrowborder" rowspan="4" valign="top" width="18.5018501850185%" headers="mcps1.1.4.1.1 "><p id="p1115162385612"><a name="p1115162385612"></a><a name="p1115162385612"></a>ImageService</p>
+<tbody><tr id="row1411522385618"><td class="cellrowborder" rowspan="4" valign="top" width="29.332933293329333%" headers="mcps1.1.4.1.1 "><p id="p1115162385612"><a name="p1115162385612"></a><a name="p1115162385612"></a>ImageService</p>
 </td>
-<td class="cellrowborder" valign="top" width="44.18441844184419%" headers="mcps1.1.4.1.2 "><p id="p438414291575"><a name="p438414291575"></a><a name="p438414291575"></a>String create(ImageCreateByInstance imageCreateByInstance)</p>
+<td class="cellrowborder" valign="top" width="35.81358135813581%" headers="mcps1.1.4.1.2 "><p id="p438414291575"><a name="p438414291575"></a><a name="p438414291575"></a>String create(ImageCreateByInstance imageCreateByInstance)</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.31373137313731%" headers="mcps1.1.4.1.3 "><p id="p16384102925711"><a name="p16384102925711"></a><a name="p16384102925711"></a>POST /v2/cloudimages/action</p>
+<td class="cellrowborder" valign="top" width="34.85348534853485%" headers="mcps1.1.4.1.3 "><p id="p16384102925711"><a name="p16384102925711"></a><a name="p16384102925711"></a>POST /v2/cloudimages/action</p>
 </td>
 </tr>
 <tr id="row31151323205613"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p8384152995714"><a name="p8384152995714"></a><a name="p8384152995714"></a>String create(ImageCreateByExternalImage imageCreateByExternalImage)</p>
@@ -116,19 +116,19 @@
 基于IMS v1 API的SDK接口如下，调用方式请参考示例代码。
 
 <a name="table1563512445565"></a>
-<table><thead align="left"><tr id="row1263618443565"><th class="cellrowborder" valign="top" width="18.81188118811881%" id="mcps1.1.4.1.1"><p id="p24265995"><a name="p24265995"></a><a name="p24265995"></a>Interface</p>
+<table><thead align="left"><tr id="row1263618443565"><th class="cellrowborder" valign="top" width="29.762976297629763%" id="mcps1.1.4.1.1"><p id="p24265995"><a name="p24265995"></a><a name="p24265995"></a>Interface</p>
 </th>
-<th class="cellrowborder" valign="top" width="44.18441844184419%" id="mcps1.1.4.1.2"><p id="p19388612"><a name="p19388612"></a><a name="p19388612"></a>Method</p>
+<th class="cellrowborder" valign="top" width="35.6035603560356%" id="mcps1.1.4.1.2"><p id="p19388612"><a name="p19388612"></a><a name="p19388612"></a>Method</p>
 </th>
-<th class="cellrowborder" valign="top" width="37.003700370037%" id="mcps1.1.4.1.3"><p id="p26973745"><a name="p26973745"></a><a name="p26973745"></a>API</p>
+<th class="cellrowborder" valign="top" width="34.63346334633463%" id="mcps1.1.4.1.3"><p id="p26973745"><a name="p26973745"></a><a name="p26973745"></a>API</p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="row18637124411567"><td class="cellrowborder" rowspan="5" valign="top" width="18.81188118811881%" headers="mcps1.1.4.1.1 "><p id="p4637444115610"><a name="p4637444115610"></a><a name="p4637444115610"></a>ImageService</p>
+<tbody><tr id="row18637124411567"><td class="cellrowborder" rowspan="5" valign="top" width="29.762976297629763%" headers="mcps1.1.4.1.1 "><p id="p4637444115610"><a name="p4637444115610"></a><a name="p4637444115610"></a>ImageService</p>
 </td>
-<td class="cellrowborder" valign="top" width="44.18441844184419%" headers="mcps1.1.4.1.2 "><p id="p364210506575"><a name="p364210506575"></a><a name="p364210506575"></a>String create(ImageCreateByOBS imageCreateByOBS)</p>
+<td class="cellrowborder" valign="top" width="35.6035603560356%" headers="mcps1.1.4.1.2 "><p id="p364210506575"><a name="p364210506575"></a><a name="p364210506575"></a>String create(ImageCreateByOBS imageCreateByOBS)</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.003700370037%" headers="mcps1.1.4.1.3 "><p id="p12642165015712"><a name="p12642165015712"></a><a name="p12642165015712"></a>POST /v1/cloudimages/dataimages/action</p>
+<td class="cellrowborder" valign="top" width="34.63346334633463%" headers="mcps1.1.4.1.3 "><p id="p12642165015712"><a name="p12642165015712"></a><a name="p12642165015712"></a>POST /v1/cloudimages/dataimages/action</p>
 </td>
 </tr>
 <tr id="row663794415563"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p864285085719"><a name="p864285085719"></a><a name="p864285085719"></a>String regist(RegistImage image, String imageId)</p>
@@ -151,11 +151,11 @@
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p464345075712"><a name="p464345075712"></a><a name="p464345075712"></a>POST /v1/cloudimages/wholeimages/action</p>
 </td>
 </tr>
-<tr id="row1363894417567"><td class="cellrowborder" valign="top" width="18.81188118811881%" headers="mcps1.1.4.1.1 "><p id="p9638154414569"><a name="p9638154414569"></a><a name="p9638154414569"></a>Jobservice</p>
+<tr id="row1363894417567"><td class="cellrowborder" valign="top" width="29.762976297629763%" headers="mcps1.1.4.1.1 "><p id="p9638154414569"><a name="p9638154414569"></a><a name="p9638154414569"></a>Jobservice</p>
 </td>
-<td class="cellrowborder" valign="top" width="44.18441844184419%" headers="mcps1.1.4.1.2 "><p id="p93111131582"><a name="p93111131582"></a><a name="p93111131582"></a>Job get(String jobId)</p>
+<td class="cellrowborder" valign="top" width="35.6035603560356%" headers="mcps1.1.4.1.2 "><p id="p93111131582"><a name="p93111131582"></a><a name="p93111131582"></a>Job get(String jobId)</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.003700370037%" headers="mcps1.1.4.1.3 "><p id="p133171320582"><a name="p133171320582"></a><a name="p133171320582"></a>GET /v1/{project_id}/jobs/{job_id}</p>
+<td class="cellrowborder" valign="top" width="34.63346334633463%" headers="mcps1.1.4.1.3 "><p id="p133171320582"><a name="p133171320582"></a><a name="p133171320582"></a>GET /v1/{project_id}/jobs/{job_id}</p>
 </td>
 </tr>
 </tbody>

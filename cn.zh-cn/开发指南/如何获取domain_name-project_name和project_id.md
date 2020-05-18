@@ -1,4 +1,4 @@
-# 如何获取domain\_name、project\_name和project\_id ?<a name="ZH-CN_TOPIC_0070637164"></a>
+# 如何获取domain\_name、project\_name和project\_id ?<a name="sdk_05_0003"></a>
 
 ## 前提条件<a name="section11636265"></a>
 
@@ -8,14 +8,17 @@
 
 1.  在华为云首页右上角，点击“控制台”。
 
-    ![](figures/zh-cn_image_0181876658.png)
+    **图 1**  控制台<a name="fig13688348637"></a>  
+    ![](figures/控制台.png "控制台")
 
 2.  在右上角的用户名中选择“我的凭证“。
 
-    ![](figures/进入我的凭证.png)
+    **图 2**  我的凭证<a name="fig38291515149"></a>  
+    ![](figures/我的凭证.png "我的凭证")
 
-3.  在“我的凭证”界面，API凭证页签中，查看并记录用户名称、用户ID、项目名称、项目ID。
+3.  在“我的凭证”界面，API凭证页签中，查看并记录用户名、用户ID、账号名、账号ID、项目名称、项目ID。
 
-    ![](figures/3.png)
+    **图 3**  我的凭证详情<a name="fig1215815216513"></a>  
+    ![](figures/我的凭证详情.png "我的凭证详情")
 
 

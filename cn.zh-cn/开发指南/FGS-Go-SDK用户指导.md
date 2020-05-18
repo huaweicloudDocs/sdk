@@ -1,6 +1,6 @@
-# FGS Go SDK用户指导<a name="ZH-CN_TOPIC_0187478153"></a>
+# FGS Go SDK用户指导<a name="sdk_03_0022"></a>
 
-SDK和API的对应关系，请参考[FGS](Go-FGS.md)。
+SDK和API的对应关系，请参考[FGS](GO-FGS.md)。
 
 在使用FGS SDK的时候，SDK支持的参数细节，请参考FGS API[描述](https://support.huaweicloud.com/api-functiongraph/functiongraph_06_0105.html)。
 

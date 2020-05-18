@@ -1,6 +1,6 @@
-# DNS Java SDK示例<a name="ZH-CN_TOPIC_0072124680"></a>
+# DNS Java SDK示例<a name="sdk_01_0020"></a>
 
-SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[Java-DNS](Java-DNS.md)。
+SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[DNS](Java-DNS.md)。
 
 在使用DNS SDK的时候，SDK支持的参数细节，请参考DNS API[描述](https://support.huaweicloud.com/api-dns/zh-cn_topic_0132421998.html)。
 
