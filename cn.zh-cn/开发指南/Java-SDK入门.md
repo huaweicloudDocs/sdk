@@ -22,42 +22,42 @@ Java SDK支持的云服务产品如下：
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p7483546112619"><a name="p7483546112619"></a><a name="p7483546112619"></a><a href="EVS-Java-SDK示例.md">云硬盘 EVS</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p348313467267"><a name="p348313467267"></a><a name="p348313467267"></a><a href="RTS-Java-SDK示例.md">资源模板服务 RTS</a></p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p6483646192611"><a name="p6483646192611"></a><a name="p6483646192611"></a><a href="AS-Java-SDK示例.md">弹性伸缩 AS</a></p>
 </td>
 </tr>
-<tr id="row0483114672619"><td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p6483646192611"><a name="p6483646192611"></a><a name="p6483646192611"></a><a href="AS-Java-SDK示例.md">弹性伸缩 AS</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p134831346172620"><a name="p134831346172620"></a><a name="p134831346172620"></a><a href="CES-Java-SDK示例.md">云监控服务 CES</a></p>
+<tr id="row0483114672619"><td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p134831346172620"><a name="p134831346172620"></a><a name="p134831346172620"></a><a href="CES-Java-SDK示例.md">云监控服务 CES</a></p>
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p1848384618269"><a name="p1848384618269"></a><a name="p1848384618269"></a><a href="DNS-Java-SDK示例.md">云解析服务 DNS</a></p>
 </td>
-</tr>
-<tr id="row12483246172614"><td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p1348344616268"><a name="p1348344616268"></a><a name="p1348344616268"></a><a href="ELB-Java-SDK示例.md">弹性负载均衡 ELB</a></p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p1348344616268"><a name="p1348344616268"></a><a name="p1348344616268"></a><a href="ELB-Java-SDK示例.md">弹性负载均衡 ELB</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p648416460264"><a name="p648416460264"></a><a name="p648416460264"></a><a href="VBS-Java-SDK示例.md">云硬盘备份 VBS</a></p>
+</tr>
+<tr id="row12483246172614"><td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p648416460264"><a name="p648416460264"></a><a name="p648416460264"></a><a href="VBS-Java-SDK示例.md">云硬盘备份 VBS</a></p>
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p17484144618266"><a name="p17484144618266"></a><a name="p17484144618266"></a><a href="CTS-Java-SDK示例.md">云审计服务 CTS</a></p>
 </td>
-</tr>
-<tr id="row1448484632611"><td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p448413469262"><a name="p448413469262"></a><a name="p448413469262"></a><a href="KMS-Java-SDK示例.md">数据加密服务 KMS</a></p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p448413469262"><a name="p448413469262"></a><a name="p448413469262"></a><a href="KMS-Java-SDK示例.md">数据加密服务 KMS</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p104845462264"><a name="p104845462264"></a><a name="p104845462264"></a><a href="Anti-DDoS-Java-SDK示例.md">流量清洗Anti-DDoS</a></p>
+</tr>
+<tr id="row1448484632611"><td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p104845462264"><a name="p104845462264"></a><a name="p104845462264"></a><a href="Anti-DDoS-Java-SDK示例.md">流量清洗Anti-DDoS</a></p>
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p94841746142617"><a name="p94841746142617"></a><a name="p94841746142617"></a><a href="DMS-Java-SDK示例.md">分布式消息服务 DMS</a></p>
 </td>
-</tr>
-<tr id="row11484946192618"><td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p3484346192613"><a name="p3484346192613"></a><a name="p3484346192613"></a><a href="MRS-Java-SDK示例.md">MapReduce服务 MRS</a></p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p3484346192613"><a name="p3484346192613"></a><a name="p3484346192613"></a><a href="MRS-Java-SDK示例.md">MapReduce服务 MRS</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p174841446102618"><a name="p174841446102618"></a><a name="p174841446102618"></a><a href="CDN-Java-SDK示例.md">内容分发网络 CDN</a></p>
+</tr>
+<tr id="row11484946192618"><td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p174841446102618"><a name="p174841446102618"></a><a name="p174841446102618"></a><a href="CDN-Java-SDK示例.md">内容分发网络 CDN</a></p>
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p14518132417166"><a name="p14518132417166"></a><a name="p14518132417166"></a><a href="BSS-Java-SDK示例.md">运营能力 BSS</a></p>
 </td>
-</tr>
-<tr id="row283900132410"><td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p684012062411"><a name="p684012062411"></a><a name="p684012062411"></a><a href="TMS-Java-SDK示例.md">标签管理服务 TMS</a></p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p684012062411"><a name="p684012062411"></a><a name="p684012062411"></a><a href="TMS-Java-SDK示例.md">标签管理服务 TMS</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p3713185403415"><a name="p3713185403415"></a><a name="p3713185403415"></a><a href="EPS-Java-SDK示例.md">企业管理 EPS</a></p>
+</tr>
+<tr id="row283900132410"><td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p3713185403415"><a name="p3713185403415"></a><a name="p3713185403415"></a><a href="EPS-Java-SDK示例.md">企业管理 EPS</a></p>
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p784020102415"><a name="p784020102415"></a><a name="p784020102415"></a><a href="RDS-Java-SDK示例.md">云数据库 RDS</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p99605518476"><a name="p99605518476"></a><a name="p99605518476"></a>-</p>
 </td>
 </tr>
 </tbody>

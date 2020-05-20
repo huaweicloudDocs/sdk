@@ -10,8 +10,6 @@
 
 -   **[EVS](Python-EVS.md)**  
 
--   **[RTS](Python-RTS.md)**  
-
 -   **[AS](Python-AS.md)**  
 
 -   **[CES](Python-CES.md)**  

@@ -14,8 +14,6 @@
 
 -   **[EVS Java SDK示例](EVS-Java-SDK示例.md)**  
 
--   **[RTS Java SDK示例](RTS-Java-SDK示例.md)**  
-
 -   **[AS Java SDK示例](AS-Java-SDK示例.md)**  
 
 -   **[CES Java SDK示例](CES-Java-SDK示例.md)**  

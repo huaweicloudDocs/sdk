@@ -14,8 +14,6 @@
 
 -   **[EVS Python SDK示例](EVS-Python-SDK示例.md)**  
 
--   **[RTS Python SDK示例](RTS-Python-SDK示例.md)**  
-
 -   **[AS Python SDK示例](AS-Python-SDK示例.md)**  
 
 -   **[CES Python SDK示例](CES-Python-SDK示例.md)**  

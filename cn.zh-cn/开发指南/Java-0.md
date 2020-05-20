@@ -10,8 +10,6 @@
 
 -   **[EVS](Java-EVS.md)**  
 
--   **[RTS](Java-RTS.md)**  
-
 -   **[AS](Java-AS.md)**  
 
 -   **[CES](Java-CES.md)**  
