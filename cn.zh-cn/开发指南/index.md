@@ -83,7 +83,7 @@
 -   [SDK常见问题]
     -   [如何在控制台上创建秘钥对?](如何在控制台上创建秘钥对.md)
     -   [如何创建安全组?](如何创建安全组.md)
-    -   [如何获取domain\_name、project\_name和project\_id ?](如何获取domain_name-project_name和project_id.md)
+    -   [如何获取IAM 用户名、账号ID以及项目ID？](如何获取IAM-用户名-账号ID以及项目ID.md)
     -   [服务名称列表](服务名称列表.md)
 
 -   [API与SDK 对应关系]

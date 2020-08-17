@@ -10,30 +10,14 @@
 
 Go SDK支持的云服务产品如下：
 
-<a name="table1848320466268"></a>
-<table><tbody><tr id="row048394632610"><td class="cellrowborder" valign="top" width="33.463346334633464%"><p id="p548314642615"><a name="p548314642615"></a><a name="p548314642615"></a><a href="ECS-Go-SDK用户指导.md">弹性云服务器 ECS</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.2033203320332%"><p id="p15483746112620"><a name="p15483746112620"></a><a name="p15483746112620"></a><a href="EVS-Go-SDK用户指导.md">云硬盘 EVS</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p690017363477"><a name="p690017363477"></a><a name="p690017363477"></a><a href="VPC-Go-SDK用户指导.md">虚拟私有云 VPC</a></p>
-</td>
-</tr>
-<tr id="row848314616261"><td class="cellrowborder" valign="top" width="33.463346334633464%"><p id="p8483154672611"><a name="p8483154672611"></a><a name="p8483154672611"></a><a href="IAM-Go-SDK用户指导.md">统一身份认证 IAM</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.2033203320332%"><p id="p7483546112619"><a name="p7483546112619"></a><a name="p7483546112619"></a><a href="IMS-Go-SDK用户指导.md">镜像服务 IMS</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p348313467267"><a name="p348313467267"></a><a name="p348313467267"></a><a href="ELB-Go-SDK用户指导.md">弹性负载均衡 ELB</a></p>
-</td>
-</tr>
-<tr id="row16354329192118"><td class="cellrowborder" valign="top" width="33.463346334633464%"><p id="p20356192920212"><a name="p20356192920212"></a><a name="p20356192920212"></a><a href="AS-Go-SDK用户指导.md">弹性伸缩 AS</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.2033203320332%"><p id="p435619298215"><a name="p435619298215"></a><a name="p435619298215"></a><a href="BSS-Python-SDK示例.md">运营能力 BSS</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p835614291213"><a name="p835614291213"></a><a name="p835614291213"></a>-</p>
-</td>
-</tr>
-</tbody>
-</table>
+-   [弹性云服务器 ECS](ECS-Go-SDK用户指导.md)
+-   [云硬盘 EVS](EVS-Go-SDK用户指导.md)
+-   [虚拟私有云 VPC](VPC-Go-SDK用户指导.md)
+-   [统一身份认证 IAM](IAM-Go-SDK用户指导.md)
+-   [镜像服务 IMS](IMS-Go-SDK用户指导.md)
+-   [弹性负载均衡 ELB](ELB-Go-SDK用户指导.md)
+-   [弹性伸缩 AS](AS-Go-SDK用户指导.md)
+-   [运营能力 BSS](BSS-Python-SDK示例.md)
 
 ## 前提条件<a name="section6648223"></a>
 
@@ -154,16 +138,30 @@ func main() {
 <td class="cellrowborder" valign="top" width="44.71447144714472%" headers="mcps1.2.4.1.3 "><p id="p105621519321"><a name="p105621519321"></a><a name="p105621519321"></a>https://iam.cn-north-1.myhuaweicloud.com/v3</p>
 </td>
 </tr>
+<tr id="row12948127133512"><td class="cellrowborder" valign="top" width="17.64176417641764%" headers="mcps1.2.4.1.1 "><p id="p9949147153520"><a name="p9949147153520"></a><a name="p9949147153520"></a>Username</p>
+</td>
+<td class="cellrowborder" valign="top" width="37.643764376437645%" headers="mcps1.2.4.1.2 "><p id="p1094911703517"><a name="p1094911703517"></a><a name="p1094911703517"></a>IAM用户名。如何获取，请参考<a href="如何获取IAM-用户名-账号ID以及项目ID.md">如何获取IAM 用户名、账号ID以及项目ID？</a>。</p>
+</td>
+<td class="cellrowborder" valign="top" width="44.71447144714472%" headers="mcps1.2.4.1.3 "><p id="p59491872353"><a name="p59491872353"></a><a name="p59491872353"></a>-</p>
+</td>
+</tr>
+<tr id="row0606191011354"><td class="cellrowborder" valign="top" width="17.64176417641764%" headers="mcps1.2.4.1.1 "><p id="p4607010193512"><a name="p4607010193512"></a><a name="p4607010193512"></a>Password</p>
+</td>
+<td class="cellrowborder" valign="top" width="37.643764376437645%" headers="mcps1.2.4.1.2 "><p id="p126071410143517"><a name="p126071410143517"></a><a name="p126071410143517"></a>IAM用户密码。</p>
+</td>
+<td class="cellrowborder" valign="top" width="44.71447144714472%" headers="mcps1.2.4.1.3 "><p id="p12607610133518"><a name="p12607610133518"></a><a name="p12607610133518"></a>-</p>
+</td>
+</tr>
 <tr id="row1656275163214"><td class="cellrowborder" valign="top" width="17.64176417641764%" headers="mcps1.2.4.1.1 "><p id="p993913484"><a name="p993913484"></a><a name="p993913484"></a>ProjectID</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.643764376437645%" headers="mcps1.2.4.1.2 "><p id="p664771152820"><a name="p664771152820"></a><a name="p664771152820"></a>项目ID。如何获取项目ID请参考<a href="如何获取domain_name-project_name和project_id.md">如何获取domain_name、project_name和project_id ?</a>。</p>
+<td class="cellrowborder" valign="top" width="37.643764376437645%" headers="mcps1.2.4.1.2 "><p id="p664771152820"><a name="p664771152820"></a><a name="p664771152820"></a>项目ID。如何获取，请参考<a href="如何获取IAM-用户名-账号ID以及项目ID.md">如何获取IAM 用户名、账号ID以及项目ID？</a>。</p>
 </td>
 <td class="cellrowborder" valign="top" width="44.71447144714472%" headers="mcps1.2.4.1.3 "><p id="p2056295203213"><a name="p2056295203213"></a><a name="p2056295203213"></a>-</p>
 </td>
 </tr>
 <tr id="row856217512326"><td class="cellrowborder" valign="top" width="17.64176417641764%" headers="mcps1.2.4.1.1 "><p id="p656217518325"><a name="p656217518325"></a><a name="p656217518325"></a>DomainID</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.643764376437645%" headers="mcps1.2.4.1.2 "><p id="p856285113212"><a name="p856285113212"></a><a name="p856285113212"></a>账号ID。如何获取账号ID请参考<a href="如何获取domain_name-project_name和project_id.md">如何获取domain_name、project_name和project_id ?</a>。</p>
+<td class="cellrowborder" valign="top" width="37.643764376437645%" headers="mcps1.2.4.1.2 "><p id="p856285113212"><a name="p856285113212"></a><a name="p856285113212"></a>账号ID。如何获取，请参考<a href="如何获取IAM-用户名-账号ID以及项目ID.md">如何获取IAM 用户名、账号ID以及项目ID？</a>。</p>
 </td>
 <td class="cellrowborder" valign="top" width="44.71447144714472%" headers="mcps1.2.4.1.3 "><p id="p25628523215"><a name="p25628523215"></a><a name="p25628523215"></a>-</p>
 </td>

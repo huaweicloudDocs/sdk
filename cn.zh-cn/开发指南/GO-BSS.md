@@ -2,8 +2,8 @@
 
 基于BSS v1.0 API的SDK接口如下，调用方式请参考示例代码。
 
->![](public_sys-resources/icon-note.gif) **说明：**   
->如下接口的API链接有面向合作伙伴和面向客户之分，若链接为“合作伙伴运营能力”表明该链接是面向合作伙伴的API接口链接，若链接为“客户运营能力”表明该链接是面向客户的API接口链接。  
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>如下接口的API链接有面向合作伙伴和面向客户之分，若链接为“合作伙伴运营能力”表明该链接是面向合作伙伴的API接口链接，若链接为“客户运营能力”表明该链接是面向客户的API接口链接。
 
 <a name="table94971342195618"></a>
 <table><thead align="left"><tr id="row107201342165614"><th class="cellrowborder" valign="top" width="26.037396260373956%" id="mcps1.1.4.1.1"><p id="p1072044212568"><a name="p1072044212568"></a><a name="p1072044212568"></a>Interface</p>
