@@ -10,58 +10,25 @@
 
 Python SDK支持的云服务产品如下：
 
-<a name="table1848320466268"></a>
-<table><tbody><tr id="row048394632610"><td class="cellrowborder" valign="top" width="33.463346334633464%"><p id="p548314642615"><a name="p548314642615"></a><a name="p548314642615"></a><a href="IAM-Python-SDK示例.md">统一身份认证 IAM</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.2033203320332%"><p id="p15483746112620"><a name="p15483746112620"></a><a name="p15483746112620"></a><a href="IMS-Python-SDK示例.md">镜像服务 IMS</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p184834466266"><a name="p184834466266"></a><a name="p184834466266"></a><a href="VPC-Python-SDK示例.md">虚拟私有云 VPC</a></p>
-</td>
-</tr>
-<tr id="row848314616261"><td class="cellrowborder" valign="top" width="33.463346334633464%"><p id="p8483154672611"><a name="p8483154672611"></a><a name="p8483154672611"></a><a href="ECS-Python-SDK示例.md">弹性云服务器 ECS</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.2033203320332%"><p id="p7483546112619"><a name="p7483546112619"></a><a name="p7483546112619"></a><a href="EVS-Python-SDK示例.md">云硬盘 EVS</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p6483646192611"><a name="p6483646192611"></a><a name="p6483646192611"></a><a href="AS-Python-SDK示例.md">弹性伸缩 AS</a></p>
-</td>
-</tr>
-<tr id="row0483114672619"><td class="cellrowborder" valign="top" width="33.463346334633464%"><p id="p134831346172620"><a name="p134831346172620"></a><a name="p134831346172620"></a><a href="CES-Python-SDK示例.md">云监控服务 CES</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.2033203320332%"><p id="p1848384618269"><a name="p1848384618269"></a><a name="p1848384618269"></a><a href="DNS-Python-SDK示例.md">云解析服务 DNS</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p1348344616268"><a name="p1348344616268"></a><a name="p1348344616268"></a><a href="ELB-Python-SDK示例.md">弹性负载均衡 ELB</a></p>
-</td>
-</tr>
-<tr id="row12483246172614"><td class="cellrowborder" valign="top" width="33.463346334633464%"><p id="p648416460264"><a name="p648416460264"></a><a name="p648416460264"></a><a href="VBS-Python-SDK示例.md">云硬盘备份 VBS</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.2033203320332%"><p id="p116943934313"><a name="p116943934313"></a><a name="p116943934313"></a><a href="KMS-Python-SDK示例.md">数据加密服务 KMS</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p104845462264"><a name="p104845462264"></a><a name="p104845462264"></a><a href="Anti-DDoS-Python-SDK示例.md">流量清洗Anti-DDoS</a></p>
-</td>
-</tr>
-<tr id="row1448484632611"><td class="cellrowborder" valign="top" width="33.463346334633464%"><p id="p94841746142617"><a name="p94841746142617"></a><a name="p94841746142617"></a><a href="DMS-Python-SDK示例.md">分布式消息服务 DMS</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.2033203320332%"><p id="p3484346192613"><a name="p3484346192613"></a><a name="p3484346192613"></a><a href="MRS-Python-SDK示例.md">MapReduce服务 MRS</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p76902021442"><a name="p76902021442"></a><a name="p76902021442"></a><a href="RDS-Python-SDK示例.md">关系型数据库 RDS</a></p>
-</td>
-</tr>
-<tr id="row11484946192618"><td class="cellrowborder" valign="top" width="33.463346334633464%"><p id="p174841446102618"><a name="p174841446102618"></a><a name="p174841446102618"></a><a href="CDN-Python-SDK示例.md">内容分发网络 CDN</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.2033203320332%"><p id="p4261121821718"><a name="p4261121821718"></a><a name="p4261121821718"></a><a href="BSS-Python-SDK示例.md">运营能力 BSS</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p684012062411"><a name="p684012062411"></a><a name="p684012062411"></a><a href="TMS-Python-SDK示例.md">标签管理服务 TMS</a></p>
-</td>
-</tr>
-<tr id="row17862181283618"><td class="cellrowborder" valign="top" width="33.463346334633464%"><p id="p3713185403415"><a name="p3713185403415"></a><a name="p3713185403415"></a><a href="EPS-Python-SDK示例.md">企业管理 EPS</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="33.2033203320332%"><p id="p1090785544812"><a name="p1090785544812"></a><a name="p1090785544812"></a>-</p>
-</td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%"><p id="p6863201215363"><a name="p6863201215363"></a><a name="p6863201215363"></a>-</p>
-</td>
-</tr>
-</tbody>
-</table>
+-   [统一身份认证 IAM](IAM-Python-SDK示例.md)
+-   [镜像服务 IMS](IMS-Python-SDK示例.md)
+-   [虚拟私有云 VPC](VPC-Python-SDK示例.md)
+-   [弹性云服务器 ECS](ECS-Python-SDK示例.md)
+-   [云硬盘 EVS](EVS-Python-SDK示例.md)
+-   [弹性伸缩 AS](AS-Python-SDK示例.md)
+-   [云监控服务 CES](CES-Python-SDK示例.md)
+-   [云解析服务 DNS](DNS-Python-SDK示例.md)
+-   [弹性负载均衡 ELB](ELB-Python-SDK示例.md)
+-   [云硬盘备份 VBS](VBS-Python-SDK示例.md)
+-   [数据加密服务 KMS](KMS-Python-SDK示例.md)
+-   [流量清洗Anti-DDoS](Anti-DDoS-Python-SDK示例.md)
+-   [分布式消息服务 DMS](DMS-Python-SDK示例.md)
+-   [MapReduce服务 MRS](MRS-Python-SDK示例.md)
+-   [关系型数据库 RDS](RDS-Python-SDK示例.md)
+-   [内容分发网络 CDN](CDN-Python-SDK示例.md)
+-   [运营能力 BSS](BSS-Python-SDK示例.md)
+-   [标签管理服务 TMS](TMS-Python-SDK示例.md)
+-   [企业管理 EPS](EPS-Python-SDK示例.md)
 
 ## 前提条件<a name="section6648223"></a>
 
@@ -128,16 +95,30 @@ list_servers()
 <td class="cellrowborder" valign="top" width="44.71447144714472%" headers="mcps1.2.4.1.3 "><p id="p105621519321"><a name="p105621519321"></a><a name="p105621519321"></a>https://iam.cn-north-1.myhuaweicloud.com/v3</p>
 </td>
 </tr>
+<tr id="row15341439173619"><td class="cellrowborder" valign="top" width="15.901590159015901%" headers="mcps1.2.4.1.1 "><p id="p1335739143615"><a name="p1335739143615"></a><a name="p1335739143615"></a>username</p>
+</td>
+<td class="cellrowborder" valign="top" width="39.38393839383938%" headers="mcps1.2.4.1.2 "><p id="p035113933616"><a name="p035113933616"></a><a name="p035113933616"></a>IAM用户名。如何获取，请参考<a href="如何获取IAM-用户名-账号ID以及项目ID.md">如何获取IAM 用户名、账号ID以及项目ID？</a>。</p>
+</td>
+<td class="cellrowborder" valign="top" width="44.71447144714472%" headers="mcps1.2.4.1.3 "><p id="p193510394368"><a name="p193510394368"></a><a name="p193510394368"></a>-</p>
+</td>
+</tr>
+<tr id="row1412173620369"><td class="cellrowborder" valign="top" width="15.901590159015901%" headers="mcps1.2.4.1.1 "><p id="p5413183633617"><a name="p5413183633617"></a><a name="p5413183633617"></a>password</p>
+</td>
+<td class="cellrowborder" valign="top" width="39.38393839383938%" headers="mcps1.2.4.1.2 "><p id="p241353603618"><a name="p241353603618"></a><a name="p241353603618"></a>IAM用户密码。</p>
+</td>
+<td class="cellrowborder" valign="top" width="44.71447144714472%" headers="mcps1.2.4.1.3 "><p id="p541383613368"><a name="p541383613368"></a><a name="p541383613368"></a>-</p>
+</td>
+</tr>
 <tr id="row1656275163214"><td class="cellrowborder" valign="top" width="15.901590159015901%" headers="mcps1.2.4.1.1 "><p id="p993913484"><a name="p993913484"></a><a name="p993913484"></a>projectId</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.38393839383938%" headers="mcps1.2.4.1.2 "><p id="p664771152820"><a name="p664771152820"></a><a name="p664771152820"></a>项目ID。如何获取项目ID请参考<a href="如何获取domain_name-project_name和project_id.md">如何获取domain_name、project_name和project_id ?</a>。</p>
+<td class="cellrowborder" valign="top" width="39.38393839383938%" headers="mcps1.2.4.1.2 "><p id="p664771152820"><a name="p664771152820"></a><a name="p664771152820"></a>项目ID。如何获取，请参考<a href="如何获取IAM-用户名-账号ID以及项目ID.md">如何获取IAM 用户名、账号ID以及项目ID？</a>。</p>
 </td>
 <td class="cellrowborder" valign="top" width="44.71447144714472%" headers="mcps1.2.4.1.3 "><p id="p2056295203213"><a name="p2056295203213"></a><a name="p2056295203213"></a>-</p>
 </td>
 </tr>
 <tr id="row856217512326"><td class="cellrowborder" valign="top" width="15.901590159015901%" headers="mcps1.2.4.1.1 "><p id="p656217518325"><a name="p656217518325"></a><a name="p656217518325"></a>userDomainId</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.38393839383938%" headers="mcps1.2.4.1.2 "><p id="p856285113212"><a name="p856285113212"></a><a name="p856285113212"></a>账号ID。如何获取账号ID请参考<a href="如何获取domain_name-project_name和project_id.md">如何获取domain_name、project_name和project_id ?</a>。</p>
+<td class="cellrowborder" valign="top" width="39.38393839383938%" headers="mcps1.2.4.1.2 "><p id="p856285113212"><a name="p856285113212"></a><a name="p856285113212"></a>账号ID。如何获取，请参考<a href="如何获取IAM-用户名-账号ID以及项目ID.md">如何获取IAM 用户名、账号ID以及项目ID？</a>。</p>
 </td>
 <td class="cellrowborder" valign="top" width="44.71447144714472%" headers="mcps1.2.4.1.3 "><p id="p25628523215"><a name="p25628523215"></a><a name="p25628523215"></a>-</p>
 </td>
