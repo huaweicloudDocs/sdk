@@ -13,17 +13,17 @@ SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK
 </th>
 </tr>
 </thead>
-<tbody><tr id="row1615211291003"><td class="cellrowborder" valign="top" width="42.730000000000004%" headers="mcps1.1.3.1.1 "><p id="p2018595620380"><a name="p2018595620380"></a><a name="p2018595620380"></a>function</p>
+<tbody><tr id="row1615211291003"><td class="cellrowborder" valign="top" width="42.730000000000004%" headers="mcps1.1.3.1.1 "><p id="p2018595620380"><a name="p2018595620380"></a><a name="p2018595620380"></a><span>function</span></p>
 </td>
 <td class="cellrowborder" valign="top" width="57.269999999999996%" headers="mcps1.1.3.1.2 "><p id="p2015282918012"><a name="p2015282918012"></a><a name="p2015282918012"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-java/blob/master/examples/fgs/v1/Function.java" target="_blank" rel="noopener noreferrer">代码</a></p>
 </td>
 </tr>
-<tr id="row8516181112391"><td class="cellrowborder" valign="top" width="42.730000000000004%" headers="mcps1.1.3.1.1 "><p id="p195171711113912"><a name="p195171711113912"></a><a name="p195171711113912"></a>version</p>
+<tr id="row8516181112391"><td class="cellrowborder" valign="top" width="42.730000000000004%" headers="mcps1.1.3.1.1 "><p id="p195171711113912"><a name="p195171711113912"></a><a name="p195171711113912"></a><span>version</span></p>
 </td>
 <td class="cellrowborder" valign="top" width="57.269999999999996%" headers="mcps1.1.3.1.2 "><p id="p1517101113914"><a name="p1517101113914"></a><a name="p1517101113914"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-java/blob/master/examples/fgs/v1/Versions.java" target="_blank" rel="noopener noreferrer">代码</a></p>
 </td>
 </tr>
-<tr id="row144681518203915"><td class="cellrowborder" valign="top" width="42.730000000000004%" headers="mcps1.1.3.1.1 "><p id="p5468151883915"><a name="p5468151883915"></a><a name="p5468151883915"></a>trigger</p>
+<tr id="row144681518203915"><td class="cellrowborder" valign="top" width="42.730000000000004%" headers="mcps1.1.3.1.1 "><p id="p5468151883915"><a name="p5468151883915"></a><a name="p5468151883915"></a><span>trigger</span></p>
 </td>
 <td class="cellrowborder" valign="top" width="57.269999999999996%" headers="mcps1.1.3.1.2 "><p id="p446816185393"><a name="p446816185393"></a><a name="p446816185393"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-java/blob/master/examples/fgs/v1/Trigger.java" target="_blank" rel="noopener noreferrer">代码</a></p>
 </td>
@@ -40,17 +40,17 @@ SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK
 </th>
 </tr>
 </thead>
-<tbody><tr id="row18081525154911"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.1 "><p id="p1780811258495"><a name="p1780811258495"></a><a name="p1780811258495"></a>function</p>
+<tbody><tr id="row18081525154911"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.1 "><p id="p1780811258495"><a name="p1780811258495"></a><a name="p1780811258495"></a><span>function</span></p>
 </td>
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.2 "><p id="p9808182512497"><a name="p9808182512497"></a><a name="p9808182512497"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-java/blob/master/examples/fgs/v2/Function.java" target="_blank" rel="noopener noreferrer">代码</a>↵</p>
 </td>
 </tr>
-<tr id="row480862520493"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.1 "><p id="p98081325104917"><a name="p98081325104917"></a><a name="p98081325104917"></a>version</p>
+<tr id="row480862520493"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.1 "><p id="p98081325104917"><a name="p98081325104917"></a><a name="p98081325104917"></a><span>version</span></p>
 </td>
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.2 "><p id="p7808132511491"><a name="p7808132511491"></a><a name="p7808132511491"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-java/blob/master/examples/fgs/v2/Versions.java" target="_blank" rel="noopener noreferrer">代码</a>↵</p>
 </td>
 </tr>
-<tr id="row1580813252491"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.1 "><p id="p680816253491"><a name="p680816253491"></a><a name="p680816253491"></a>trigger</p>
+<tr id="row1580813252491"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.1 "><p id="p680816253491"><a name="p680816253491"></a><a name="p680816253491"></a><span>trigger</span></p>
 </td>
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.2 "><p id="p480810253491"><a name="p480810253491"></a><a name="p480810253491"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-java/blob/master/examples/fgs/v2/Trigger.java" target="_blank" rel="noopener noreferrer">代码</a>↵</p>
 </td>

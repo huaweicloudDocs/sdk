@@ -15,7 +15,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="37.51375137513751%" headers="mcps1.1.4.1.2 "><p id="p11161723132212"><a name="p11161723132212"></a><a name="p11161723132212"></a>func listURL(sc *gophercloud.ServiceClient, databasename string)</p>
 </td>
-<td class="cellrowborder" valign="top" width="36.23362336233624%" headers="mcps1.1.4.1.3 "><p id="p811642342211"><a name="p811642342211"></a><a name="p811642342211"></a>GET /v3/{project_id}/datastores/{database_name}</p>
+<td class="cellrowborder" valign="top" width="36.23362336233624%" headers="mcps1.1.4.1.3 "><p id="p811642342211"><a name="p811642342211"></a><a name="p811642342211"></a><span>GET </span><span>/v3/{</span>project_id<span>}/datastores/{</span>database_name<span>}</span></p>
 <p id="p1699013172311"><a name="p1699013172311"></a><a name="p1699013172311"></a><a href="https://support.huaweicloud.com/api-rds/rds_06_0001.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -65,13 +65,13 @@
 </tr>
 <tr id="row195415438615"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p14954124317617"><a name="p14954124317617"></a><a name="p14954124317617"></a>func listerrorlogURL(sc *gophercloud.ServiceClient, instanceID string)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p16954104319615"><a name="p16954104319615"></a><a name="p16954104319615"></a>GET /v3/{project_id}/instances/{instance_id}/errorlog</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p16954104319615"><a name="p16954104319615"></a><a name="p16954104319615"></a><span>GET </span><span>/v3/{project_id}/instances/{instance_id}/errorlog</span></p>
 <p id="p499513915710"><a name="p499513915710"></a><a name="p499513915710"></a><a href="https://support.huaweicloud.com/api-rds/rds_06_0004.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row1498011461966"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p119805466610"><a name="p119805466610"></a><a name="p119805466610"></a>func listslowlogURL(sc *gophercloud.ServiceClient, instanceID string)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p3353838198"><a name="p3353838198"></a><a name="p3353838198"></a>GET /v3/{project_id}/instances/{instance_id}/slowlog</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p3353838198"><a name="p3353838198"></a><a name="p3353838198"></a><span>GET </span><span>/v3/{project_id}/instances/{instance_id}/slowlog</span></p>
 <p id="p698019460618"><a name="p698019460618"></a><a name="p698019460618"></a><a href="https://support.huaweicloud.com/api-rds/rds_06_0005.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -79,13 +79,13 @@
 </td>
 <td class="cellrowborder" valign="top" width="37.51375137513751%" headers="mcps1.1.4.1.2 "><p id="p1696117318610"><a name="p1696117318610"></a><a name="p1696117318610"></a>func listURL(sc *gophercloud.ServiceClient)</p>
 </td>
-<td class="cellrowborder" valign="top" width="36.23362336233624%" headers="mcps1.1.4.1.3 "><p id="p169715261107"><a name="p169715261107"></a><a name="p169715261107"></a>GET /v3/{project_id}/configurations</p>
+<td class="cellrowborder" valign="top" width="36.23362336233624%" headers="mcps1.1.4.1.3 "><p id="p169715261107"><a name="p169715261107"></a><a name="p169715261107"></a><span>GET </span><span>/v3/{</span>project_id<span>}/configurations</span></p>
 <p id="p187131055151213"><a name="p187131055151213"></a><a name="p187131055151213"></a><a href="https://support.huaweicloud.com/api-rds/rds_09_0301.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row147913379615"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p6480737465"><a name="p6480737465"></a><a name="p6480737465"></a>func createURL(sc *gophercloud.ServiceClient)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p6840643157"><a name="p6840643157"></a><a name="p6840643157"></a>POST /v3/{project_id}/configurations</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p6840643157"><a name="p6840643157"></a><a name="p6840643157"></a><span>POST</span> <span>/v3/{project_id}/configurations</span></p>
 <p id="p1165673312168"><a name="p1165673312168"></a><a name="p1165673312168"></a><a href="https://support.huaweicloud.com/api-rds/rds_09_0302.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -123,25 +123,25 @@
 </tr>
 <tr id="row16380175016556"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p13380195005510"><a name="p13380195005510"></a><a name="p13380195005510"></a>func deleteURL(sc *gophercloud.ServiceClient, backupId string)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p15380450195516"><a name="p15380450195516"></a><a name="p15380450195516"></a>DELETE /v3/{project_id}/backups/{backup_id}</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p15380450195516"><a name="p15380450195516"></a><a name="p15380450195516"></a>DELETE <span>/v3/{project_id}/backups/{backup_id}</span></p>
 <p id="p1156110520610"><a name="p1156110520610"></a><a name="p1156110520610"></a><a href="https://support.huaweicloud.com/api-rds/rds_09_0007.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row11859195395515"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p185917537554"><a name="p185917537554"></a><a name="p185917537554"></a>func getrestoretimeURL(sc *gophercloud.ServiceClient, instanceId string)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p1187418167916"><a name="p1187418167916"></a><a name="p1187418167916"></a>GET /v3/{project_id}/instances/{instance_id}/restore-time</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p1187418167916"><a name="p1187418167916"></a><a name="p1187418167916"></a><span>GET</span> <span>/v3/{project_id}/instances/{instance_id}/restore-time</span></p>
 <p id="p178529279914"><a name="p178529279914"></a><a name="p178529279914"></a><a href="https://support.huaweicloud.com/api-rds/rds_09_0011.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row47661656115519"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p207661056115511"><a name="p207661056115511"></a><a name="p207661056115511"></a>func restoreURL(sc *gophercloud.ServiceClient)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p044941044913"><a name="p044941044913"></a><a name="p044941044913"></a>POST /v3/{project_id}/instances</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p044941044913"><a name="p044941044913"></a><a name="p044941044913"></a>POST <span>/v3/{project_id}/instances</span></p>
 <p id="p8405153013509"><a name="p8405153013509"></a><a name="p8405153013509"></a><a href="https://support.huaweicloud.com/api-rds/rds_09_0008.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row19533619135617"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p853411917565"><a name="p853411917565"></a><a name="p853411917565"></a>func recoveryURL(sc *gophercloud.ServiceClient)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p1979418565710"><a name="p1979418565710"></a><a name="p1979418565710"></a>GET /v3/{project_id}/instances/recovery</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p1979418565710"><a name="p1979418565710"></a><a name="p1979418565710"></a>GET <span>/v3/{project_id}/instances/recovery</span></p>
 <p id="p1753461935616"><a name="p1753461935616"></a><a name="p1753461935616"></a><a href="https://support.huaweicloud.com/api-rds/rds_09_0009.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -149,32 +149,32 @@
 </td>
 <td class="cellrowborder" valign="top" width="37.51375137513751%" headers="mcps1.1.4.1.2 "><p id="p323417392616"><a name="p323417392616"></a><a name="p323417392616"></a>func createURL(sc *gophercloud.ServiceClient, instanceID string)</p>
 </td>
-<td class="cellrowborder" valign="top" width="36.23362336233624%" headers="mcps1.1.4.1.3 "><p id="p12234123152617"><a name="p12234123152617"></a><a name="p12234123152617"></a>POST /v3/{project_id}/instances/{instance_id}/database</p>
+<td class="cellrowborder" valign="top" width="36.23362336233624%" headers="mcps1.1.4.1.3 "><p id="p12234123152617"><a name="p12234123152617"></a><a name="p12234123152617"></a><span>POST </span><span>/v3/{project_id}/instances/{instance_id}/database</span></p>
 <p id="p57464382261"><a name="p57464382261"></a><a name="p57464382261"></a><a href="https://support.huaweicloud.com/api-rds/rds_06_0007.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row1374791919285"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p57474193287"><a name="p57474193287"></a><a name="p57474193287"></a>func listURL(sc *gophercloud.ServiceClient, instanceID string)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p11747419142819"><a name="p11747419142819"></a><a name="p11747419142819"></a>GET /v3/{project_id}/instances/{instance_id}/database/detail</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p11747419142819"><a name="p11747419142819"></a><a name="p11747419142819"></a><span>GET </span><span>/v3/{project_id}/instances/{instance_id}/database/detail</span></p>
 <p id="p114714852917"><a name="p114714852917"></a><a name="p114714852917"></a><a href="https://support.huaweicloud.com/api-rds/rds_06_0035.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row13285151613113"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1628515163318"><a name="p1628515163318"></a><a name="p1628515163318"></a>func deleteURL(sc *gophercloud.ServiceClient, instanceID string,dbName string)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p179621502588"><a name="p179621502588"></a><a name="p179621502588"></a>DELETE</p>
-<p id="p132851116193120"><a name="p132851116193120"></a><a name="p132851116193120"></a>/v3/{project_id}/instances/{instance_id}/database/{db_name}</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p179621502588"><a name="p179621502588"></a><a name="p179621502588"></a><span>DELETE</span></p>
+<p id="p132851116193120"><a name="p132851116193120"></a><a name="p132851116193120"></a><span>/v3/{project_id}/instances/{instance_id}/database/{db_name</span>}</p>
 <p id="p15468184933415"><a name="p15468184933415"></a><a name="p15468184933415"></a><a href="https://support.huaweicloud.com/api-rds/rds_06_0009.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row11332194583314"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1433318455331"><a name="p1433318455331"></a><a name="p1433318455331"></a>func createURL(sc *gophercloud.ServiceClient, instanceID string)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p8333114543310"><a name="p8333114543310"></a><a name="p8333114543310"></a>POST /v3/{project_id}/instances/{instance_id}/db_privilege</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p8333114543310"><a name="p8333114543310"></a><a name="p8333114543310"></a><span>POST </span><span>/v3/{project_id}/instances/{instance_id}/db_privilege</span></p>
 <p id="p17748163113715"><a name="p17748163113715"></a><a name="p17748163113715"></a><a href="https://support.huaweicloud.com/api-rds/rds_06_0013.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row1133813525431"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1233965211434"><a name="p1233965211434"></a><a name="p1233965211434"></a>func deleteURL(sc *gophercloud.ServiceClient, instanceID string)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p3339165264318"><a name="p3339165264318"></a><a name="p3339165264318"></a>DELETE /v3/{project_id}/instances/{instance_id}/db_privilege</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p3339165264318"><a name="p3339165264318"></a><a name="p3339165264318"></a><span>DELETE </span><span>/v3/{project_id}/instances/{instance_id}/db_privilege</span></p>
 <p id="p14977947154515"><a name="p14977947154515"></a><a name="p14977947154515"></a><a href="https://support.huaweicloud.com/api-rds/rds_06_0014.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -182,19 +182,19 @@
 </td>
 <td class="cellrowborder" valign="top" width="37.51375137513751%" headers="mcps1.1.4.1.2 "><p id="p201161221485"><a name="p201161221485"></a><a name="p201161221485"></a>func createURL(sc *gophercloud.ServiceClient, instanceID string)</p>
 </td>
-<td class="cellrowborder" valign="top" width="36.23362336233624%" headers="mcps1.1.4.1.3 "><p id="p54581299498"><a name="p54581299498"></a><a name="p54581299498"></a>POST /v3/{project_id}/instances/{instance_id}/db_user</p>
+<td class="cellrowborder" valign="top" width="36.23362336233624%" headers="mcps1.1.4.1.3 "><p id="p54581299498"><a name="p54581299498"></a><a name="p54581299498"></a><span>POST </span><span>/v3/{project_id}/instances/{instance_id}/db_user</span></p>
 <p id="p1811622234814"><a name="p1811622234814"></a><a name="p1811622234814"></a><a href="https://support.huaweicloud.com/api-rds/rds_06_0010.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row1266142412487"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p186611249486"><a name="p186611249486"></a><a name="p186611249486"></a>func listURL(sc *gophercloud.ServiceClient, instanceID string)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p794921517558"><a name="p794921517558"></a><a name="p794921517558"></a>GET /v3/{project_id}/instances/{instance_id}/db_user/detail</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p794921517558"><a name="p794921517558"></a><a name="p794921517558"></a><span>GET </span><span>/v3/{project_id}/instances/{instance_id}/db_user/detail</span></p>
 <p id="p135491544185315"><a name="p135491544185315"></a><a name="p135491544185315"></a><a href="https://support.huaweicloud.com/api-rds/rds_06_0032.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row174591215718"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p846212155718"><a name="p846212155718"></a><a name="p846212155718"></a>func deleteURL(sc *gophercloud.ServiceClient, instanceID string, dbuser string)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p2046151219577"><a name="p2046151219577"></a><a name="p2046151219577"></a>DELETE v3/{project_id}/instances/{instance_id}/db_user/{user_name}</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p2046151219577"><a name="p2046151219577"></a><a name="p2046151219577"></a><span>DELETE </span><span>v3/{project_id}/instances/{instance_id}/db_user/{user_name}</span></p>
 <p id="p144357112585"><a name="p144357112585"></a><a name="p144357112585"></a><a href="https://support.huaweicloud.com/api-rds/rds_06_0012.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -202,7 +202,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="37.51375137513751%" headers="mcps1.1.4.1.2 "><p id="p1696052765816"><a name="p1696052765816"></a><a name="p1696052765816"></a>func listURL(sc *gophercloud.ServiceClient, databasename string)</p>
 </td>
-<td class="cellrowborder" valign="top" width="36.23362336233624%" headers="mcps1.1.4.1.3 "><p id="p1650201110115"><a name="p1650201110115"></a><a name="p1650201110115"></a>GET /v3/{project_id}/flavors/{database_name}</p>
+<td class="cellrowborder" valign="top" width="36.23362336233624%" headers="mcps1.1.4.1.3 "><p id="p1650201110115"><a name="p1650201110115"></a><a name="p1650201110115"></a><span>GET /v3/{project_id}/flavors/{database_name}</span></p>
 <p id="p1096112713585"><a name="p1096112713585"></a><a name="p1096112713585"></a><a href="https://support.huaweicloud.com/api-rds/rds_06_0002.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -210,7 +210,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="37.51375137513751%" headers="mcps1.1.4.1.2 "><p id="p128328174318"><a name="p128328174318"></a><a name="p128328174318"></a>func listURL(sc *gophercloud.ServiceClient, databasename string)</p>
 </td>
-<td class="cellrowborder" valign="top" width="36.23362336233624%" headers="mcps1.1.4.1.3 "><p id="p16832161713316"><a name="p16832161713316"></a><a name="p16832161713316"></a>GET/v3/{project_id}/storage-type/{database_name}</p>
+<td class="cellrowborder" valign="top" width="36.23362336233624%" headers="mcps1.1.4.1.3 "><p id="p16832161713316"><a name="p16832161713316"></a><a name="p16832161713316"></a><span>GET</span><span>/v3/{project_id}/storage-type/{database_name}</span></p>
 <p id="p171635581139"><a name="p171635581139"></a><a name="p171635581139"></a><a href="https://support.huaweicloud.com/api-rds/rds_04_0002.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>

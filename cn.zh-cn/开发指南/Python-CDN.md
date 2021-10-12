@@ -11,7 +11,7 @@
 </th>
 </tr>
 </thead>
-<tbody><tr id="row11657666"><td class="cellrowborder" rowspan="38" valign="top" width="26.99269926992699%" headers="mcps1.1.4.1.1 "><p id="p2674132855811"><a name="p2674132855811"></a><a name="p2674132855811"></a>Acceleration domain name Operations</p>
+<tbody><tr id="row11657666"><td class="cellrowborder" rowspan="38" valign="top" width="26.99269926992699%" headers="mcps1.1.4.1.1 "><p id="p2674132855811"><a name="p2674132855811"></a><a name="p2674132855811"></a><span>Acceleration domain name</span> Operations</p>
 </td>
 <td class="cellrowborder" valign="top" width="36.03360336033604%" headers="mcps1.1.4.1.2 "><p id="p59810509373"><a name="p59810509373"></a><a name="p59810509373"></a>domains(enterprise_project_id='ALL', page_size=100, page_number=1, **query)</p>
 </td>
@@ -289,21 +289,21 @@
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p191058500372"><a name="p191058500372"></a><a name="p191058500372"></a>GET /v1.0/cdn/logs</p>
 </td>
 </tr>
-<tr id="row745084"><td class="cellrowborder" valign="top" width="26.99269926992699%" headers="mcps1.1.4.1.1 "><p id="p185281636774"><a name="p185281636774"></a><a name="p185281636774"></a>Preheating task Operations</p>
+<tr id="row745084"><td class="cellrowborder" valign="top" width="26.99269926992699%" headers="mcps1.1.4.1.1 "><p id="p185281636774"><a name="p185281636774"></a><a name="p185281636774"></a><span>Preheating task </span>Operations</p>
 </td>
 <td class="cellrowborder" valign="top" width="36.03360336033604%" headers="mcps1.1.4.1.2 "><p id="p16105650183720"><a name="p16105650183720"></a><a name="p16105650183720"></a>create_preheat_task(**attrs)</p>
 </td>
 <td class="cellrowborder" valign="top" width="36.97369736973697%" headers="mcps1.1.4.1.3 "><p id="p5106185053714"><a name="p5106185053714"></a><a name="p5106185053714"></a>POST /v1.0/cdn/preheatingtasks</p>
 </td>
 </tr>
-<tr id="row40216515"><td class="cellrowborder" valign="top" width="26.99269926992699%" headers="mcps1.1.4.1.1 "><p id="p852843620714"><a name="p852843620714"></a><a name="p852843620714"></a>Refreshing task Operations</p>
+<tr id="row40216515"><td class="cellrowborder" valign="top" width="26.99269926992699%" headers="mcps1.1.4.1.1 "><p id="p852843620714"><a name="p852843620714"></a><a name="p852843620714"></a><span>Refreshing task </span>Operations</p>
 </td>
 <td class="cellrowborder" valign="top" width="36.03360336033604%" headers="mcps1.1.4.1.2 "><p id="p3106195019378"><a name="p3106195019378"></a><a name="p3106195019378"></a>create_refresh_task(**attrs)</p>
 </td>
 <td class="cellrowborder" valign="top" width="36.97369736973697%" headers="mcps1.1.4.1.3 "><p id="p1010695018371"><a name="p1010695018371"></a><a name="p1010695018371"></a>POST /v1.0/cdn/refreshtasks</p>
 </td>
 </tr>
-<tr id="row109961723113210"><td class="cellrowborder" rowspan="2" valign="top" width="26.99269926992699%" headers="mcps1.1.4.1.1 "><p id="p45296361672"><a name="p45296361672"></a><a name="p45296361672"></a>Query task Operations</p>
+<tr id="row109961723113210"><td class="cellrowborder" rowspan="2" valign="top" width="26.99269926992699%" headers="mcps1.1.4.1.1 "><p id="p45296361672"><a name="p45296361672"></a><a name="p45296361672"></a><span>Query task </span>Operations</p>
 </td>
 <td class="cellrowborder" valign="top" width="36.03360336033604%" headers="mcps1.1.4.1.2 "><p id="p710618509373"><a name="p710618509373"></a><a name="p710618509373"></a>tasks(page_size=100, page_number=1, **query)</p>
 </td>

@@ -229,7 +229,7 @@
 <p id="p425213754419"><a name="p425213754419"></a><a name="p425213754419"></a><a href="https://support.huaweicloud.com/api-as/as_06_0906.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row575217348373"><td class="cellrowborder" rowspan="3" valign="top" width="25.929999999999996%" headers="mcps1.1.4.1.1 "><p id="p7353114619374"><a name="p7353114619374"></a><a name="p7353114619374"></a>Notification Operations</p>
+<tr id="row575217348373"><td class="cellrowborder" rowspan="3" valign="top" width="25.929999999999996%" headers="mcps1.1.4.1.1 "><p id="p7353114619374"><a name="p7353114619374"></a><a name="p7353114619374"></a><span>Notification Operations</span></p>
 </td>
 <td class="cellrowborder" valign="top" width="42.83%" headers="mcps1.1.4.1.2 "><p id="p1688192317384"><a name="p1688192317384"></a><a name="p1688192317384"></a>create_notification(self, group, **data)</p>
 </td>

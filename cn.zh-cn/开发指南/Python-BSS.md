@@ -35,29 +35,11 @@
 <p id="p1783441302717"><a name="p1783441302717"></a><a name="p1783441302717"></a><a href="https://support.huaweicloud.com/api-bpconsole/zh-cn_topic_0077254158.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
 </td>
 </tr>
-<tr id="row1283441319275"><td class="cellrowborder" rowspan="4" valign="top" width="26.987301269873008%" headers="mcps1.1.4.1.1 "><p id="p183431312274"><a name="p183431312274"></a><a name="p183431312274"></a>Realname Auth</p>
+<tr id="row4835181318278"><td class="cellrowborder" valign="top" width="26.987301269873008%" headers="mcps1.1.4.1.1 "><p id="p183431312274"><a name="p183431312274"></a><a name="p183431312274"></a>Realname Auth</p>
 </td>
-<td class="cellrowborder" valign="top" width="36.44635536446355%" headers="mcps1.1.4.1.2 "><p id="p19834181312271"><a name="p19834181312271"></a><a name="p19834181312271"></a>individual_realname_auth(userDomainId, **data)</p>
+<td class="cellrowborder" valign="top" width="36.44635536446355%" headers="mcps1.1.4.1.2 "><p id="p15835413182713"><a name="p15835413182713"></a><a name="p15835413182713"></a>query_realname_auth(userDomainId, **data)</p>
 </td>
-<td class="cellrowborder" valign="top" width="36.566343365663435%" headers="mcps1.1.4.1.3 "><p id="p1683420138278"><a name="p1683420138278"></a><a name="p1683420138278"></a>POST /v1.0/{partner_id}/partner/customer-mgr/realname-auth/individual</p>
-<p id="p138341136271"><a name="p138341136271"></a><a name="p138341136271"></a><a href="https://support.huaweicloud.com/api-bpconsole/mc_00004.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
-</td>
-</tr>
-<tr id="row483415133276"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p7834181312276"><a name="p7834181312276"></a><a name="p7834181312276"></a>enterprise_realname_auth(userDomainId, **data)</p>
-</td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p7834713112717"><a name="p7834713112717"></a><a name="p7834713112717"></a>POST /v1.0/{partner_id}/partner/customer-mgr/realname-auth/enterprise</p>
-<p id="p883414139277"><a name="p883414139277"></a><a name="p883414139277"></a><a href="https://support.huaweicloud.com/api-bpconsole/mc_00005.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
-</td>
-</tr>
-<tr id="row9834513112710"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p3835713172712"><a name="p3835713172712"></a><a name="p3835713172712"></a>change_enterprise_realname_auth(userDomainId, **data)</p>
-</td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p28351913112718"><a name="p28351913112718"></a><a name="p28351913112718"></a>PUT /v1.0/{partner_id}/partner/customer-mgr/realname-auth/enterprise</p>
-<p id="p1283521315277"><a name="p1283521315277"></a><a name="p1283521315277"></a><a href="https://support.huaweicloud.com/api-bpconsole/mc_00006.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
-</td>
-</tr>
-<tr id="row4835181318278"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p15835413182713"><a name="p15835413182713"></a><a name="p15835413182713"></a>query_realname_auth(userDomainId, **data)</p>
-</td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p0835161302715"><a name="p0835161302715"></a><a name="p0835161302715"></a>GET /v1.0/{partner_id}/partner/customer-mgr/realname-auth/result</p>
+<td class="cellrowborder" valign="top" width="36.566343365663435%" headers="mcps1.1.4.1.3 "><p id="p0835161302715"><a name="p0835161302715"></a><a name="p0835161302715"></a>GET /v1.0/{partner_id}/partner/customer-mgr/realname-auth/result</p>
 <p id="p12835513202719"><a name="p12835513202719"></a><a name="p12835513202719"></a><a href="https://support.huaweicloud.com/api-bpconsole/mc_00007.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
 </td>
 </tr>
@@ -70,7 +52,7 @@
 <p id="p4835013162719"><a name="p4835013162719"></a><a name="p4835013162719"></a><a href="https://support.huaweicloud.com/api-oce/zh-cn_topic_0078731101.html" target="_blank" rel="noopener noreferrer">链接（客户运营能力）</a></p>
 </td>
 </tr>
-<tr id="row10835513122714"><td class="cellrowborder" rowspan="7" valign="top" width="26.987301269873008%" headers="mcps1.1.4.1.1 "><p id="p68358130270"><a name="p68358130270"></a><a name="p68358130270"></a>Period Order</p>
+<tr id="row10835513122714"><td class="cellrowborder" rowspan="6" valign="top" width="26.987301269873008%" headers="mcps1.1.4.1.1 "><p id="p68358130270"><a name="p68358130270"></a><a name="p68358130270"></a>Period Order</p>
 </td>
 <td class="cellrowborder" valign="top" width="36.44635536446355%" headers="mcps1.1.4.1.2 "><p id="p38352130278"><a name="p38352130278"></a><a name="p38352130278"></a>query_order_list(userDomainId, **data)</p>
 </td>
@@ -91,13 +73,6 @@
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p783551392715"><a name="p783551392715"></a><a name="p783551392715"></a>POST /v1.0/{domain_id}/customer/order-mgr/order/pay</p>
 <p id="p18835191318275"><a name="p18835191318275"></a><a name="p18835191318275"></a><a href="https://support.huaweicloud.com/api-bpconsole/zh-cn_topic_0075746561.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
 <p id="p1883521362710"><a name="p1883521362710"></a><a name="p1883521362710"></a><a href="https://support.huaweicloud.com/api-oce/zh-cn_topic_0075746561.html" target="_blank" rel="noopener noreferrer">链接（客户运营能力）</a></p>
-</td>
-</tr>
-<tr id="row68351013122712"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p118351613102710"><a name="p118351613102710"></a><a name="p118351613102710"></a>unsubscribe_period_order(userDomainId, **data)</p>
-</td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p208363139278"><a name="p208363139278"></a><a name="p208363139278"></a>DELETE /v1.0/{domain_id}/customer/order-mgr/orders/{order_id}</p>
-<p id="p11836513102710"><a name="p11836513102710"></a><a name="p11836513102710"></a><a href="https://support.huaweicloud.com/api-bpconsole/zh-cn_topic_0076597539.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
-<p id="p883671322717"><a name="p883671322717"></a><a name="p883671322717"></a><a href="https://support.huaweicloud.com/api-oce/zh-cn_topic_0076597539.html" target="_blank" rel="noopener noreferrer">链接（客户运营能力）</a></p>
 </td>
 </tr>
 <tr id="row108361113162714"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p683621315278"><a name="p683621315278"></a><a name="p683621315278"></a>cancel_order(userDomainId, orderId="xxxxxxxxxx", action_id="cancel")</p>

@@ -452,42 +452,64 @@
 <p id="p1510759153310"><a name="p1510759153310"></a><a name="p1510759153310"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_03_1801.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row13309318153410"><td class="cellrowborder" rowspan="6" valign="top" width="29.838383838383837%" headers="mcps1.1.4.1.1 "><p id="p780704983417"><a name="p780704983417"></a><a name="p780704983417"></a>ServerTagService<a href="https://support.huaweicloud.com/api-ecs/ecs_03_1903.html" target="_blank" rel="noopener noreferrer">链接</a></p>
+</tbody>
+</table>
+
+基于Nova v2.1 API的SDK接口如下，调用方式请参考示例代码。
+
+<a name="table1864361853818"></a>
+<table><thead align="left"><tr id="row1064319182387"><th class="cellrowborder" valign="top" width="29.970000000000002%" id="mcps1.1.4.1.1"><p id="p66436183387"><a name="p66436183387"></a><a name="p66436183387"></a>Interface</p>
+</th>
+<th class="cellrowborder" valign="top" width="36.449999999999996%" id="mcps1.1.4.1.2"><p id="p1764301813382"><a name="p1764301813382"></a><a name="p1764301813382"></a>Method</p>
+</th>
+<th class="cellrowborder" valign="top" width="33.58%" id="mcps1.1.4.1.3"><p id="p14643418103815"><a name="p14643418103815"></a><a name="p14643418103815"></a>API</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row264371815388"><td class="cellrowborder" valign="top" width="29.970000000000002%" headers="mcps1.1.4.1.1 "><p id="p12915131123813"><a name="p12915131123813"></a><a name="p12915131123813"></a>ServerService</p>
 </td>
-<td class="cellrowborder" valign="top" width="36.60606060606061%" headers="mcps1.1.4.1.2 "><p id="p1421641173411"><a name="p1421641173411"></a><a name="p1421641173411"></a>NovaServerTag list(String serverId)</p>
+<td class="cellrowborder" valign="top" width="36.449999999999996%" headers="mcps1.1.4.1.2 "><p id="p1644131873818"><a name="p1644131873818"></a><a name="p1644131873818"></a>NovaRemoteConsoleResponse getRemoteConsole(String serverId, NovaRemoteConsole remoteConsole, Map&lt;String, String&gt; headers)</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.55555555555556%" headers="mcps1.1.4.1.3 "><p id="p92114112344"><a name="p92114112344"></a><a name="p92114112344"></a>GET /v2.1/{project_id}/servers/{server_id}/tags</p>
-<p id="p145101437142711"><a name="p145101437142711"></a><a name="p145101437142711"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_03_1902.html" target="_blank" rel="noopener noreferrer">链接</a></p>
+<td class="cellrowborder" valign="top" width="33.58%" headers="mcps1.1.4.1.3 "><p id="p164441814387"><a name="p164441814387"></a><a name="p164441814387"></a>POST /v2.1/{project_id}/servers/{server_id}/remote-consoles</p>
+<p id="p764441818388"><a name="p764441818388"></a><a name="p764441818388"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_03_1603.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row19296152011346"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p0274193410"><a name="p0274193410"></a><a name="p0274193410"></a>NovaServerTag addTags(String serverId, NovaServerTag tags)</p>
+<tr id="row296218371103"><td class="cellrowborder" rowspan="6" valign="top" width="29.970000000000002%" headers="mcps1.1.4.1.1 "><p id="p1190511394014"><a name="p1190511394014"></a><a name="p1190511394014"></a>ServerTagService</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p172174133410"><a name="p172174133410"></a><a name="p172174133410"></a>PUT /v2.1/{project_id}/servers/{server_id}/tags</p>
-<p id="p102961136132812"><a name="p102961136132812"></a><a name="p102961136132812"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_03_1902.html" target="_blank" rel="noopener noreferrer">链接</a></p>
+<td class="cellrowborder" valign="top" width="36.449999999999996%" headers="mcps1.1.4.1.2 "><p id="p3905163911012"><a name="p3905163911012"></a><a name="p3905163911012"></a>NovaServerTag list(String serverId)</p>
 </td>
-</tr>
-<tr id="row19844122413349"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p112841193413"><a name="p112841193413"></a><a name="p112841193413"></a>ActionResponse delete(String serverId, String tag)</p>
-</td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p1429415348"><a name="p1429415348"></a><a name="p1429415348"></a>DELETE /v2.1/{project_id}/servers/{server_id}/tags</p>
-<p id="p151031637152813"><a name="p151031637152813"></a><a name="p151031637152813"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_03_1904.html" target="_blank" rel="noopener noreferrer">链接</a></p>
+<td class="cellrowborder" valign="top" width="33.58%" headers="mcps1.1.4.1.3 "><p id="p1790513392016"><a name="p1790513392016"></a><a name="p1790513392016"></a>GET /v2.1/{project_id}/servers/{server_id}/tags</p>
+<p id="p189051939509"><a name="p189051939509"></a><a name="p189051939509"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_03_1902.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row14475122103416"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1214114344"><a name="p1214114344"></a><a name="p1214114344"></a>ActionResponse check(String serverId, String tag)</p>
+<tr id="row7963237701"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1190518391709"><a name="p1190518391709"></a><a name="p1190518391709"></a>NovaServerTag addTags(String serverId, NovaServerTag tags)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p12174153410"><a name="p12174153410"></a><a name="p12174153410"></a>GET /v2.1/{project_id}/servers/{server_id}/tags/{tag}</p>
-<p id="p4234538112815"><a name="p4234538112815"></a><a name="p4234538112815"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_03_1906.html" target="_blank" rel="noopener noreferrer">链接</a></p>
-</td>
-</tr>
-<tr id="row04492280346"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p121141153415"><a name="p121141153415"></a><a name="p121141153415"></a>ActionResponse addSingle(String serverId, String tag)</p>
-</td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p182194114346"><a name="p182194114346"></a><a name="p182194114346"></a>PUT /v2.1/{project_id}/servers/{server_id}/tags/{tag}</p>
-<p id="p1216163932815"><a name="p1216163932815"></a><a name="p1216163932815"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_03_1905.html" target="_blank" rel="noopener noreferrer">链接</a></p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p1290623919014"><a name="p1290623919014"></a><a name="p1290623919014"></a>PUT /v2.1/{project_id}/servers/{server_id}/tags</p>
+<p id="p1290633915011"><a name="p1290633915011"></a><a name="p1290633915011"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_03_1902.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row147992030153412"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p152134163410"><a name="p152134163410"></a><a name="p152134163410"></a>ActionResponse deleteAll(String serverId)</p>
+<tr id="row1496311371800"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p11906939801"><a name="p11906939801"></a><a name="p11906939801"></a>ActionResponse delete(String serverId, String tag)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p112441113415"><a name="p112441113415"></a><a name="p112441113415"></a>DELETE /v2.1/{project_id}/servers/{server_id}/tags/{tag}</p>
-<p id="p4991039102820"><a name="p4991039102820"></a><a name="p4991039102820"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_03_1907.html" target="_blank" rel="noopener noreferrer">链接</a></p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p39067391107"><a name="p39067391107"></a><a name="p39067391107"></a>DELETE /v2.1/{project_id}/servers/{server_id}/tags</p>
+<p id="p1390614395018"><a name="p1390614395018"></a><a name="p1390614395018"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_03_1904.html" target="_blank" rel="noopener noreferrer">链接</a></p>
+</td>
+</tr>
+<tr id="row1528918151201"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1690613391101"><a name="p1690613391101"></a><a name="p1690613391101"></a>ActionResponse check(String serverId, String tag)</p>
+</td>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p169064390014"><a name="p169064390014"></a><a name="p169064390014"></a>GET /v2.1/{project_id}/servers/{server_id}/tags/{tag}</p>
+<p id="p1090611397011"><a name="p1090611397011"></a><a name="p1090611397011"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_03_1906.html" target="_blank" rel="noopener noreferrer">链接</a></p>
+</td>
+</tr>
+<tr id="row127501428901"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1790611392009"><a name="p1790611392009"></a><a name="p1790611392009"></a>ActionResponse addSingle(String serverId, String tag)</p>
+</td>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p169064391405"><a name="p169064391405"></a><a name="p169064391405"></a>PUT /v2.1/{project_id}/servers/{server_id}/tags/{tag}</p>
+<p id="p1290612391808"><a name="p1290612391808"></a><a name="p1290612391808"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_03_1905.html" target="_blank" rel="noopener noreferrer">链接</a></p>
+</td>
+</tr>
+<tr id="row10891518902"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p090623913012"><a name="p090623913012"></a><a name="p090623913012"></a>ActionResponse deleteAll(String serverId)</p>
+</td>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p2906939707"><a name="p2906939707"></a><a name="p2906939707"></a>DELETE /v2.1/{project_id}/servers/{server_id}/tags/{tag}</p>
+<p id="p149069391209"><a name="p149069391209"></a><a name="p149069391209"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_03_1907.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 </tbody>
@@ -504,22 +526,7 @@
 </th>
 </tr>
 </thead>
-<tbody><tr id="row32630553155514"><td class="cellrowborder" rowspan="15" valign="top" width="29.970000000000002%" headers="mcps1.1.4.1.1 "><p id="p55982254155638"><a name="p55982254155638"></a><a name="p55982254155638"></a>CloudServerService</p>
-<p id="p17117407424"><a name="p17117407424"></a><a name="p17117407424"></a></p>
-<p id="p17363151510497"><a name="p17363151510497"></a><a name="p17363151510497"></a></p>
-<p id="p136341544916"><a name="p136341544916"></a><a name="p136341544916"></a></p>
-<p id="p113631115184912"><a name="p113631115184912"></a><a name="p113631115184912"></a></p>
-<p id="p19363015164920"><a name="p19363015164920"></a><a name="p19363015164920"></a></p>
-<p id="p736341512499"><a name="p736341512499"></a><a name="p736341512499"></a></p>
-<p id="p736391544914"><a name="p736391544914"></a><a name="p736391544914"></a></p>
-<p id="p1363141544911"><a name="p1363141544911"></a><a name="p1363141544911"></a></p>
-<p id="p14363111534918"><a name="p14363111534918"></a><a name="p14363111534918"></a></p>
-<p id="p11363315114913"><a name="p11363315114913"></a><a name="p11363315114913"></a></p>
-<p id="p03631115154910"><a name="p03631115154910"></a><a name="p03631115154910"></a></p>
-<p id="p33631115114919"><a name="p33631115114919"></a><a name="p33631115114919"></a></p>
-<p id="p15363121594914"><a name="p15363121594914"></a><a name="p15363121594914"></a></p>
-<p id="p133633153492"><a name="p133633153492"></a><a name="p133633153492"></a></p>
-<p id="p14363815174910"><a name="p14363815174910"></a><a name="p14363815174910"></a></p>
+<tbody><tr id="row32630553155514"><td class="cellrowborder" rowspan="16" valign="top" width="29.970000000000002%" headers="mcps1.1.4.1.1 "><p id="p55982254155638"><a name="p55982254155638"></a><a name="p55982254155638"></a>CloudServerService</p>
 </td>
 <td class="cellrowborder" valign="top" width="36.449999999999996%" headers="mcps1.1.4.1.2 "><p id="p1657518308283"><a name="p1657518308283"></a><a name="p1657518308283"></a>String create(ServerCreate creation)</p>
 </td>
@@ -611,6 +618,12 @@
 <p id="p254511016388"><a name="p254511016388"></a><a name="p254511016388"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_02_0206.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
+<tr id="row518931919355"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p14190101920355"><a name="p14190101920355"></a><a name="p14190101920355"></a>RemoteConsoleResponse remoteConsole(String serverId, RemoteConsole remoteConsole)</p>
+</td>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p20190319183510"><a name="p20190319183510"></a><a name="p20190319183510"></a>POST /v1/{project_id}/cloudservers/{server_id}/remote_console</p>
+<p id="p3447196113615"><a name="p3447196113615"></a><a name="p3447196113615"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_02_0208.html" target="_blank" rel="noopener noreferrer">链接</a></p>
+</td>
+</tr>
 <tr id="row14618038155548"><td class="cellrowborder" valign="top" width="29.970000000000002%" headers="mcps1.1.4.1.1 "><p id="p13653662155548"><a name="p13653662155548"></a><a name="p13653662155548"></a>JobService</p>
 </td>
 <td class="cellrowborder" valign="top" width="36.449999999999996%" headers="mcps1.1.4.1.2 "><p id="p380091773112"><a name="p380091773112"></a><a name="p380091773112"></a>Job get(String jobId)</p>
@@ -632,26 +645,26 @@
 <td class="cellrowborder" valign="top" width="36.449999999999996%" headers="mcps1.1.4.1.2 "><p id="p81581556171919"><a name="p81581556171919"></a><a name="p81581556171919"></a>ActionResponse add(String serverId, List&lt;ServerTags&gt;</p>
 <p id="p1215815612197"><a name="p1215815612197"></a><a name="p1215815612197"></a>serverTags)</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.58%" headers="mcps1.1.4.1.3 "><p id="p1415912568194"><a name="p1415912568194"></a><a name="p1415912568194"></a>POST /v1/{project_id}/cloudservers/{server_id}/tags/action</p>
+<td class="cellrowborder" valign="top" width="33.58%" headers="mcps1.1.4.1.3 "><p id="p1415912568194"><a name="p1415912568194"></a><a name="p1415912568194"></a><span>POST /v1/{project_id}/cloudservers/{server_id}/tags/action</span></p>
 <p id="p1615935691917"><a name="p1615935691917"></a><a name="p1615935691917"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_02_1002.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row9877183282014"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1959034492013"><a name="p1959034492013"></a><a name="p1959034492013"></a>ActionResponse delete(String serverId, List&lt;ServerTags&gt;</p>
 <p id="p359054472013"><a name="p359054472013"></a><a name="p359054472013"></a>serverTags)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p35901444162017"><a name="p35901444162017"></a><a name="p35901444162017"></a>POST /v1/{project_id}/cloudservers/{server_id}/tags/action</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p35901444162017"><a name="p35901444162017"></a><a name="p35901444162017"></a><span>POST /v1/{project_id}/cloudservers/{server_id}/tags/action</span></p>
 <p id="p11590124411208"><a name="p11590124411208"></a><a name="p11590124411208"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_02_1003.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row13524137192016"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p195916442203"><a name="p195916442203"></a><a name="p195916442203"></a>CloudServerTag list(String serverId)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p105914441207"><a name="p105914441207"></a><a name="p105914441207"></a>GET /v1/{project_id}/cloudservers/{server_id}/tags</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p105914441207"><a name="p105914441207"></a><a name="p105914441207"></a><span>GET /v1/{project_id}/cloudservers/{server_id}/tags</span></p>
 <p id="p1591184413206"><a name="p1591184413206"></a><a name="p1591184413206"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_02_1008.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row882912802010"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p75912441205"><a name="p75912441205"></a><a name="p75912441205"></a>ProjectTag listProjectTags()</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p759104442014"><a name="p759104442014"></a><a name="p759104442014"></a>GET /v1/{project_id}/cloudservers/tags</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p759104442014"><a name="p759104442014"></a><a name="p759104442014"></a><span>GET /v1/{project_id}/cloudservers/tags</span></p>
 <p id="p16591164417200"><a name="p16591164417200"></a><a name="p16591164417200"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_02_1007.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -693,7 +706,7 @@
 </thead>
 <tbody><tr id="row14919882155751"><td class="cellrowborder" rowspan="2" valign="top" width="30.176982301769822%" headers="mcps1.1.4.1.1 "><p id="p7838072155819"><a name="p7838072155819"></a><a name="p7838072155819"></a>CloudServerService</p>
 </td>
-<td class="cellrowborder" valign="top" width="35.91640835916409%" headers="mcps1.1.4.1.2 "><p id="p2255444415586"><a name="p2255444415586"></a><a name="p2255444415586"></a>AsyncRespEntity create(ServerCreate creation)</p>
+<td class="cellrowborder" valign="top" width="35.91640835916409%" headers="mcps1.1.4.1.2 "><p id="p2255444415586"><a name="p2255444415586"></a><a name="p2255444415586"></a>AsyncServerRespEntity create(ServerCreate creation)</p>
 </td>
 <td class="cellrowborder" valign="top" width="33.906609339066094%" headers="mcps1.1.4.1.3 "><p id="p695731615586"><a name="p695731615586"></a><a name="p695731615586"></a>POST /v1.1/{project_id}/cloudservers</p>
 <p id="p168392613816"><a name="p168392613816"></a><a name="p168392613816"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_02_0101.html" target="_blank" rel="noopener noreferrer">链接</a></p>

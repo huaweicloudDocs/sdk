@@ -34,29 +34,11 @@
 <p id="p1042133132010"><a name="p1042133132010"></a><a name="p1042133132010"></a><a href="https://support.huaweicloud.com/api-bpconsole/zh-cn_topic_0077254158.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
 </td>
 </tr>
-<tr id="row1645193813217"><td class="cellrowborder" rowspan="4" valign="top" width="26.45735426457354%" headers="mcps1.1.4.1.1 "><p id="p444103162010"><a name="p444103162010"></a><a name="p444103162010"></a>Realname Auth</p>
+<tr id="row1257983923214"><td class="cellrowborder" valign="top" width="26.45735426457354%" headers="mcps1.1.4.1.1 "><p id="p444103162010"><a name="p444103162010"></a><a name="p444103162010"></a>Realname Auth</p>
 </td>
-<td class="cellrowborder" valign="top" width="38.67613238676132%" headers="mcps1.1.4.1.2 "><p id="p1668642113450"><a name="p1668642113450"></a><a name="p1668642113450"></a>RealnameAuthRsp individualRealnameAuth(String domainID, RealnameAuthReq req)</p>
+<td class="cellrowborder" valign="top" width="38.67613238676132%" headers="mcps1.1.4.1.2 "><p id="p74423112010"><a name="p74423112010"></a><a name="p74423112010"></a>QueryRealnameAuthReviewResultRsp queryRealnameAuthReviewResult(String domainID, Map&lt;String, String&gt; filteringParams)</p>
 </td>
-<td class="cellrowborder" valign="top" width="34.86651334866514%" headers="mcps1.1.4.1.3 "><p id="p18443318206"><a name="p18443318206"></a><a name="p18443318206"></a>POST /v1.0/{partner_id}/partner/customer-mgr/realname-auth/individual</p>
-<p id="p844531102016"><a name="p844531102016"></a><a name="p844531102016"></a><a href="https://support.huaweicloud.com/api-bpconsole/mc_00004.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
-</td>
-</tr>
-<tr id="row8953133833219"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p644431102013"><a name="p644431102013"></a><a name="p644431102013"></a>RealnameAuthRsp enterpriseRealnameAuth(String domainID, EnterpriseRealnameAuthReq req)</p>
-</td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p24413110201"><a name="p24413110201"></a><a name="p24413110201"></a>POST /v1.0/{partner_id}/partner/customer-mgr/realname-auth/enterprise</p>
-<p id="p1644193152012"><a name="p1644193152012"></a><a name="p1644193152012"></a><a href="https://support.huaweicloud.com/api-bpconsole/mc_00005.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
-</td>
-</tr>
-<tr id="row52677399320"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p344831112015"><a name="p344831112015"></a><a name="p344831112015"></a>RealnameAuthRsp enterpriseRealnameAuthChange(String domainID, EnterpriseRealnameAuthChangeReq req)</p>
-</td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p5448319202"><a name="p5448319202"></a><a name="p5448319202"></a>PUT /v1.0/{partner_id}/partner/customer-mgr/realname-auth/enterprise</p>
-<p id="p194493120207"><a name="p194493120207"></a><a name="p194493120207"></a><a href="https://support.huaweicloud.com/api-bpconsole/mc_00006.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
-</td>
-</tr>
-<tr id="row1257983923214"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p74423112010"><a name="p74423112010"></a><a name="p74423112010"></a>QueryRealnameAuthReviewResultRsp queryRealnameAuthReviewResult(String domainID, Map&lt;String, String&gt; filteringParams)</p>
-</td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p9441831142011"><a name="p9441831142011"></a><a name="p9441831142011"></a>GET /v1.0/{partner_id}/partner/customer-mgr/realname-auth/result</p>
+<td class="cellrowborder" valign="top" width="34.86651334866514%" headers="mcps1.1.4.1.3 "><p id="p9441831142011"><a name="p9441831142011"></a><a name="p9441831142011"></a>GET /v1.0/{partner_id}/partner/customer-mgr/realname-auth/result</p>
 <p id="p24453162013"><a name="p24453162013"></a><a name="p24453162013"></a><a href="https://support.huaweicloud.com/api-bpconsole/mc_00007.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
 </td>
 </tr>
@@ -69,7 +51,7 @@
 <p id="p5366192563416"><a name="p5366192563416"></a><a name="p5366192563416"></a><a href="https://support.huaweicloud.com/api-oce/zh-cn_topic_0078731101.html" target="_blank" rel="noopener noreferrer">链接（客户运营能力）</a></p>
 </td>
 </tr>
-<tr id="row280617265339"><td class="cellrowborder" rowspan="7" valign="top" width="26.45735426457354%" headers="mcps1.1.4.1.1 "><p id="p542153132013"><a name="p542153132013"></a><a name="p542153132013"></a>Period Order</p>
+<tr id="row280617265339"><td class="cellrowborder" rowspan="6" valign="top" width="26.45735426457354%" headers="mcps1.1.4.1.1 "><p id="p542153132013"><a name="p542153132013"></a><a name="p542153132013"></a>Period Order</p>
 </td>
 <td class="cellrowborder" valign="top" width="38.67613238676132%" headers="mcps1.1.4.1.2 "><p id="p442123114207"><a name="p442123114207"></a><a name="p442123114207"></a>QueryOrdersListRsp queryOrdersList(String domainID, Map&lt;String, String&gt; filteringParams)</p>
 </td>
@@ -90,13 +72,6 @@
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p12431931132020"><a name="p12431931132020"></a><a name="p12431931132020"></a>POST /v1.0/{domain_id}/customer/order-mgr/order/pay</p>
 <p id="p94313111202"><a name="p94313111202"></a><a name="p94313111202"></a><a href="https://support.huaweicloud.com/api-bpconsole/zh-cn_topic_0075746561.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
 <p id="p6349143474013"><a name="p6349143474013"></a><a name="p6349143474013"></a><a href="https://support.huaweicloud.com/api-oce/zh-cn_topic_0075746561.html" target="_blank" rel="noopener noreferrer">链接（客户运营能力）</a></p>
-</td>
-</tr>
-<tr id="row385511275334"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1243331182016"><a name="p1243331182016"></a><a name="p1243331182016"></a>UnsubscribeOrderRsp unsubscribeOrder(String domainID, String orderId, Map&lt;String, String&gt; filteringParams)</p>
-</td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p74343172018"><a name="p74343172018"></a><a name="p74343172018"></a>DELETE /v1.0/{domain_id}/customer/order-mgr/orders/{order_id}</p>
-<p id="p4434318208"><a name="p4434318208"></a><a name="p4434318208"></a><a href="https://support.huaweicloud.com/api-bpconsole/zh-cn_topic_0076597539.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
-<p id="p15741102515174"><a name="p15741102515174"></a><a name="p15741102515174"></a><a href="https://support.huaweicloud.com/api-oce/zh-cn_topic_0076597539.html" target="_blank" rel="noopener noreferrer">链接（客户运营能力）</a></p>
 </td>
 </tr>
 <tr id="row13256128143310"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p3852314111915"><a name="p3852314111915"></a><a name="p3852314111915"></a>OrderActionsRsp orderActions(String domainID, Map&lt;String, String&gt; filteringParams, OrderActionsReq req)</p>

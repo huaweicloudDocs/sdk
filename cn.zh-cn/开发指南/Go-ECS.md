@@ -43,53 +43,53 @@
 <p id="p720812684913"><a name="p720812684913"></a><a name="p720812684913"></a><a href="https://support.huaweicloud.com/api-ecs/zh-cn_topic_0094148850.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row1595131216472"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1214405164711"><a name="p1214405164711"></a><a name="p1214405164711"></a>BatchStart(client *gophercloud.ServiceClient, opts BatchStartOpts)</p>
+<tr id="row1595131216472"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1214405164711"><a name="p1214405164711"></a><a name="p1214405164711"></a><span>BatchStart(client *gophercloud.ServiceClient, opts BatchStartOpts)</span></p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p5144125134710"><a name="p5144125134710"></a><a name="p5144125134710"></a>POST /v1/{project_id}/cloudservers/action</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p5144125134710"><a name="p5144125134710"></a><a name="p5144125134710"></a><span>POST /v1/{project_id}/cloudservers/action</span></p>
 <p id="p151451451154711"><a name="p151451451154711"></a><a name="p151451451154711"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_02_0301.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row1961062913475"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p17145751184720"><a name="p17145751184720"></a><a name="p17145751184720"></a>BatchReboot(client *gophercloud.ServiceClient, opts BatchRebootOpts)</p>
+<tr id="row1961062913475"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p17145751184720"><a name="p17145751184720"></a><a name="p17145751184720"></a><span>BatchReboot(client *gophercloud.ServiceClient, opts BatchRebootOpts)</span></p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p16145165116479"><a name="p16145165116479"></a><a name="p16145165116479"></a>POST /v1/{project_id}/cloudservers/action</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p16145165116479"><a name="p16145165116479"></a><a name="p16145165116479"></a><span>POST /v1/{project_id}/cloudservers/action</span></p>
 <p id="p12145351184718"><a name="p12145351184718"></a><a name="p12145351184718"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_02_0302.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row62701025164715"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1514555119472"><a name="p1514555119472"></a><a name="p1514555119472"></a>BatchStop(client *gophercloud.ServiceClient, opts BatchStopOpts)</p>
+<tr id="row62701025164715"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1514555119472"><a name="p1514555119472"></a><a name="p1514555119472"></a><span>BatchStop(client *gophercloud.ServiceClient, opts BatchStopOpts)</span></p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p414585114712"><a name="p414585114712"></a><a name="p414585114712"></a>POST /v1/{project_id}/cloudservers/action</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p414585114712"><a name="p414585114712"></a><a name="p414585114712"></a><span>POST /v1/{project_id}/cloudservers/action</span></p>
 <p id="p1914535111476"><a name="p1914535111476"></a><a name="p1914535111476"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_02_0303.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row72191261856"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1514519517478"><a name="p1514519517478"></a><a name="p1514519517478"></a>BatchUpdate(client *gophercloud.ServiceClient, opts BatchUpdateOpts)</p>
+<tr id="row72191261856"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1514519517478"><a name="p1514519517478"></a><a name="p1514519517478"></a><span>BatchUpdate(client *gophercloud.ServiceClient, opts BatchUpdateOpts)</span></p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p2146145112479"><a name="p2146145112479"></a><a name="p2146145112479"></a>PUT /v1/{project_id}/cloudservers/server-name</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p2146145112479"><a name="p2146145112479"></a><a name="p2146145112479"></a><span>PUT /v1/{project_id}/cloudservers/server-name</span></p>
 <p id="p214655104716"><a name="p214655104716"></a><a name="p214655104716"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_02_0305.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row554762819514"><td class="cellrowborder" rowspan="4" valign="top" width="26.515151515151516%" headers="mcps1.1.4.1.1 "><p id="p131691747145116"><a name="p131691747145116"></a><a name="p131691747145116"></a>Tags</p>
+<tr id="row554762819514"><td class="cellrowborder" rowspan="4" valign="top" width="26.515151515151516%" headers="mcps1.1.4.1.1 "><p id="p131691747145116"><a name="p131691747145116"></a><a name="p131691747145116"></a><span>Tags</span></p>
 </td>
-<td class="cellrowborder" valign="top" width="38.535353535353536%" headers="mcps1.1.4.1.2 "><p id="p51793719529"><a name="p51793719529"></a><a name="p51793719529"></a>BatchCreateServerTags(client *gophercloud.ServiceClient, serverID string, opts BatchTagCreateOptsBuilder)</p>
+<td class="cellrowborder" valign="top" width="38.535353535353536%" headers="mcps1.1.4.1.2 "><p id="p51793719529"><a name="p51793719529"></a><a name="p51793719529"></a><span>BatchCreateServerTags(client *gophercloud.ServiceClient, serverID string, opts BatchTagCreateOptsBuilder)</span></p>
 </td>
-<td class="cellrowborder" valign="top" width="34.94949494949495%" headers="mcps1.1.4.1.3 "><p id="p617957175213"><a name="p617957175213"></a><a name="p617957175213"></a>POST /v1/{project_id}/cloudservers/{server_id}/tags/action</p>
+<td class="cellrowborder" valign="top" width="34.94949494949495%" headers="mcps1.1.4.1.3 "><p id="p617957175213"><a name="p617957175213"></a><a name="p617957175213"></a><span>POST /v1/{project_id}/cloudservers/{server_id}/tags/action</span></p>
 <p id="p4179078528"><a name="p4179078528"></a><a name="p4179078528"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_02_1002.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row9399115105111"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p817915715220"><a name="p817915715220"></a><a name="p817915715220"></a>BatchDeleteServerTags(client *gophercloud.ServiceClient, serverID string, opts BatchTagDeleteOptsBuilder)</p>
+<tr id="row9399115105111"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p817915715220"><a name="p817915715220"></a><a name="p817915715220"></a><span>BatchDeleteServerTags(client *gophercloud.ServiceClient, serverID string, opts BatchTagDeleteOptsBuilder)</span></p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p517912765214"><a name="p517912765214"></a><a name="p517912765214"></a>POST /v1/{project_id}/cloudservers/{server_id}/tags/action</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p517912765214"><a name="p517912765214"></a><a name="p517912765214"></a><span>POST /v1/{project_id}/cloudservers/{server_id}/tags/action</span></p>
 <p id="p1517917785219"><a name="p1517917785219"></a><a name="p1517917785219"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_02_1003.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row20570165575117"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p161797755216"><a name="p161797755216"></a><a name="p161797755216"></a>ListProjectTags(client *gophercloud.ServiceClient)</p>
+<tr id="row20570165575117"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p161797755216"><a name="p161797755216"></a><a name="p161797755216"></a><span>ListProjectTags(client *gophercloud.ServiceClient)</span></p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p417916719522"><a name="p417916719522"></a><a name="p417916719522"></a>GET /v1/{project_id}/cloudservers/tags</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p417916719522"><a name="p417916719522"></a><a name="p417916719522"></a><span>GET /v1/{project_id}/cloudservers/tags</span></p>
 <p id="p9179207125216"><a name="p9179207125216"></a><a name="p9179207125216"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_02_1007.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row62897379515"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p181806795218"><a name="p181806795218"></a><a name="p181806795218"></a>ListServerTags(client *gophercloud.ServiceClient, serverID string)</p>
+<tr id="row62897379515"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p181806795218"><a name="p181806795218"></a><a name="p181806795218"></a><span>ListServerTags(client *gophercloud.ServiceClient, serverID string)</span></p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p01804775214"><a name="p01804775214"></a><a name="p01804775214"></a>GET /v1/{project_id}/cloudservers/{server_id}/tags</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p01804775214"><a name="p01804775214"></a><a name="p01804775214"></a><span>GET /v1/{project_id}/cloudservers/{server_id}/tags</span></p>
 <p id="p1180137185219"><a name="p1180137185219"></a><a name="p1180137185219"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_02_1008.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -261,13 +261,13 @@
 </tr>
 <tr id="row03632288358"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p173631289357"><a name="p173631289357"></a><a name="p173631289357"></a>Get(client *gophercloud.ServiceClient, serverID, portID string)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p19782175564115"><a name="p19782175564115"></a><a name="p19782175564115"></a>GET /v2/{project_id}/servers/{server_id}/os-interface/{id}</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p19782175564115"><a name="p19782175564115"></a><a name="p19782175564115"></a><span>GET /v2/{project_id}/servers/{server_id}/os-interface/{id}</span></p>
 <p id="p0979145585617"><a name="p0979145585617"></a><a name="p0979145585617"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_03_0802.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row1140814361352"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p15408113617355"><a name="p15408113617355"></a><a name="p15408113617355"></a>Create(client *gophercloud.ServiceClient, serverID string, opts CreateOptsBuilder)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p7363162820353"><a name="p7363162820353"></a><a name="p7363162820353"></a>POST /v2/{project_id}/servers/{server_id}/os-interface</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p7363162820353"><a name="p7363162820353"></a><a name="p7363162820353"></a><span>POST /v2/{project_id}/servers/{server_id}/os-interface</span></p>
 <p id="p166989015579"><a name="p166989015579"></a><a name="p166989015579"></a><a href="https://support.huaweicloud.com/api-ecs/ecs_03_0803.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>

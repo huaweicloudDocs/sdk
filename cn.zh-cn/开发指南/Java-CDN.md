@@ -60,12 +60,12 @@
 </tr>
 <tr id="row63830433155"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p0437180105312"><a name="p0437180105312"></a><a name="p0437180105312"></a>setOriginRange(domainId, **attrs)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p154371903535"><a name="p154371903535"></a><a name="p154371903535"></a>PUT /v1.0/cdn/domains/{domainId}/range-switch</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p154371903535"><a name="p154371903535"></a><a name="p154371903535"></a><span>PUT /v1.0/cdn/domains/{domainId}/range-switch</span></p>
 </td>
 </tr>
 <tr id="row192132198452"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p14371206534"><a name="p14371206534"></a><a name="p14371206534"></a>setFollow302(domainId, **attrs)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p1743716035311"><a name="p1743716035311"></a><a name="p1743716035311"></a>PUT /v1.0/cdn/domains/{domainId}/follow302-switch</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p1743716035311"><a name="p1743716035311"></a><a name="p1743716035311"></a><span>PUT /v1.0/cdn/domains/{domainId}/follow302-switch</span></p>
 </td>
 </tr>
 <tr id="row6807131534518"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p194372001532"><a name="p194372001532"></a><a name="p194372001532"></a>setReferer(domainId, **attrs, **params)</p>
@@ -80,12 +80,12 @@
 </tr>
 <tr id="row94595376199"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p443713045314"><a name="p443713045314"></a><a name="p443713045314"></a>getIpAcl(domainId)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p19437100145317"><a name="p19437100145317"></a><a name="p19437100145317"></a>GET /v1.0/cdn/domains/{domainId}/ip-acl</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p19437100145317"><a name="p19437100145317"></a><a name="p19437100145317"></a><span>GET /v1.0/cdn/domains/{domainId}/ip-acl</span></p>
 </td>
 </tr>
 <tr id="row83365311916"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1437200125315"><a name="p1437200125315"></a><a name="p1437200125315"></a>setIpAcl(domainId, **attrs)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p11437902536"><a name="p11437902536"></a><a name="p11437902536"></a>PUT /v1.0/cdn/domains/{domainId}/ip-acl</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p11437902536"><a name="p11437902536"></a><a name="p11437902536"></a><span>PUT /v1.0/cdn/domains/{domainId}/ip-acl</span></p>
 </td>
 </tr>
 <tr id="row1979211518470"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p3437190105316"><a name="p3437190105316"></a><a name="p3437190105316"></a>setCacheConfig(domainId, **attrs, **params)</p>
@@ -110,17 +110,17 @@
 </tr>
 <tr id="row52741617172117"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p843817017530"><a name="p843817017530"></a><a name="p843817017530"></a>queryCdnIPs(**attrs)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p2043810015315"><a name="p2043810015315"></a><a name="p2043810015315"></a>GET /v1.0/cdn/ip-info</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p2043810015315"><a name="p2043810015315"></a><a name="p2043810015315"></a><span>GET /v1.0/cdn/ip-info</span></p>
 </td>
 </tr>
 <tr id="row032673182116"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p184388011539"><a name="p184388011539"></a><a name="p184388011539"></a>setResponseHeader(domainId, **attrs)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p17438607531"><a name="p17438607531"></a><a name="p17438607531"></a>PUT /v1.0/cdn/domains/{domainId}/response-header</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p17438607531"><a name="p17438607531"></a><a name="p17438607531"></a><span>PUT /v1.0/cdn/domains/{domainId}/response-header</span></p>
 </td>
 </tr>
 <tr id="row9609121122219"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1743810015311"><a name="p1743810015311"></a><a name="p1743810015311"></a>getResponseHeader(domainId)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p64388014534"><a name="p64388014534"></a><a name="p64388014534"></a>GET /v1.0/cdn/domains/{domainId}/response-header</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p64388014534"><a name="p64388014534"></a><a name="p64388014534"></a><span>GET /v1.0/cdn/domains/{domainId}/response-header</span></p>
 </td>
 </tr>
 <tr id="row33951327122216"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p3438406531"><a name="p3438406531"></a><a name="p3438406531"></a>createRefreshTask(**attrs, **params)</p>
@@ -147,17 +147,17 @@
 </td>
 <td class="cellrowborder" valign="top" width="36.03360336033604%" headers="mcps1.1.4.1.2 "><p id="p81531131185412"><a name="p81531131185412"></a><a name="p81531131185412"></a>queryTopUrl(**query)</p>
 </td>
-<td class="cellrowborder" valign="top" width="35.5935593559356%" headers="mcps1.1.4.1.3 "><p id="p10153133155417"><a name="p10153133155417"></a><a name="p10153133155417"></a>GET /v1.0/cdn/statistics/top-url</p>
+<td class="cellrowborder" valign="top" width="35.5935593559356%" headers="mcps1.1.4.1.3 "><p id="p10153133155417"><a name="p10153133155417"></a><a name="p10153133155417"></a><span>GET /v1.0/cdn/statistics</span><span>/top-url</span></p>
 </td>
 </tr>
 <tr id="row356024515523"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p2015343120541"><a name="p2015343120541"></a><a name="p2015343120541"></a>queryDomainItemDetails(**query)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p10153183185419"><a name="p10153183185419"></a><a name="p10153183185419"></a>GET /v1.0/cdn/statistics/domain-item-details</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p10153183185419"><a name="p10153183185419"></a><a name="p10153183185419"></a><span>GET /v1.0/cdn/statistics/domain-item-details</span></p>
 </td>
 </tr>
 <tr id="row1284621615532"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p915353119546"><a name="p915353119546"></a><a name="p915353119546"></a>queryDomainItemLocationDetails(**query)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p161530319546"><a name="p161530319546"></a><a name="p161530319546"></a>GET /v1.0/cdn/statistics/domain-item-location-details</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p161530319546"><a name="p161530319546"></a><a name="p161530319546"></a><span>GET /v1.0/cdn/statistics/domain-item-location-details</span></p>
 </td>
 </tr>
 <tr id="row1666119219545"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p11154131105411"><a name="p11154131105411"></a><a name="p11154131105411"></a>queryTotalNetworkTraffic(**query)</p>
@@ -197,22 +197,22 @@
 </tr>
 <tr id="row1284125755317"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p5154173175411"><a name="p5154173175411"></a><a name="p5154173175411"></a>queryRegionDetailSummry(**query)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p11541331165416"><a name="p11541331165416"></a><a name="p11541331165416"></a>GET /v1.0/cdn/statistics/region-detail-summary</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p11541331165416"><a name="p11541331165416"></a><a name="p11541331165416"></a><span>GET /v1.0/cdn/statistics/region-detail-summary</span></p>
 </td>
 </tr>
 <tr id="row13591003548"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p115443135411"><a name="p115443135411"></a><a name="p115443135411"></a>queryCarrierDetailSummry(**query)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p1415415311540"><a name="p1415415311540"></a><a name="p1415415311540"></a>GET /v1.0/cdn/statistics/carrier-detail-summary</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p1415415311540"><a name="p1415415311540"></a><a name="p1415415311540"></a><span>GET /v1.0/cdn/statistics/carrier-detail-summary</span></p>
 </td>
 </tr>
 <tr id="row12653145814530"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p131541631175410"><a name="p131541631175410"></a><a name="p131541631175410"></a>queryRegionCarrierDomain(**query)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p31541431185411"><a name="p31541431185411"></a><a name="p31541431185411"></a>GET /v1.0/cdn/statistics/region-carrier-domain</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p31541431185411"><a name="p31541431185411"></a><a name="p31541431185411"></a><span>GET /v1.0/cdn/statistics/region-carrier-domain</span></p>
 </td>
 </tr>
 <tr id="row11788151045410"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p10154131185413"><a name="p10154131185413"></a><a name="p10154131185413"></a>queryRegionCarrierDetail(**query)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p91541231185416"><a name="p91541231185416"></a><a name="p91541231185416"></a>GET /v1.0/cdn/statistics/region-carrier-detail</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p91541231185416"><a name="p91541231185416"></a><a name="p91541231185416"></a><span>GET /v1.0/cdn/statistics/region-carrier-detail</span></p>
 </td>
 </tr>
 <tr id="row951404205212"><td class="cellrowborder" valign="top" width="28.372837283728376%" headers="mcps1.1.4.1.1 "><p id="p4759157135412"><a name="p4759157135412"></a><a name="p4759157135412"></a>LogService</p>

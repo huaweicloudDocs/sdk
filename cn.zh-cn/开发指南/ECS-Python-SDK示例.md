@@ -33,7 +33,7 @@ ECS Python SDK支持如下资源对象的操作，资源对象的“增改查删
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.2 "><p id="p1163463320112"><a name="p1163463320112"></a><a name="p1163463320112"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-python/blob/master/examples/ecs/keypair.py" target="_blank" rel="noopener noreferrer">代码</a></p>
 </td>
 </tr>
-<tr id="row1422518917160"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.1 "><p id="p52251911162"><a name="p52251911162"></a><a name="p52251911162"></a>server</p>
+<tr id="row1422518917160"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.1 "><p id="p52251911162"><a name="p52251911162"></a><a name="p52251911162"></a>server (v2)</p>
 </td>
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.2 "><p id="p112257916165"><a name="p112257916165"></a><a name="p112257916165"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-python/blob/master/examples/ecs/server.py" target="_blank" rel="noopener noreferrer">代码</a></p>
 </td>
@@ -58,9 +58,14 @@ ECS Python SDK支持如下资源对象的操作，资源对象的“增改查删
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.2 "><p id="p12937192612919"><a name="p12937192612919"></a><a name="p12937192612919"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-python/blob/master/examples/ecs/v1/tag.py" target="_blank" rel="noopener noreferrer">代码</a></p>
 </td>
 </tr>
-<tr id="row522218614015"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.1 "><p id="p11785594619"><a name="p11785594619"></a><a name="p11785594619"></a>cloudserver(prepaid)</p>
+<tr id="row522218614015"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.1 "><p id="p11785594619"><a name="p11785594619"></a><a name="p11785594619"></a>cloudserver (v1.1)</p>
 </td>
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.2 "><p id="p15634193315120"><a name="p15634193315120"></a><a name="p15634193315120"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-python/blob/master/examples/ecs/cloudserver.py" target="_blank" rel="noopener noreferrer">代码</a></p>
+</td>
+</tr>
+<tr id="row566442143713"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.1 "><p id="p16665142203720"><a name="p16665142203720"></a><a name="p16665142203720"></a>cloudserver (v1)</p>
+</td>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.2 "><p id="p136416409429"><a name="p136416409429"></a><a name="p136416409429"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-python/blob/master/examples/ecs/v1/cloudserver.py" target="_blank" rel="noopener noreferrer">代码</a></p>
 </td>
 </tr>
 </tbody>

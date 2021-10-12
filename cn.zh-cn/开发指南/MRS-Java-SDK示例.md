@@ -22,7 +22,7 @@ MapReduceClusterCreateResult result = osclient.mrs().clusters().createAndRunJob(
 
 ```
 public void describeCluster () {
-MapReduceCluster cluster = osclient.mrs().clusters().get(id);
+MapReduceClusterInfo cluster = osclient.mrs().clusters().get(id);
 }
 ```
 

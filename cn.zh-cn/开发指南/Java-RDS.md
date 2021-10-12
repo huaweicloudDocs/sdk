@@ -13,20 +13,20 @@
 </thead>
 <tbody><tr id="row970281614107"><td class="cellrowborder" rowspan="11" valign="top" width="25.722572257225725%" headers="mcps1.1.4.1.1 "><p id="p16397124734818"><a name="p16397124734818"></a><a name="p16397124734818"></a>InstanceManageService</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.43394339433943%" headers="mcps1.1.4.1.2 "><p id="p15157154134616"><a name="p15157154134616"></a><a name="p15157154134616"></a>CreateInstanceResponse create(CreateInstanceRequest createRequest)</p>
+<td class="cellrowborder" valign="top" width="39.43394339433943%" headers="mcps1.1.4.1.2 "><p id="p15157154134616"><a name="p15157154134616"></a><a name="p15157154134616"></a><span>CreateInstanceResponse</span> create(<span>CreateInstanceRequest</span> createRequest)</p>
 </td>
 <td class="cellrowborder" valign="top" width="34.84348434843484%" headers="mcps1.1.4.1.3 "><p id="p131581149463"><a name="p131581149463"></a><a name="p131581149463"></a>POST /v3/{project_id}/instances</p>
 <p id="p856681014714"><a name="p856681014714"></a><a name="p856681014714"></a><a href="https://support.huaweicloud.com/api-rds/rds_01_0002.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row11702121671016"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1158184184619"><a name="p1158184184619"></a><a name="p1158184184619"></a>ListInstanceResponse list()</p>
+<tr id="row11702121671016"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1158184184619"><a name="p1158184184619"></a><a name="p1158184184619"></a><span>ListInstanceResponse</span> list()</p>
 </td>
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p612619476710"><a name="p612619476710"></a><a name="p612619476710"></a>GET</p>
 <p id="p81586474610"><a name="p81586474610"></a><a name="p81586474610"></a>/v3/{project_id}/instances</p>
 <p id="p133391815778"><a name="p133391815778"></a><a name="p133391815778"></a><a href="https://support.huaweicloud.com/api-rds/rds_01_0004.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row370341612101"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p161585464613"><a name="p161585464613"></a><a name="p161585464613"></a>ListInstanceResponse list(Map&lt;String, String&gt; queryParams)</p>
+<tr id="row370341612101"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p161585464613"><a name="p161585464613"></a><a name="p161585464613"></a><span>ListInstanceResponse</span> list(Map&lt;String, String&gt; queryParams)</p>
 </td>
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p1242710521878"><a name="p1242710521878"></a><a name="p1242710521878"></a>GET</p>
 <p id="p10158144134613"><a name="p10158144134613"></a><a name="p10158144134613"></a>/v3/{project_id}/instances</p>
@@ -39,14 +39,14 @@
 <p id="p88711252714"><a name="p88711252714"></a><a name="p88711252714"></a><a href="https://support.huaweicloud.com/api-rds/rds_01_0003.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row1070320164101"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1315810414611"><a name="p1315810414611"></a><a name="p1315810414611"></a>InstanceCommonResponse restart(RestartInstanceRequest request, String instanceId)</p>
+<tr id="row1070320164101"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1315810414611"><a name="p1315810414611"></a><a name="p1315810414611"></a><span>InstanceCommonResponse</span> restart(RestartInstanceRequest request, String instanceId)</p>
 </td>
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p355035515711"><a name="p355035515711"></a><a name="p355035515711"></a>PUT</p>
 <p id="p1715854124619"><a name="p1715854124619"></a><a name="p1715854124619"></a>/v3/{project_id}/instances/{instanceId}/action</p>
 <p id="p07745291178"><a name="p07745291178"></a><a name="p07745291178"></a><a href="https://support.huaweicloud.com/api-rds/rds_06_0003.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row797185710453"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p5594470614"><a name="p5594470614"></a><a name="p5594470614"></a>InstanceCommonResponse</p>
+<tr id="row797185710453"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p5594470614"><a name="p5594470614"></a><a name="p5594470614"></a>I<span>nstanceCommonResponse</span></p>
 <p id="p132756458612"><a name="p132756458612"></a><a name="p132756458612"></a>singleToHa(SingleToHaRdsRequest request, String instanceId)</p>
 </td>
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p141515578711"><a name="p141515578711"></a><a name="p141515578711"></a>GET</p>
@@ -54,14 +54,14 @@
 <p id="p1580819341179"><a name="p1580819341179"></a><a name="p1580819341179"></a><a href="https://support.huaweicloud.com/api-rds/rds_01_0103.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row1755210544455"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p7414721196"><a name="p7414721196"></a><a name="p7414721196"></a>InstanceCommonResponse resizeFlavor(ResizeFlavorRequest request, String instanceId)</p>
+<tr id="row1755210544455"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p7414721196"><a name="p7414721196"></a><a name="p7414721196"></a><span>InstanceCommonResponse</span> resizeFlavor(ResizeFlavorRequest request, String instanceId)</p>
 </td>
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p153880983"><a name="p153880983"></a><a name="p153880983"></a>POST</p>
 <p id="p1158184184613"><a name="p1158184184613"></a><a name="p1158184184613"></a>/v3/{project_id}/instances/{instanceId}/action</p>
 <p id="p13505183913719"><a name="p13505183913719"></a><a name="p13505183913719"></a><a href="https://support.huaweicloud.com/api-rds/rds_01_0101.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
-<tr id="row15551051174514"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p146469351107"><a name="p146469351107"></a><a name="p146469351107"></a>InstanceCommonResponse enlargeVolume(EnlargeVolumeRequest request, String instanceId)</p>
+<tr id="row15551051174514"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p146469351107"><a name="p146469351107"></a><a name="p146469351107"></a><span>InstanceCommonResponse</span> enlargeVolume(EnlargeVolumeRequest request, String instanceId)</p>
 </td>
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p8157821989"><a name="p8157821989"></a><a name="p8157821989"></a>POST</p>
 <p id="p71585484612"><a name="p71585484612"></a><a name="p71585484612"></a>/v3/{project_id}/instances/{instanceId}/action</p>

@@ -68,7 +68,7 @@ public class Demo {
 <tbody><tr id="sdk_01_0002_row175617593220"><td class="cellrowborder" valign="top" width="15.91159115911591%" headers="mcps1.2.4.1.1 "><p id="sdk_01_0002_p155611355329"><a name="sdk_01_0002_p155611355329"></a><a name="sdk_01_0002_p155611355329"></a>authUrl</p>
 </td>
 <td class="cellrowborder" valign="top" width="39.373937393739375%" headers="mcps1.2.4.1.2 "><p id="sdk_01_0002_p082312211563"><a name="sdk_01_0002_p082312211563"></a><a name="sdk_01_0002_p082312211563"></a>认证服务（IAM）的Endpoint。</p>
-<p id="sdk_01_0002_zh-cn_topic_0121671869_li10140171754817p0"><a name="sdk_01_0002_zh-cn_topic_0121671869_li10140171754817p0"></a><a name="sdk_01_0002_zh-cn_topic_0121671869_li10140171754817p0"></a>“https://iam.<em id="sdk_01_0002_i86181317204018"><a name="sdk_01_0002_i86181317204018"></a><a name="sdk_01_0002_i86181317204018"></a>example</em>.com/v3”中的“example”为“区域.云平台域名”，参数详情可以访问<a href="https://developer.huaweicloud.com/endpoint" target="_blank" rel="noopener noreferrer">这里</a>了解。</p>
+<p id="sdk_01_0002_zh-cn_topic_0121671869_li10140171754817p0"><a name="sdk_01_0002_zh-cn_topic_0121671869_li10140171754817p0"></a><a name="sdk_01_0002_zh-cn_topic_0121671869_li10140171754817p0"></a>“https://iam.<em id="sdk_01_0002_i86181317204018"><a name="sdk_01_0002_i86181317204018"></a><a name="sdk_01_0002_i86181317204018"></a>example</em>.com/v3”中的“example”为“区域.云平台域名”，参数详情可以访问<a href="https://developer.huaweicloud.com/endpoint?iam" target="_blank" rel="noopener noreferrer">这里</a>了解。</p>
 </td>
 <td class="cellrowborder" valign="top" width="44.71447144714472%" headers="mcps1.2.4.1.3 "><p id="sdk_01_0002_p105621519321"><a name="sdk_01_0002_p105621519321"></a><a name="sdk_01_0002_p105621519321"></a>https://iam.cn-north-1.myhuaweicloud.com/v3</p>
 </td>
@@ -96,7 +96,7 @@ public class Demo {
 </tr>
 <tr id="sdk_01_0002_row856217512326"><td class="cellrowborder" valign="top" width="15.91159115911591%" headers="mcps1.2.4.1.1 "><p id="sdk_01_0002_p656217518325"><a name="sdk_01_0002_p656217518325"></a><a name="sdk_01_0002_p656217518325"></a>userDomainId</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.373937393739375%" headers="mcps1.2.4.1.2 "><p id="sdk_01_0002_p856285113212"><a name="sdk_01_0002_p856285113212"></a><a name="sdk_01_0002_p856285113212"></a>账号ID。如何获取，请参考<a href="如何获取IAM-用户名-账号ID以及项目ID.md">如何获取IAM 用户名、账号ID以及项目ID？</a>。</p>
+<td class="cellrowborder" valign="top" width="39.373937393739375%" headers="mcps1.2.4.1.2 "><p id="sdk_01_0002_p856285113212"><a name="sdk_01_0002_p856285113212"></a><a name="sdk_01_0002_p856285113212"></a><span>账号ID。</span>如何获取，请参考<a href="如何获取IAM-用户名-账号ID以及项目ID.md">如何获取IAM 用户名、账号ID以及项目ID？</a>。</p>
 </td>
 <td class="cellrowborder" valign="top" width="44.71447144714472%" headers="mcps1.2.4.1.3 "><p id="sdk_01_0002_p25628523215"><a name="sdk_01_0002_p25628523215"></a><a name="sdk_01_0002_p25628523215"></a>-</p>
 </td>

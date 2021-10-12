@@ -13,7 +13,7 @@ SDK和API的对应关系，请参考[FGS](Python-FGS.md)。
 </th>
 </tr>
 </thead>
-<tbody><tr id="row2820156789"><td class="cellrowborder" valign="top" width="41.65%" headers="mcps1.1.3.1.1 "><p id="p0127754155717"><a name="p0127754155717"></a><a name="p0127754155717"></a>function</p>
+<tbody><tr id="row2820156789"><td class="cellrowborder" valign="top" width="41.65%" headers="mcps1.1.3.1.1 "><p id="p0127754155717"><a name="p0127754155717"></a><a name="p0127754155717"></a><span>function</span></p>
 </td>
 <td class="cellrowborder" valign="top" width="58.35%" headers="mcps1.1.3.1.2 "><p id="p48203561788"><a name="p48203561788"></a><a name="p48203561788"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-python/blob/master/examples/fgs/v2/function.py" target="_blank" rel="noopener noreferrer">代码</a></p>
 </td>

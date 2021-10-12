@@ -85,7 +85,7 @@ func main() {
 <tbody><tr id="sdk_03_0002_row175617593220"><td class="cellrowborder" valign="top" width="17.64176417641764%" headers="mcps1.2.4.1.1 "><p id="sdk_03_0002_p155611355329"><a name="sdk_03_0002_p155611355329"></a><a name="sdk_03_0002_p155611355329"></a>IdentityEndpoint</p>
 </td>
 <td class="cellrowborder" valign="top" width="37.643764376437645%" headers="mcps1.2.4.1.2 "><p id="sdk_03_0002_p082312211563"><a name="sdk_03_0002_p082312211563"></a><a name="sdk_03_0002_p082312211563"></a>认证服务（IAM）的Endpoint。</p>
-<p id="sdk_03_0002_zh-cn_topic_0121671869_li10140171754817p0"><a name="sdk_03_0002_zh-cn_topic_0121671869_li10140171754817p0"></a><a name="sdk_03_0002_zh-cn_topic_0121671869_li10140171754817p0"></a>“https://iam.<em id="sdk_03_0002_i86181317204018"><a name="sdk_03_0002_i86181317204018"></a><a name="sdk_03_0002_i86181317204018"></a>example</em>.com/v3”中的“example”为“区域.云平台域名”，参数详情可以访问<a href="https://developer.huaweicloud.com/endpoint" target="_blank" rel="noopener noreferrer">这里</a>了解。</p>
+<p id="sdk_03_0002_zh-cn_topic_0121671869_li10140171754817p0"><a name="sdk_03_0002_zh-cn_topic_0121671869_li10140171754817p0"></a><a name="sdk_03_0002_zh-cn_topic_0121671869_li10140171754817p0"></a>“https://iam.<em id="sdk_03_0002_i86181317204018"><a name="sdk_03_0002_i86181317204018"></a><a name="sdk_03_0002_i86181317204018"></a>example</em>.com/v3”中的“example”为“区域.云平台域名”，参数详情可以访问<a href="https://developer.huaweicloud.com/endpoint?iam" target="_blank" rel="noopener noreferrer">这里</a>了解。</p>
 </td>
 <td class="cellrowborder" valign="top" width="44.71447144714472%" headers="mcps1.2.4.1.3 "><p id="sdk_03_0002_p105621519321"><a name="sdk_03_0002_p105621519321"></a><a name="sdk_03_0002_p105621519321"></a>https://iam.cn-north-1.myhuaweicloud.com/v3</p>
 </td>
@@ -113,7 +113,7 @@ func main() {
 </tr>
 <tr id="sdk_03_0002_row856217512326"><td class="cellrowborder" valign="top" width="17.64176417641764%" headers="mcps1.2.4.1.1 "><p id="sdk_03_0002_p656217518325"><a name="sdk_03_0002_p656217518325"></a><a name="sdk_03_0002_p656217518325"></a>DomainID</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.643764376437645%" headers="mcps1.2.4.1.2 "><p id="sdk_03_0002_p856285113212"><a name="sdk_03_0002_p856285113212"></a><a name="sdk_03_0002_p856285113212"></a>账号ID。如何获取，请参考<a href="如何获取IAM-用户名-账号ID以及项目ID.md">如何获取IAM 用户名、账号ID以及项目ID？</a>。</p>
+<td class="cellrowborder" valign="top" width="37.643764376437645%" headers="mcps1.2.4.1.2 "><p id="sdk_03_0002_p856285113212"><a name="sdk_03_0002_p856285113212"></a><a name="sdk_03_0002_p856285113212"></a><span>账号ID。</span>如何获取，请参考<a href="如何获取IAM-用户名-账号ID以及项目ID.md">如何获取IAM 用户名、账号ID以及项目ID？</a>。</p>
 </td>
 <td class="cellrowborder" valign="top" width="44.71447144714472%" headers="mcps1.2.4.1.3 "><p id="sdk_03_0002_p25628523215"><a name="sdk_03_0002_p25628523215"></a><a name="sdk_03_0002_p25628523215"></a>-</p>
 </td>
@@ -209,14 +209,14 @@ AKSK签名连续失败超过5次，将锁定对应访问的源IP的AKSK请求，
 <tbody><tr id="row71371932171914"><td class="cellrowborder" valign="top" width="18.51185118511851%" headers="mcps1.2.4.1.1 "><p id="p7137143201919"><a name="p7137143201919"></a><a name="p7137143201919"></a>IdentityEndpoint</p>
 </td>
 <td class="cellrowborder" valign="top" width="36.773677367736774%" headers="mcps1.2.4.1.2 "><p id="p082312211563"><a name="p082312211563"></a><a name="p082312211563"></a>认证服务（IAM）的Endpoint。</p>
-<p id="zh-cn_topic_0121671869_li10140171754817p0"><a name="zh-cn_topic_0121671869_li10140171754817p0"></a><a name="zh-cn_topic_0121671869_li10140171754817p0"></a>“https://iam.<em id="i86181317204018"><a name="i86181317204018"></a><a name="i86181317204018"></a>example</em>.com/v3”中的“example”为“区域.云平台域名”，参数详情可以访问<a href="https://developer.huaweicloud.com/endpoint" target="_blank" rel="noopener noreferrer">这里</a>了解。</p>
+<p id="zh-cn_topic_0121671869_li10140171754817p0"><a name="zh-cn_topic_0121671869_li10140171754817p0"></a><a name="zh-cn_topic_0121671869_li10140171754817p0"></a>“https://iam.<em id="i86181317204018"><a name="i86181317204018"></a><a name="i86181317204018"></a>example</em>.com/v3”中的“example”为“区域.云平台域名”，参数详情可以访问<a href="https://developer.huaweicloud.com/endpoint?iam" target="_blank" rel="noopener noreferrer">这里</a>了解。</p>
 </td>
 <td class="cellrowborder" valign="top" width="44.71447144714472%" headers="mcps1.2.4.1.3 "><p id="p105621519321"><a name="p105621519321"></a><a name="p105621519321"></a>https://iam.cn-north-1.myhuaweicloud.com/v3</p>
 </td>
 </tr>
 <tr id="row18519162992310"><td class="cellrowborder" valign="top" width="18.51185118511851%" headers="mcps1.2.4.1.1 "><p id="p125191529122311"><a name="p125191529122311"></a><a name="p125191529122311"></a>DomainID</p>
 </td>
-<td class="cellrowborder" valign="top" width="36.773677367736774%" headers="mcps1.2.4.1.2 "><p id="p856285113212"><a name="p856285113212"></a><a name="p856285113212"></a>账号ID。如何获取账号ID请参考<a href="如何获取IAM-用户名-账号ID以及项目ID.md">如何获取IAM 用户名、账号ID以及项目ID？</a>。</p>
+<td class="cellrowborder" valign="top" width="36.773677367736774%" headers="mcps1.2.4.1.2 "><p id="p856285113212"><a name="p856285113212"></a><a name="p856285113212"></a><span>账号ID。</span>如何获取账号ID请参考<a href="如何获取IAM-用户名-账号ID以及项目ID.md">如何获取IAM 用户名、账号ID以及项目ID？</a>。</p>
 </td>
 <td class="cellrowborder" valign="top" width="44.71447144714472%" headers="mcps1.2.4.1.3 "><p id="p25628523215"><a name="p25628523215"></a><a name="p25628523215"></a>-</p>
 </td>

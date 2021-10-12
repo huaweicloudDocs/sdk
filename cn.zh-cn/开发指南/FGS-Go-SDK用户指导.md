@@ -13,7 +13,7 @@ SDK和API的对应关系，请参考[FGS](GO-FGS.md)。
 </th>
 </tr>
 </thead>
-<tbody><tr id="row2039217201917"><td class="cellrowborder" valign="top" width="32.25%" headers="mcps1.1.3.1.1 "><p id="p21061251172318"><a name="p21061251172318"></a><a name="p21061251172318"></a>function</p>
+<tbody><tr id="row2039217201917"><td class="cellrowborder" valign="top" width="32.25%" headers="mcps1.1.3.1.1 "><p id="p21061251172318"><a name="p21061251172318"></a><a name="p21061251172318"></a><span>function</span></p>
 </td>
 <td class="cellrowborder" valign="top" width="67.75%" headers="mcps1.1.3.1.2 "><p id="p15106145182313"><a name="p15106145182313"></a><a name="p15106145182313"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-go/blob/master/examples/fgs/v2/functions.go" target="_blank" rel="noopener noreferrer">代码</a></p>
 </td>

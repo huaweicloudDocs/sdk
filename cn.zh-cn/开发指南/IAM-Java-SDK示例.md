@@ -1,6 +1,6 @@
 # IAM Java SDK示例<a name="sdk_01_0012"></a>
 
-SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[IAM](Java-IAM.md)。
+SDK与RESTful API一一对应，SDK最新版本支持的接口列表，以及SDK和API的对应关系，请参考[这里](Java-IAM.md)。
 
 在使用IAM SDK的时候，SDK支持的参数细节，请参考IAM API[描述](https://support.huaweicloud.com/api-iam/iam_01_0001.html)。
 

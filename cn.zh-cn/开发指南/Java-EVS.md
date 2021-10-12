@@ -89,13 +89,13 @@
 </td>
 <td class="cellrowborder" valign="top" width="36.77%" headers="mcps1.1.4.1.2 "><p id="p1090630103219"><a name="p1090630103219"></a><a name="p1090630103219"></a>AsyncRespEntity create(Volumes volume)</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.69%" headers="mcps1.1.4.1.3 "><p id="p3168119316247"><a name="p3168119316247"></a><a name="p3168119316247"></a>POST /v2.1/{project_id}/cloudvolumes</p>
+<td class="cellrowborder" valign="top" width="33.69%" headers="mcps1.1.4.1.3 "><p id="p3168119316247"><a name="p3168119316247"></a><a name="p3168119316247"></a>POST /v2.1/{<span>project_id</span>}/cloudvolumes</p>
 <p id="p118721613123511"><a name="p118721613123511"></a><a name="p118721613123511"></a><a href="https://support.huaweicloud.com/zh-cn/api-evs/evs_04_2003.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row6116147716227"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p3861436193213"><a name="p3861436193213"></a><a name="p3861436193213"></a>AsyncRespEntity extend(Extend extend,String volumeId)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p4939391716247"><a name="p4939391716247"></a><a name="p4939391716247"></a>POST /v2.1/{project_id}/cloudvolumes/{volume_id}/action</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p4939391716247"><a name="p4939391716247"></a><a name="p4939391716247"></a>POST /v2.1/{<span>project_id</span>}/cloudvolumes/{volume_id}/action</p>
 <p id="p15206018113518"><a name="p15206018113518"></a><a name="p15206018113518"></a><a href="https://support.huaweicloud.com/zh-cn/api-evs/evs_04_2004.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -117,7 +117,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="37.51375137513751%" headers="mcps1.1.4.1.2 "><p id="p19762867"><a name="p19762867"></a><a name="p19762867"></a>Volume create(Volume volume)</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.36333633363336%" headers="mcps1.1.4.1.3 "><p id="p57288388"><a name="p57288388"></a><a name="p57288388"></a>POST /v2/{project_id}/volumes</p>
+<td class="cellrowborder" valign="top" width="33.36333633363336%" headers="mcps1.1.4.1.3 "><p id="p57288388"><a name="p57288388"></a><a name="p57288388"></a>POST /v2/{<span>project_id</span>}/volumes</p>
 <p id="p243813464332"><a name="p243813464332"></a><a name="p243813464332"></a><a href="https://support.huaweicloud.com/zh-cn/api-evs/evs_04_2065.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -135,37 +135,37 @@
 </tr>
 <tr id="row45833444"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p21521490"><a name="p21521490"></a><a name="p21521490"></a>ActionResponse delete(String volumeId)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p65519169"><a name="p65519169"></a><a name="p65519169"></a>DELETE /v2/{project_id}/volumes/{volume_id}</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p65519169"><a name="p65519169"></a><a name="p65519169"></a>DELETE /v2/{<span>project_id</span>}/volumes/{volume_id}</p>
 <p id="p4899165363316"><a name="p4899165363316"></a><a name="p4899165363316"></a><a href="https://support.huaweicloud.com/zh-cn/api-evs/evs_04_2066.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row52801617"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p49072547"><a name="p49072547"></a><a name="p49072547"></a>ActionResponse extend(String volumeId, Integer newSize)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p15453386"><a name="p15453386"></a><a name="p15453386"></a>POST /v2/{project_id}/volumes/{volume_id}/action</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p15453386"><a name="p15453386"></a><a name="p15453386"></a>POST /v2/{<span>project_id</span>}/volumes/{volume_id}/action</p>
 <p id="p6921156123310"><a name="p6921156123310"></a><a name="p6921156123310"></a><a href="https://support.huaweicloud.com/zh-cn/api-evs/evs_04_2083.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row4862753"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p58338722"><a name="p58338722"></a><a name="p58338722"></a>Volume get(String volumeId)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p27816043"><a name="p27816043"></a><a name="p27816043"></a>GET /v2/{project_id}/volumes/{volume_id}</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p27816043"><a name="p27816043"></a><a name="p27816043"></a>GET /v2/{<span>project_id</span>}/volumes/{volume_id}</p>
 <p id="p186587591333"><a name="p186587591333"></a><a name="p186587591333"></a><a href="https://support.huaweicloud.com/zh-cn/api-evs/evs_04_2070.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row49017803"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p11019092"><a name="p11019092"></a><a name="p11019092"></a>List&lt;? extends Volume&gt; list()</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p20131258"><a name="p20131258"></a><a name="p20131258"></a>GET /v2/{project_id}/volumes/detail</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p20131258"><a name="p20131258"></a><a name="p20131258"></a>GET /v2/{<span>project_id</span>}/volumes/detail</p>
 <p id="p1779661143410"><a name="p1779661143410"></a><a name="p1779661143410"></a><a href="https://support.huaweicloud.com/zh-cn/api-evs/evs_04_2069.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row46963595"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p45954822"><a name="p45954822"></a><a name="p45954822"></a>List&lt;? extends Volume&gt; list(Map&lt;String,String&gt; filteringParams)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><a name="ul39972034153010"></a><a name="ul39972034153010"></a><ul id="ul39972034153010"><li>GET /v2/{project_id}/volumes/detail?limit={limit_nmuber}</li><li>GET /v2/{project_id}/volumes/detail?marker={volume_id}</li></ul>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><a name="ul39972034153010"></a><a name="ul39972034153010"></a><ul id="ul39972034153010"><li>GET /v2/{<span>project_id</span>}/volumes/detail?limit={limit_nmuber}</li><li>GET /v2/{<span>project_id</span>}/volumes/detail?marker={volume_id}</li></ul>
 <p id="p398510352443"><a name="p398510352443"></a><a name="p398510352443"></a><a href="https://support.huaweicloud.com/zh-cn/api-evs/evs_04_2069.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row56573654"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p19063291"><a name="p19063291"></a><a name="p19063291"></a>ActionResponse update(String volumeId, String name, String description)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p622761"><a name="p622761"></a><a name="p622761"></a>PUT /v2/{project_id}/volumes/{volume_id}</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p622761"><a name="p622761"></a><a name="p622761"></a>PUT /v2/{<span>project_id</span>}/volumes/{volume_id}</p>
 <p id="p0332142083417"><a name="p0332142083417"></a><a name="p0332142083417"></a><a href="https://support.huaweicloud.com/zh-cn/api-evs/evs_04_2067.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -191,7 +191,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="37.51375137513751%" headers="mcps1.1.4.1.2 "><p id="p64875945"><a name="p64875945"></a><a name="p64875945"></a>ActionResponse delete(String snapshotId)</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.36333633363336%" headers="mcps1.1.4.1.3 "><p id="p20460183"><a name="p20460183"></a><a name="p20460183"></a>DELETE /v2/{project_id}/snapshots/{snapshot_id}</p>
+<td class="cellrowborder" valign="top" width="33.36333633363336%" headers="mcps1.1.4.1.3 "><p id="p20460183"><a name="p20460183"></a><a name="p20460183"></a>DELETE /v2/{<span>project_id</span>}/snapshots/{snapshot_id}</p>
 <p id="p4787630123419"><a name="p4787630123419"></a><a name="p4787630123419"></a><a href="https://support.huaweicloud.com/zh-cn/api-evs/evs_04_2094.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -209,19 +209,19 @@
 </tr>
 <tr id="row49923923"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p17305987"><a name="p17305987"></a><a name="p17305987"></a>VolumeSnapshot get(String snapshotId)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p59607724"><a name="p59607724"></a><a name="p59607724"></a>GET /v2/{project_id}/snapshots/{snapshot_id}</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p59607724"><a name="p59607724"></a><a name="p59607724"></a>GET /v2/{<span>project_id</span>}/snapshots/{snapshot_id}</p>
 <p id="p130812385343"><a name="p130812385343"></a><a name="p130812385343"></a><a href="https://support.huaweicloud.com/zh-cn/api-evs/evs_04_2098.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row66707469"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p34595869"><a name="p34595869"></a><a name="p34595869"></a>List&lt;? extends VolumeSnapshot&gt; list()</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p50801977"><a name="p50801977"></a><a name="p50801977"></a>GET /v2/{project_id}/snapshots</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p50801977"><a name="p50801977"></a><a name="p50801977"></a>GET /v2/{<span>project_id</span>}/snapshots</p>
 <p id="p78222040163419"><a name="p78222040163419"></a><a name="p78222040163419"></a><a href="https://support.huaweicloud.com/zh-cn/api-evs/evs_04_2096.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
 <tr id="row54564616"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p57657762"><a name="p57657762"></a><a name="p57657762"></a>List&lt;? extends VolumeSnapshot&gt; list(Map&lt;String,String&gt; filteringParams)</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p39767165"><a name="p39767165"></a><a name="p39767165"></a>GET /v2/{project_id}/snapshots?volume_id={volume_id}</p>
+<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p39767165"><a name="p39767165"></a><a name="p39767165"></a>GET /v2/{<span>project_id</span>}/snapshots?volume_id={volume_id}</p>
 <p id="p18310743183418"><a name="p18310743183418"></a><a name="p18310743183418"></a><a href="https://support.huaweicloud.com/zh-cn/api-evs/evs_04_2096.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>
@@ -229,7 +229,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="37.51375137513751%" headers="mcps1.1.4.1.2 "><p id="p5103804"><a name="p5103804"></a><a name="p5103804"></a>List&lt;? extends AvailabilityZone&gt; list()</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.36333633363336%" headers="mcps1.1.4.1.3 "><p id="p10754988"><a name="p10754988"></a><a name="p10754988"></a>GET /v2/{project_id}/os-availability-zone</p>
+<td class="cellrowborder" valign="top" width="33.36333633363336%" headers="mcps1.1.4.1.3 "><p id="p10754988"><a name="p10754988"></a><a name="p10754988"></a>GET /v2/{<span>project_id</span>}/os-availability-zone</p>
 <p id="p1449074610349"><a name="p1449074610349"></a><a name="p1449074610349"></a><a href="https://support.huaweicloud.com/zh-cn/api-evs/evs_04_2081.html" target="_blank" rel="noopener noreferrer">链接</a></p>
 </td>
 </tr>

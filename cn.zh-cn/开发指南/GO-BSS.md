@@ -34,29 +34,11 @@
 <p id="p1972119427566"><a name="p1972119427566"></a><a name="p1972119427566"></a><a href="https://support.huaweicloud.com/api-bpconsole/zh-cn_topic_0077254158.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
 </td>
 </tr>
-<tr id="row1272111421568"><td class="cellrowborder" rowspan="4" valign="top" width="26.037396260373956%" headers="mcps1.1.4.1.1 "><p id="p472112428564"><a name="p472112428564"></a><a name="p472112428564"></a>Realname Auth</p>
+<tr id="row1672194265616"><td class="cellrowborder" valign="top" width="26.037396260373956%" headers="mcps1.1.4.1.1 "><p id="p472112428564"><a name="p472112428564"></a><a name="p472112428564"></a>Realname Auth</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.186281371862805%" headers="mcps1.1.4.1.2 "><p id="p2721942115613"><a name="p2721942115613"></a><a name="p2721942115613"></a>func IndividualRealNameAuth(client *gophercloud.ServiceClient, opts IndividualRealNameAuthOptsBuilder)</p>
+<td class="cellrowborder" valign="top" width="37.186281371862805%" headers="mcps1.1.4.1.2 "><p id="p27212042155619"><a name="p27212042155619"></a><a name="p27212042155619"></a>func QueryRealNameAuth(client *gophercloud.ServiceClient, opts QueryRealNameAuthOptsBuilder)</p>
 </td>
-<td class="cellrowborder" valign="top" width="36.77632236776322%" headers="mcps1.1.4.1.3 "><p id="p1772118420569"><a name="p1772118420569"></a><a name="p1772118420569"></a>POST /v1.0/{partner_id}/partner/customer-mgr/realname-auth/individual</p>
-<p id="p1772113425564"><a name="p1772113425564"></a><a name="p1772113425564"></a><a href="https://support.huaweicloud.com/api-bpconsole/mc_00004.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
-</td>
-</tr>
-<tr id="row117211542155617"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p972114215619"><a name="p972114215619"></a><a name="p972114215619"></a>func EnterpriseRealNameAuth(client *gophercloud.ServiceClient, opts EnterpriseRealNameAuthOptsBuilder)</p>
-</td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p10721242145619"><a name="p10721242145619"></a><a name="p10721242145619"></a>POST /v1.0/{partner_id}/partner/customer-mgr/realname-auth/enterprise</p>
-<p id="p872164225614"><a name="p872164225614"></a><a name="p872164225614"></a><a href="https://support.huaweicloud.com/api-bpconsole/mc_00005.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
-</td>
-</tr>
-<tr id="row1072114219561"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p27211429562"><a name="p27211429562"></a><a name="p27211429562"></a>func ChangeEnterpriseRealNameAuth(client *gophercloud.ServiceClient, opts ChangeEnterpriseRealNameAuthOptsBuilder)</p>
-</td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p17721442185617"><a name="p17721442185617"></a><a name="p17721442185617"></a>PUT /v1.0/{partner_id}/partner/customer-mgr/realname-auth/enterprise</p>
-<p id="p972114428568"><a name="p972114428568"></a><a name="p972114428568"></a><a href="https://support.huaweicloud.com/api-bpconsole/mc_00006.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
-</td>
-</tr>
-<tr id="row1672194265616"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p27212042155619"><a name="p27212042155619"></a><a name="p27212042155619"></a>func QueryRealNameAuth(client *gophercloud.ServiceClient, opts QueryRealNameAuthOptsBuilder)</p>
-</td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p772111427562"><a name="p772111427562"></a><a name="p772111427562"></a>GET /v1.0/{partner_id}/partner/customer-mgr/realname-auth/result</p>
+<td class="cellrowborder" valign="top" width="36.77632236776322%" headers="mcps1.1.4.1.3 "><p id="p772111427562"><a name="p772111427562"></a><a name="p772111427562"></a>GET /v1.0/{partner_id}/partner/customer-mgr/realname-auth/result</p>
 <p id="p172116423567"><a name="p172116423567"></a><a name="p172116423567"></a><a href="https://support.huaweicloud.com/api-bpconsole/mc_00007.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
 </td>
 </tr>
@@ -69,7 +51,7 @@
 <p id="p20721184210562"><a name="p20721184210562"></a><a name="p20721184210562"></a><a href="https://support.huaweicloud.com/api-oce/zh-cn_topic_0078731101.html" target="_blank" rel="noopener noreferrer">链接（客户运营能力）</a></p>
 </td>
 </tr>
-<tr id="row17212425569"><td class="cellrowborder" rowspan="7" valign="top" width="26.037396260373956%" headers="mcps1.1.4.1.1 "><p id="p127211542145616"><a name="p127211542145616"></a><a name="p127211542145616"></a>Period Order</p>
+<tr id="row17212425569"><td class="cellrowborder" rowspan="6" valign="top" width="26.037396260373956%" headers="mcps1.1.4.1.1 "><p id="p127211542145616"><a name="p127211542145616"></a><a name="p127211542145616"></a>Period Order</p>
 </td>
 <td class="cellrowborder" valign="top" width="37.186281371862805%" headers="mcps1.1.4.1.2 "><p id="p157211942125613"><a name="p157211942125613"></a><a name="p157211942125613"></a>func QueryOrderList(client *gophercloud.ServiceClient, opts QueryOrderListBuilder)</p>
 </td>
@@ -90,13 +72,6 @@
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p11722942155615"><a name="p11722942155615"></a><a name="p11722942155615"></a>POST /v1.0/{domain_id}/customer/order-mgr/order/pay</p>
 <p id="p1072254275619"><a name="p1072254275619"></a><a name="p1072254275619"></a><a href="https://support.huaweicloud.com/api-bpconsole/zh-cn_topic_0075746561.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
 <p id="p87221642195618"><a name="p87221642195618"></a><a name="p87221642195618"></a><a href="https://support.huaweicloud.com/api-oce/zh-cn_topic_0075746561.html" target="_blank" rel="noopener noreferrer">链接（客户运营能力）</a></p>
-</td>
-</tr>
-<tr id="row19722174219566"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p16722184219566"><a name="p16722184219566"></a><a name="p16722184219566"></a>func UnsubscribePeriodOrder(client *gophercloud.ServiceClient, opts UnsubscribePeriodOrderBuilder, orderId string)</p>
-</td>
-<td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p117221042155613"><a name="p117221042155613"></a><a name="p117221042155613"></a>DELETE /v1.0/{domain_id}/customer/order-mgr/orders/{order_id}</p>
-<p id="p177221642125618"><a name="p177221642125618"></a><a name="p177221642125618"></a><a href="https://support.huaweicloud.com/api-bpconsole/zh-cn_topic_0076597539.html" target="_blank" rel="noopener noreferrer">链接（合作伙伴运营能力）</a></p>
-<p id="p1172214429562"><a name="p1172214429562"></a><a name="p1172214429562"></a><a href="https://support.huaweicloud.com/api-oce/zh-cn_topic_0076597539.html" target="_blank" rel="noopener noreferrer">链接（客户运营能力）</a></p>
 </td>
 </tr>
 <tr id="row0722114215614"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p372234245613"><a name="p372234245613"></a><a name="p372234245613"></a>func CancelOrder(client *gophercloud.ServiceClient, opts CancelOrderBuilder,actionId string)</p>

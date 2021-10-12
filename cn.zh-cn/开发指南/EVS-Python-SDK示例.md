@@ -13,7 +13,7 @@ EVS v2 Python SDK支持如下资源对象的操作，资源对象的“增改查
 </th>
 </tr>
 </thead>
-<tbody><tr id="row17479239193020"><td class="cellrowborder" valign="top" width="47.15%" headers="mcps1.1.3.1.1 "><p id="p1220825114308"><a name="p1220825114308"></a><a name="p1220825114308"></a>volume</p>
+<tbody><tr id="row17479239193020"><td class="cellrowborder" valign="top" width="47.15%" headers="mcps1.1.3.1.1 "><p id="p1220825114308"><a name="p1220825114308"></a><a name="p1220825114308"></a><span>volume</span></p>
 </td>
 <td class="cellrowborder" valign="top" width="52.849999999999994%" headers="mcps1.1.3.1.2 "><p id="p1959982023113"><a name="p1959982023113"></a><a name="p1959982023113"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-python/blob/master/examples/evs/v2/volume.py" target="_blank" rel="noopener noreferrer">代码</a></p>
 </td>
@@ -30,17 +30,17 @@ Cinder v2 Python SDK支持如下资源对象的操作，资源对象的“增改
 </th>
 </tr>
 </thead>
-<tbody><tr id="row134202027202911"><td class="cellrowborder" valign="top" width="48.199999999999996%" headers="mcps1.1.3.1.1 "><p id="p1587982453020"><a name="p1587982453020"></a><a name="p1587982453020"></a>volume</p>
+<tbody><tr id="row134202027202911"><td class="cellrowborder" valign="top" width="48.199999999999996%" headers="mcps1.1.3.1.1 "><p id="p1587982453020"><a name="p1587982453020"></a><a name="p1587982453020"></a><span>volume</span></p>
 </td>
 <td class="cellrowborder" valign="top" width="51.800000000000004%" headers="mcps1.1.3.1.2 "><p id="p14201627162919"><a name="p14201627162919"></a><a name="p14201627162919"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-python/blob/master/examples/block_store/v2/volume.py" target="_blank" rel="noopener noreferrer">代码</a></p>
 </td>
 </tr>
-<tr id="row4420182702911"><td class="cellrowborder" valign="top" width="48.199999999999996%" headers="mcps1.1.3.1.1 "><p id="p887962403010"><a name="p887962403010"></a><a name="p887962403010"></a>snapshot</p>
+<tr id="row4420182702911"><td class="cellrowborder" valign="top" width="48.199999999999996%" headers="mcps1.1.3.1.1 "><p id="p887962403010"><a name="p887962403010"></a><a name="p887962403010"></a><span>snapshot</span></p>
 </td>
 <td class="cellrowborder" valign="top" width="51.800000000000004%" headers="mcps1.1.3.1.2 "><p id="p1842013279296"><a name="p1842013279296"></a><a name="p1842013279296"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-python/blob/master/examples/block_store/v2/snapshot.py" target="_blank" rel="noopener noreferrer">代码</a></p>
 </td>
 </tr>
-<tr id="row64205274299"><td class="cellrowborder" valign="top" width="48.199999999999996%" headers="mcps1.1.3.1.1 "><p id="p19880162411306"><a name="p19880162411306"></a><a name="p19880162411306"></a>type</p>
+<tr id="row64205274299"><td class="cellrowborder" valign="top" width="48.199999999999996%" headers="mcps1.1.3.1.1 "><p id="p19880162411306"><a name="p19880162411306"></a><a name="p19880162411306"></a><span>type</span></p>
 </td>
 <td class="cellrowborder" valign="top" width="51.800000000000004%" headers="mcps1.1.3.1.2 "><p id="p11333151873110"><a name="p11333151873110"></a><a name="p11333151873110"></a><a href="https://github.com/huaweicloud/huaweicloud-sdk-python/blob/master/examples/block_store/v2/type.py" target="_blank" rel="noopener noreferrer">代码</a></p>
 </td>

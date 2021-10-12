@@ -32,6 +32,7 @@ func TestCreateTokenByPasswd(t *testing.T){
         Scope:      scope,
     }
 
+
     token, err := tokens.Create(client, &authOptions).Extract()
 }
 ```
